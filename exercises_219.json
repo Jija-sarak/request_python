@@ -1,0 +1,308 @@
+{
+    "course": {
+        "id": "219",
+        "name": "Android - Learn Android",
+        "logo": "https",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "Chalo bhai, Android seekhte hai!",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "6545",
+                "parent_exercise_id": null,
+                "course_id": "219",
+                "name": "howtouse",
+                "slug": "android_json__howtouse_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/android_json/howtouse.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "How to Use"
+                    },
+                    {
+                        "component": "text",
+                        "value": "https://developer.android.com/design/material/index.html",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "https://web.stanford.edu/class/cs193a/videos.shtml",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6546",
+                "parent_exercise_id": null,
+                "course_id": "219",
+                "name": "learning_these",
+                "slug": "android_json__learning_these_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/android_json/learning_these.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "We have to learn these concepts:"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Core Android Concepts"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Layouts",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Widgets",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "RecyclerView",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Files and Storage",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Shared Preferences",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Multiple Activities",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Intents",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Activity Lifecycle",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dynamic UIs",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dialogs",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Fragments",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Libraries Like Volley, Picasso, Retrofit etc",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Google Sign-Ins",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Restful APIs",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Web Data",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Local Databases and SQL, Realm etc",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Firebase",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Localization",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Services",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Notifications",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Broadcasts",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Material Design for Android:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Material Design Principles",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Using the material design support library in Android",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6547",
+                "parent_exercise_id": null,
+                "course_id": "219",
+                "name": "layout1",
+                "slug": "android_json__layout1_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/android_json/layout1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Iss layout mei 3 cards hai. Pehle inn cards ko ek Android mei XML layout use kar kar banao."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/android_json/images/layout1_3cards.png",
+                        "alt": "layout1_key2"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Kisi bhi card par click karne par yeh wala layout open hoga."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/android_json/images/layout1_second_view.png",
+                        "alt": "layout1_key4"
+                    }
+                ]
+            },
+            {
+                "id": "6548",
+                "parent_exercise_id": null,
+                "course_id": "219",
+                "name": "layout2",
+                "slug": "android_json__layout2_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/android_json/layout2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Aap pehle layout me 3 cards bnaye the jisme 3rd card Transport Solutions tha. usper click krne pr jo layout open hoga uski designing kuchh es trah hogi Jisme 2 dates pick krne ke options honge or ek button hoga jisper click krne pr niche ka layout open hoga. Ese XML ka use krke bnao."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/android_json/images/layout2_first.png",
+                        "alt": "layout2_key2"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Upper wale layout me ek button hai. jb usper click kroge to ye wala layout open hoga. es layout me aap dono dates ke bich ke difference ko days me calculate krke show kroge."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/android_json/images/layout2_second.png",
+                        "alt": "layout2_key4"
+                    }
+                ]
+            }
+        ]
+    }
+}

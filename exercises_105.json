@@ -1,0 +1,298 @@
+{
+    "course": {
+        "id": "105",
+        "name": "JSON (Using Python)",
+        "logo": "https://cdn1.iconfinder.com/data/icons/it-terms/512/loop-512.png",
+        "notes": null,
+        "days_to_complete": "3",
+        "short_description": "JSON ko thoda depth mein samajhte hain.",
+        "type": "html",
+        "course_type": null,
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "5167",
+                "parent_exercise_id": null,
+                "course_id": "105",
+                "name": "Json",
+                "slug": "json__introduction_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/introduction.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "JSON\n\n**JSON** *( Javascript Object Notation)* mai hum data ko `keys` and values ki form mai likhtain hain. Ismain `keys` `string` hoti hai aur values kisi bhi data type main ho sakti hain. `Keys` and values  colon ( : ) se separated hoti hain. Curly braces \u201d { }\u201d Json ko represent karta hain. Json `files` ka extension ( .json ) hota hain.\n\n\n     \n**Uses of Json**\n\n\n\n1. Json Jyada tar  server se web `application` or web `application` se server  ke beech data transmit karne ke kaam aata hain.\n\n\n2. Web services and APIs json format ka use  public data dene me use karte hain.\n\n\n3. Aur ye modern programming mai bhi use hota hai etc.\n\n\n\n**Characteristics of Json**\n\n1. Json padhne aur likhne mai aasan hota hai.\n\n\n2. Json language ek independent language hai. Ye kisi par nirbhar nahi hain.\n\n\n3. Ye light weight and text-based interchange format hai.\n\n\n\n\n**Json `Syntax`**\n\n1. Data humesha `keys` and values ki form mai hona chahiye.\n\n\n2. Data humesha comma se separated hona chahiye.\n\n\n3. Data curly braces ({ }) mai hota hai.\n\n\n4. Data jo square brackets ( [ ] ) mai hota hai usse Array kehte hai.\n\n\n5. Hum kuch data ko `python` se json format mai kar sakte hai jaise(dict,list,tuple,`string`,int,`float`,`True`,`False`,None).\n\n\n\n*Jum hum `python` se data json mai convert karte hai toh unka Data type change ho jata hai. Jaise ki neeche diya gaya hai:-*\n\n\n\n\n\n| `Python`        | Json           | \n| ------------- |:-------------:| -----:|\n| Dict     | Object |\n| List      | Array    |   \n|Tuple | Array   |  \n| Str     | `String` |\n| int      | Number    |   \n|`True` | `true`   |   \n| `False`     | `false` | \n|None | null   |\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5168",
+                "parent_exercise_id": "5168",
+                "course_id": "105",
+                "name": "Methods",
+                "slug": "json__methods/intro_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/methods/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iss mai Json ke methods ke bare mai padenge\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5179",
+                "parent_exercise_id": "5168",
+                "course_id": "105",
+                "name": "Dump and Dumps",
+                "slug": "json__methods/dump_md",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/methods/dump.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Dump and Dumps\n\n**Dump():-**  Dump() method `python` objects ko json `file` mai store karane ke liye use hota  hai. Dump() method json `files` par hi kaam karta hai aur `python` objects ko ek argument ki tarah store karta hai.\n\n\n\n*Example:-*`python` object(dictionary) ko hum json `file` mai dump.\n\n\n    \n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "import json\n\ndict1 ={\n    \"emp1\": {\n        \"name\": \"Lisa\",\n        \"designation\": \"programmer\",\n        \"age\": \"34\",\n        \"salary\": \"54000\"\n    },\n    \"emp2\": {\n        \"name\": \"Elis\",\n        \"designation\": \"Trainee\",\n        \"age\": \"24\",\n        \"salary\": \"40000\"\n    },\n}",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "  \n*my`file`.json ek json `file` hai jisme hum uper wala `python` object dump or store kerayge.*\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "out_file = open(\"myfile.json\", \"w\")\n  \njson.dump(dict1, out_file, indent = 6)\n  \nout_file.close()",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "**Dumps() :-** Dumps() method `python` objects ko json `file` mai `string` ke format mai store karene ki liye use hota hai. `String` format mai hum `python` objects(dictionary) ko `tab` store karate hai jab hume bo objects print karane ho ya phir parse karene ho.\n\n\n\n*Example:-* \n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "\nimport json\n\na={\u2018lalalala\u2019: 3}\nmystring = json.dumps(a)\nprint(mystring)\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5180",
+                "parent_exercise_id": "5168",
+                "course_id": "105",
+                "name": "Load and Loads",
+                "slug": "json__methods/load_md",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/methods/load.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Load  and Loads\n\n**load():-** load() method ek json object or json `file` ko json data ke sath `python` object(dictionaries) mai karta hai.\n\n\n\n**loads()** method ek json `string` leta hai or use json objects mai convert ker deta hai.\n\n\n\n\n\n```\nNotes :-\n\nString =>  json.loads() => json objects\n\nJson object => json.dumps() => string\n\nPython object=> json.dump() => json object\n\nJson object => json.load() => python object\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5169",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Questions",
+                "slug": "json__Questions/intro_md",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Ab hum dictionary se related questions karenge\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5170",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 1",
+                "slug": "json__Questions/Question1_md",
+                "sequence_num": 201,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q.1 Json data ko `python` object main convert karne ka program likho?.\n\n\n\n**Example:**\n\n\n     \n`Input :-`\n\n`Output :-`\n\n\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5171",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 2",
+                "slug": "json__Questions/Question2_md",
+                "sequence_num": 202,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q.2 `Python` object ko json data  main convert karne ka program likho?\n\n\n\n***Example:***\n\n\n\n`Input :-`\n\n\n\n\n  \n`Output:-`\n\n\n\n```\n{\n    \"name\": \"David\", \n    \"class\": \"I\", \n    \"age\": 6\n}\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5173",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 3",
+                "slug": "json__Questions/Question3_md",
+                "sequence_num": 203,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q.3 `Python` object ko json `string` mai convert karne ka program likho?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5172",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 4",
+                "slug": "json__Questions/Question4_md",
+                "sequence_num": 204,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q4.`Python` dictionary(sort by `key`) object ko json data ::mai convert karne ka program likho?\n\n\n\n\n***Example:***\n\n\n\n`Input :-`\n\n```\n {\n    '4': 5, \n    '6': 7, \n    '1': 3, \n    '2': 4}\n```\n`Output:-`\nJSON data:\n\n```\n{\n    \"1\": 3,\n    \"2\": 4,\n    \"4\": 5,\n    \"6\": 7\n}\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5174",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 5",
+                "slug": "json__Questions/Question5_md",
+                "sequence_num": 205,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question5.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q5.Json `string` ko check karo ki bo complex object contain karti hai ya nahi?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "5175",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 6",
+                "slug": "json__Questions/Question6_md",
+                "sequence_num": 206,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question6.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q6.`Python` object `key` unique `key` value ko access karne ka program likho?\n\n\n\n\n***Example:***\n\n\n\n`Input :-`\n\n\n\n\n```\n'{\n \"a\":  1,\n \"a\":  2,\n \"a\":  3, \n \"a\": 4,   \n \"b\": 1, \n \"b\": 2\n }'\n```\n  \n`Output:-`\n\n\n\n```\n Original Python object:- \n\n{\n    \"a\":  1, \n    \"a\":  2, \n    \"a\":  3, \n    \"a\": 4, \n    \"b\": 1, \n    \"b\": 2\n}\n\n\nUnique Key in a JSON object:-\n\n{'a': 4, 'b': 2}\n\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5176",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 7",
+                "slug": "json__Questions/Question7_md",
+                "sequence_num": 207,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question7.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q7.Text `file` data ko json `file` data mai convert karo,jaise ki neeche diya hai?\n\n\n\n***Example:***\n\n\n\n`Input :-`\n\n\n\n\n```\n  \nText.txt:-  \n Name Abhishek\n Designation CEO of navgurukul\n Gender male\n Age 29\n```\n  \n`Output:-`\n\n\n\n```\nJson_file.json:-\n\n\n{\n    \u201cName\u201d: \u201cAbhishek\u201d,\n    \u201cDesignation\u201d: \u201cCEO of      navgurukul\u201d,\n    \u201cGender\u201d:\u201dmale\u201d,\n    \u201cAge\u201d: \u201c29\u201d\n    }\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5177",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 8",
+                "slug": "json__Questions/Question8_md",
+                "sequence_num": 208,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question8.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q8.Tumhare pass four employes ki details hai list mai:-\n\n\n\n```\n[\u201cneelam\u201d,\u201dprogramer\u201d,\u201d24\u201d,\u201d2400\u201d,]\n[\u201ckomal\u201d,\u201dtrainer\u201d,\u201d24\u201d,\u201d20000\u201d]\n[\u201canuradha\u201d,\u201dHR\u201d,\u201d25\u201d,\u201d40000\u201d]\n[\u201cAbhishek\u201d,\u201dmanager\u201d,\u201d29\u201d,\u201d63000\u201d]  \n```\nab aapko 4  dictionaries create karni hai jaise ki emp1 emp2 emp3 and emp4.\nhar ek employee ka dictionary main name,designation,age and salary honi chahiye.\naur ye sab dictionary ki `keys` hai jismai maine list main value di hai. Iska use kar ke aapko ek json `file` create karni hai? Jaise ki niche diya hai.\n\n\n\n\n\n\n\n  \n`Output:-`\n\n\n\n```\n { \n     \"emp1\":{ \"name\":\"nilam\",\n       \"Designation\":\"programmer\",\n       \"Age\":\"34\",\n       \"salary\":\"24000\",\n         }\n\n    \"emp2\":\n      { \"name\":\"komal\",\n        \"Designation\":\"Trainee\",\n        \"Age\":\"24\",\n        \"salary\":\"20000\" ,\n        }\n\n \n    \"emp3\":\n       { \"name\":\"anuradha\",\n         \"Designation\":\"HR\",\n         \"Age\":\"25\",\n         \"salary\":\"40000\",\n         }\n\n\n    \"emp4\":\n       { \"name\":\"Abhishek\",\n         \"Designation\":\"Manager\",\n         \"Age\":\"29\",\n       }\n }\n\n```\n"
+                    }
+                ]
+            },
+            {
+                "id": "5178",
+                "parent_exercise_id": "5169",
+                "course_id": "105",
+                "name": "Question 9",
+                "slug": "json__Questions/Question9_md",
+                "sequence_num": 209,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/json/Questions/Question9.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Q.9 Apki pass ek shopping name ki ek dictionary hai\n\n\n\n\n```\n{\n    \"shopping_list\":\n        { \n            \"chaco\":\"15\",\n            \"Biscuits\":\"50\",\n            \"Diary_milk\":\"30\",\n            \"ice_cream\":\"20\",\n        } \n}\n```\nApki dictionary ka use kar ke ek json `file` create karna hai.\nAur apko kuch task perform karne hai jaise ki \n\n\n\n1. main dekhna chahta hu shopping list ko json `file` dekhna.\n\n\n2. phir main user se poochu ga ki kon sa item khareedna chahte ho.\n\n3. uske baad user name dega phir user se `input` poochege jaise ki tum kitne item chahte ho.\n\n\n4. phir aapka wo number of items json `file` se remove karna hai.\n\n\n5. Agar tumhe shopping items add karna hai to tumko json `file` main insert karna hoga.\n\n\n\n\n\n\n  \n`Output:-`\n\n\n\n\n```\nshow shopping_list:- \n\n{\n    \"shopping_list\":{ \n        \"chaco\":\"15\",\n        \"Biscuits\":\"50\",\n        \"Diary_milk\":\"30\",\n        \"ice_cream\":\"20\",\n         } \n}\n```\n"
+                    }
+                ]
+            }
+        ]
+    }
+}

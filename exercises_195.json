@@ -1,0 +1,1342 @@
+{
+    "course": {
+        "id": "195",
+        "name": "If-else",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "In this topic, we will learn about if-else.",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": "5526",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "if-statement-intro",
+                "slug": "if-else_json__if-statement-flowcharts/if-statement-intro_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/if-statement-intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Programming &amp; If Statements</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "By learning programming, we can make the computer do anything that we want. For example, we can write a program that shows the food menu for each day. We can use conditions to display the food item depending on what day it is."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "On Monday, \"Rajma Chawal\" will be made.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "On Tuesday, \"Mutton Kosha\" will be made.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "On Wednesday, \"Pizza\" will be made.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "On Thursday, \"Dal - Roti\" will be made.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "To do this in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">programming</span>, we use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">if statements</span>. You can observe the <span style=\"\">applications</span> of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">if statements</span> in your daily life around you. For example, <i>Whatsapp</i> shows two <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">grey ticks</span> when the message is not yet read by the receiver and shows <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">blue ticks</span> when the message is read."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/theory_images/if-statement-intro_whatsapp-blue-grey-ticks.jpg",
+                        "alt": "if-statement-intro_key9"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Flowcharts</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Before writing the <span style=\"\">code</span>, we make <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span>. This is done so that we understand how the program will work at each step."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Let's take an example that we want to check whether 4 is greater than 5. If yes, then we print <b>\"bada hai\"</b>. Else, we print <b>\"chota hai\"</b>. For this example, we can create the flowchart shown below:"
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/theory_images/if-statement-intro_flowchart1.png",
+                        "alt": "if-statement-intro_key13"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To read a flowchart, move from the top to the bottom in the direction of the arrows. Whenever an if <span style=\"\">statement</span> occurs, check what the <span style=\"\">output</span> of the condition will be. If it will be <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>, then move to the path indiciated by the arrow labelled \"<span style=\"\">True</span>\", else follow the other path labelled \"<span style=\"\">False</span>\"."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Flowchart is made up from two words"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Flow</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Chart</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Flowchart simply indicates the direction in which the program will run. In the next few sections, we will learn how to create flowcharts. Once we are able to create the flowcharts, writing <span style=\"\">code</span> will become much easier."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Components of Flowchart"
+                    },
+                    {
+                        "component": "text",
+                        "value": "All the flowcharts are made up of these components:"
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "<b>Name</b>",
+                                "items": [
+                                    "Process / Input",
+                                    "Start",
+                                    "Condition",
+                                    "Arrow"
+                                ]
+                            },
+                            {
+                                "header": "<b>Image</b>",
+                                "items": [
+                                    "<img src=\"assets/theory_images/if-statement-intro_flowchart-process.png\" alt=\"Process Box\" />",
+                                    "<img src=\"assets/theory_images/if-statement-intro_flowchart-start.png\" alt=\"Flowchart Start Box\" />",
+                                    "<img src=\"assets/theory_images/if-statement-intro_flowchart-if-box.png\" alt=\"Condition Box\" />",
+                                    "<img src=\"assets/theory_images/if-statement-intro_flowchart-arrow.png\" alt=\"Condition Box\" />"
+                                ]
+                            },
+                            {
+                                "header": "<b>What is it?</b>",
+                                "items": [
+                                    "Any output (print statement), user input or process in the program can be represented using this box.",
+                                    "This component indicates the start of the flowchart.",
+                                    "Any condition can be represented using this shape. Since an if statement can have only two outputs (<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span> or <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>), two arrows go out from this shape.",
+                                    "Arrows are used to indicate the flow of the program at every step."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Another example of a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Flowchart</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The flowchart below shows the process of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Facebook login</span>. Follow the flowchart carefully, this example will clarify how flowchart works. "
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/theory_images/if-statement-intro_fb-login-flowchart.png",
+                        "alt": "if-statement-intro_key38"
+                    }
+                ]
+            },
+            {
+                "id": "5536",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "how-to-make-flowchart",
+                "slug": "if-else_json__if-statement-flowcharts/how-to-make-flowchart_json",
+                "sequence_num": 1,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/how-to-make-flowchart.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "How to Make <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Flowcharts</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We should create <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowcharts</span> on paper as it is very easy and simple. Creating <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowcharts</span> on your laptop or computer is a little bit difficult."
+                    },
+                    {
+                        "component": "text",
+                        "value": "However if you need to submit your flowchart, it is recommended to use <a href=\"http://draw.io\">draw.io</a> to create <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowcharts</span> using your laptop or computer."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "How to create flowcharts using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Draw.io</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As soon as you open <a href=\"http://draw.io\">draw.io</a>, you will be asked to choose where you want to save your flowcharts. Choose <b>Device</b> so that you can download the file to your computer."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/theory_images/how-to-make-flowchart_drawio-device-option.png",
+                        "alt": "how-to-make-flowchart_key6"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Click on <b>Create New Diagram</b>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Enter the name of your <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "On the left side, you will see a flowchart section where you can find all the flowchart components to create your diagram. You can connect these boxes using arrows. "
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/theory_images/how-to-make-flowchart_drawio-draw-flowchart.png",
+                        "alt": "how-to-make-flowchart_key10"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Finally go to <b><span style=\"\">File</span></b> menu to <span style=\"\">save</span> the flowchart. When you <span style=\"\">save</span> it, a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.xml</span> <span style=\"\">file</span> will be downloaded that you can submit."
+                    },
+                    {
+                        "component": "text",
+                        "value": "These flowchart <span style=\"\">files</span> can be shared with one other. If you want to open an existing flowchart <span style=\"\">file</span> from your computer, go to <b><span style=\"\">File</span> > Open From > Device</b> and select the <span style=\"\">file</span> you wish to open."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the upcoming questions, you will have to create and submit flowchart <span style=\"\">files</span>. You don't need to worry about the colors used in the flowchart on draw.io. We have colored the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span> in the examples only to make it easier for you to understand."
+                    }
+                ]
+            },
+            {
+                "id": "5537",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "if-flowchart-question1",
+                "slug": "if-else_json__if-statement-flowcharts/if-flowchart-question1_json",
+                "sequence_num": 2,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/if-flowchart-question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>In the next few questions, complete the flowchart based on the instructions given. Do not focus on the colors of the flowchart.</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Check whether 100 is greater than 99? If yes, print <b>\"Bada hai\"</b>, else print <b>\"Chota hai\"</b>. Complete the if <span style=\"\">statement</span> in this question."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/question_images/question1-image1.png",
+                        "alt": "if-flowchart-question1_key4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You will need to create this entire flowchart in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">draw.io</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">upload</span> the final <span style=\"\">file</span> here."
+                    }
+                ]
+            },
+            {
+                "id": "5538",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "if-flowchart-question2",
+                "slug": "if-else_json__if-statement-flowcharts/if-flowchart-question2_json",
+                "sequence_num": 3,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/if-flowchart-question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Check whether 1000 is <b>greater than or equal</b> to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">4000</span>. If yes, print <b>\"barabar ya bada hai\"</b>. Else print <b>\"nahi hai\"</b>. Complete the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">print</span> <span style=\"\">statements</span> in this question. "
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/question_images/question2-image1.png",
+                        "alt": "if-flowchart-question2_key3"
+                    }
+                ]
+            },
+            {
+                "id": "5539",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "if-flowchart-question3",
+                "slug": "if-else_json__if-statement-flowcharts/if-flowchart-question3_json",
+                "sequence_num": 4,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/if-flowchart-question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Check whether <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1000</span> is equal to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1000</span>. If yes, print <b>\"barabar hai\"</b>, else print <b>\"barabar nahi hai\"</b>. Complete the if <span style=\"\">statement</span> as well as the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">print</span> <span style=\"\">statements</span> in this question."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-flowcharts/assets/question_images/question3-image1.png",
+                        "alt": "if-flowchart-question3_key3"
+                    }
+                ]
+            },
+            {
+                "id": "5540",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "if-flowchart-question4",
+                "slug": "if-else_json__if-statement-flowcharts/if-flowchart-question4_json",
+                "sequence_num": 5,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/if-flowchart-question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>In the previous questions till now, you have only filled in the blanks in the flowcharts. Moving forward, draw the entire flowchart yourself and submit the flowchart <span style=\"\">file</span>.</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span> that checks whether the result of subtracting <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">33</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">100</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">is equal to</span>55`. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Download the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span> <span style=\"\">file</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">draw.io</span> and submit here."
+                    }
+                ]
+            },
+            {
+                "id": "5541",
+                "parent_exercise_id": "5526",
+                "course_id": "195",
+                "name": "if-flowchart-question5",
+                "slug": "if-else_json__if-statement-flowcharts/if-flowchart-question5_json",
+                "sequence_num": 6,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-flowcharts/if-flowchart-question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 5"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span> that checks whether the sum of 44 and 200 is equal to 123."
+                    }
+                ]
+            },
+            {
+                "id": "5528",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-statement-code-intro",
+                "slug": "if-else_json__if-statement-with-code/if-statement-code-intro_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-statement-code-intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Introduction"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We have learned how to create <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowcharts</span> for <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">if conditions</span>. But we cannot use these <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowcharts</span> unless we learn how to write a <span style=\"\">code</span> by looking at a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "day = input(\"Din enter karo\\n\")<br>if day == \"monday\": # Agar din Monday hai toh<br>&emsp;print(\"Rajma Chawal\")<br>elif day == \"tuesday\": # Agar uppar wali conditions galat hai (Yaani day Monday nahi hai) aur day Tuesday hai toh<br>&emsp;print(\"Pao Bhaji\")<br>elif day == \"wednesday\": # Agar uppar wali conditions galat hai (Yaani day Monday aur Tuesday nahi hai) aur day Wednesday hai toh<br>&emsp;print(\"Chole Bhature\")<br>elif day == \"thursday\": # Agar uppar wali conditions galat hai (Yaani day Monday, Tuesday aur Wednesday nahi hai) aur day Thursday hai toh<br>&emsp;print(\"Dosa\")<br>elif day == \"friday\": # Agar uppar wali conditions galat hai (Yaani day Monday, Tuesday, Wednesday aur Thursday nahi hai) aur day Friday hai toh<br>&emsp;print(\"Litti Chokha\")<br>elif day == \"saturday\": # Agar uppar wali conditions galat hai (Yaani day Monday, Tuesday, Wednesday, Thursday aur Friday nahi hai) aur day Saturday hai toh<br>&emsp;print(\"Thukpa\")<br>else: # Agar uppar wali conditions galat hai (Yaani day Monday, Tuesday, Wednesday, Thursday, Friday aur Saturday nahi hai)<br>&emsp;print(\"Poha\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the above example, we take the day as <span style=\"\">input</span> from the user. According to the day entered, we print the food item for that particular day. Read the comments carefully to understand how the <span style=\"\">code</span> is <span style=\"\">execute</span>d at every step."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "While entering the <span style=\"\">input</span> for the day, you'll have to enter it exactly as it is used in the if conditions. Since <span style=\"\">Python</span> is case-sensitive, it will treat <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Monday</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">monday</span> differently."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "More examples"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We have only used <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">==</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">comparison operator</span> in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">if statements</span>. In the booleans exercise, we had seen other comparison <span style=\"\">operators</span> as well. For example: "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&gt;</span>  : <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Greater than</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;</span>  : <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Less than</span> ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&gt;=</span> : <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Greater than equal to</span> ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;=</span> : <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Less than equal to</span> ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">!=</span> : <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Not equal to</span> ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "The following examples use these above mentioned comparison <span style=\"\">operators</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 1 :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this program, you have set the value of the <span style=\"\">variable</span>. The user will have to guess the <span style=\"\">string</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "value = \"delhi\"<br>guess = input(\"Sheher ka naam guess karo> \")<br>if guess != value:<br>&emsp;print(\"Aapka guess galat hai\")<br>else:<br>&emsp;print(\"Aapka guess sahi hai\")"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 2 :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Let's assume a rule that if the speed of our vehicle is less than or equal to 60, it will not be considered as overspeeding. Otherwise, it will be considered as overspeeding. We can write the program for it as shown below:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "speed = input(\"Gaadi ki kya speed thi?\")<br>speed = int(speed)<br>if speed <= 60:<br>&emsp;print(\"Gaadi speed limit ke andar thi.\")<br>else:<br>&emsp;print(\"Gaadi speed limit ke bahar thi.\")"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Notice we have converted the value in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">speed</span> <span style=\"\">variable</span> to an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">int</span> before using in if condition. This is because the <span style=\"\">output</span> of the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> function is always a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> and we cannot compare a <span style=\"\">string</span> with a number correctly using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;=</span> <span style=\"\">operator</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Nested If Condition</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can easily use an if <span style=\"\">statement</span> inside another if <span style=\"\">statement</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Consider the example where we want to display the food menu based on the day and time. For example on monday, \"Poha\" in breakfast, \"Rajma Chawal\" for lunch and \"Roti Sabzi\" for dinner. Similary on tuesday, \"Poori Sabzi\" for breakfast, \"Thukpa\" for lunch and \"Chicken Chawal\" for dinner. We can write a program for this question as shown below:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">TODO: We need to add a flowchart here somehow. #studentsShouldIgnore</span>"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "day = input(\"Din enter karo> \")<br>meal = input(\"Meal enter karo, jaise breakfast lunch aur dinner mein se ek> \")<br>if day == \"monday\"<br>&emsp;# code yahan andar tab hi aayega jab day ki value \"monday\" hogi, nahi andar aayega hi nahi<br>&emsp;if meal == \"breafast\":<br>&emsp;&emsp;print(\"Poha\")<br>&emsp;elif meal == \"lunch\":<br>&emsp;&emsp;print(\"Rajma Chawal\")<br>&emsp;else:<br>&emsp;&emsp;print(\"Roti Sabzi\")<br>elif day == \"tuesday\":<br>&emsp;if meal == \"breakfast\":<br>&emsp;&emsp;print(\"Poori Sabzi\")<br>&emsp;elif meal == \"lunch\":<br>&emsp;&emsp;print(\"Thukpa\")<br>&emsp;else:<br>&emsp;&emsp;print(\"Chicken Chawal\")<br>else:<br>&emsp;print(\"Aur kisi bhi din hum daal roti sabzi khaynege.\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Observe how we have used if <span style=\"\">statement</span> inside another if <span style=\"\">statement</span>. The if <span style=\"\">statement</span> inside will only be checked if the outer <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">if condition</span> is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5542",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question1",
+                "slug": "if-else_json__if-statement-with-code/if-code-question1_json",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In a <span style=\"\">variable</span> named <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span>, take the <span style=\"\">input</span> from the user and convert it to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">int</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "If this number is less than 10 then print  <b>\"10 se chota hai\"</b>. If it is greater than 10 and lesser than 20 then print <b>\"20 se chota hai\"</b>. Else if it is greater than 20 then print <b>\"20 se bada hai\"</b>. Complete the flowchart as per the above instructions."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-with-code/assets/8.1-question1-image1.png",
+                        "alt": "if-code-question1_key4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Once the flowchart is complete, write the <span style=\"\">Python</span> program and <span style=\"\">save</span> it as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.py</span> <span style=\"\">file</span>. Submit both the <span style=\"\">files</span> together."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the next exercises, submit the flowchart <span style=\"\">file</span> as well as <span style=\"\">python</span> <span style=\"\">file</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5544",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question2",
+                "slug": "if-else_json__if-statement-with-code/if-code-question2_json",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have a <span style=\"\">variable</span> called <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span> with the value as shown:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "varx = 300 - 123"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a flowchart to take a number as <span style=\"\">input</span> from the user. Convert this <span style=\"\">input</span> to <span style=\"\">integer</span>. Check if it is equal to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span>. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "If the number is equal to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span>, print <b>\"Equal\"</b> else print <b>\"Not equal\"</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Upload</span> the flowchart as well as <span style=\"\">python</span> <span style=\"\">file</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5546",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question3",
+                "slug": "if-else_json__if-statement-with-code/if-code-question3_json",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have a <span style=\"\">variable</span> called <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span> with the value as shown:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number = 44 * 30"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a flowchart that takes a number as <span style=\"\">input</span> from the user. Check if this number is greater than or equal to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "If the entered number is greater than or equal to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span>, print <b>\"greater than or equal\"</b> else <b>\"lesser\"</b>. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Submit the flowchart as well as <span style=\"\">code</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5543",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question4",
+                "slug": "if-else_json__if-statement-with-code/if-code-question4_json",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If water in the filter is less than 1L then more water needs to be filled. If the water quantity is between 1L and 10L then there is no need to fill water. If water is more than 10L then the water will overflow. Based on these conditions, complete the flowchart given below."
+                    },
+                    {
+                        "component": "text",
+                        "value": "For water level, take user <span style=\"\">input</span> in a <span style=\"\">variable</span> named <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">water</span> and convert it to an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">integer</span>."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-with-code/assets/question4-image1.png",
+                        "alt": "if-code-question4_key4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Complete and submit both the flowchart and the <span style=\"\">code</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5550",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question5",
+                "slug": "if-else_json__if-statement-with-code/if-code-question5_json",
+                "sequence_num": 105,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 5"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take user input in a variable named <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Convert it to an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">integer</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Check if this number is divisible by 2.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can achieve this by using the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">modulus operator</span>. Remember, modulus <span style=\"\">operator</span> returns the remainder of the division of first operand by the second operand. Example:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">6 % 2</span> returns 0 as the output because 2 completely divides 6 and the remainder is 0.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "But <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">9 % 2</span> returns 1 as the output since 2 does not completely divide 9. The remainder is 1.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "To conclude, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">6</span> is divisible by <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2</span> but <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">9</span> is not divisible by <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "If the number is divisible by 2, print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Divisible</span> else print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Not Divisible</span>"
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-with-code/assets/question5-image1.png",
+                        "alt": "if-code-question5_key10"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create the flowchart and <span style=\"\">code</span> and submit both of them."
+                    }
+                ]
+            },
+            {
+                "id": "5545",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question6",
+                "slug": "if-else_json__if-statement-with-code/if-code-question6_json",
+                "sequence_num": 106,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question6.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 6"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Draw a flowchart for this question and write the program."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take two numbers as input from the user in variables <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">vary</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Check whether <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">varx</span> is divisible by <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">vary</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If yes, print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Divisible</span> else print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Not Divisible</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5548",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question7",
+                "slug": "if-else_json__if-statement-with-code/if-code-question7_json",
+                "sequence_num": 107,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question7.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 7"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a flowchart to take two numbers as <span style=\"\">input</span> from the user. Print the number which is greater."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-with-code/assets/question7-image1.png",
+                        "alt": "if-code-question7_key3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "For example, if user enters <b>100</b> and <b>30</b>, then print <b>100</b> as it is greater."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Submit the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">code</span> for this question."
+                    }
+                ]
+            },
+            {
+                "id": "5547",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question8",
+                "slug": "if-else_json__if-statement-with-code/if-code-question8_json",
+                "sequence_num": 108,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question8.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 6"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a flowchart that takes a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span> as user <span style=\"\">input</span>. Check if this number is divisible by <b>5 and 15 both</b>."
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/if-statement-with-code/assets/question8-image1.png",
+                        "alt": "if-code-question8_key3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Hint: You will need to use nested if-else for this question.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Submit flowchart as well as <span style=\"\">code</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5549",
+                "parent_exercise_id": "5528",
+                "course_id": "195",
+                "name": "if-code-question9",
+                "slug": "if-else_json__if-statement-with-code/if-code-question9_json",
+                "sequence_num": 109,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/if-statement-with-code/if-code-question9.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 9"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Consider the following rules:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "People <b>5 years and above</b> in age can go to school.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "People <b>18 years and above</b> in age can vote in elections.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "People <b>21 years and above</b> in age can drive a car.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "People <b>24 years and above</b> in age can marry.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "People <b>25 years and above</b> in age can legally drink.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a flowchart that takes the <b>age</b> of the user as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span>. Print what all activities the user can do from the list above. For example, if user enters age as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">20</span>, the <span style=\"\">code</span> should print:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can go to school<br>You can vote in elections"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If user enters age as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">24</span>, the <span style=\"\">code</span> will print:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can go to school<br>You can vote in elections<br>You can drive a car<br>You can marry"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Submit the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">flowchart</span> as well as the <span style=\"\">code</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5527",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-intro",
+                "slug": "if-else_json__debugging-part1/debugging-intro_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debugging</span> ?"
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/if-else_json/debugging-part1/assets/debugging-intro.jpg",
+                        "alt": "debugging-intro_key2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We have learned how to write a <span style=\"\">code</span>. When we write a <span style=\"\">code</span>, many times the <span style=\"\">code</span> does not run because of our mistakes. Sometimes we need to work with <span style=\"\">code</span> written by someone else. In such cases, we might need to correct the mistakes within the <span style=\"\">code</span>. This process is called <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debugging</span>. Try to run the <span style=\"\">code</span> given below:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "&emsp;number1 = 234<br>&emsp;print(numer1)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When we try to run the <span style=\"\">code</span>, we see some <span style=\"\">error</span> message as below:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<ipython-input-1-2a33fa4e8a92> in <module>()<br>&emsp;  1 number1 = 234<br>----> 2 print(numer1)<br><br>NameError: name 'numer1' is not defined"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This is an <span style=\"\">error</span> message indicating that there is some <span style=\"\">error</span> on line 2 (pointed by arrow). In the end, we can see the name and description of the <span style=\"\">error</span>. In the above example, we see the name of the <span style=\"\">error</span> as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">NameError</span> with the description that <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">name 'numer1' is not defined</span>. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "By looking at this <span style=\"\">error</span> message, we can conclude that <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">numer1</span> <span style=\"\">variable</span> is not defined. That means we haven't created a <span style=\"\">variable</span> named <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">numer1</span>. If you observe carefully, there is a spelling mistake in the program. We have missed the letter <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">b</span> in the <span style=\"\">variable</span> name <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number1</span> and have written <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">numer1</span> by mistake."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Once this is corrected, the program will run."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "More problems"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Try to find out the <span style=\"\">error</span> from the below program."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number1 = 234<br>number2 = \"1\"<br>print(number1 + number2)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> will show the following <span style=\"\">error</span>:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<ipython-input-2-56b79ffda8bc> in <module>()<br>&emsp;  1 cnumber1 = 234<br>&emsp;  2 number2 = \"1\"<br>----> 3 print(number1 + number2)<br><br>TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This indicates that there is an <span style=\"\">error</span> on line number 3. You can search the <span style=\"\">error</span> message on Google to find solutions for fixing the <span style=\"\">error</span>. If you type <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">TypeError: unsupported operand type(s) for +: 'int' and 'str'</span> in Google Search, you'll be able to find the solution from the first few links."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the next few questions, you'll get a pre-written <span style=\"\">code</span>. You have to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> the incorrect program and submit the correct <span style=\"\">file</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5529",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question1",
+                "slug": "if-else_json__debugging-part1/debugging-question1_json",
+                "sequence_num": 201,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In further questions, you will see pre-written <span style=\"\">code</span>. You have to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> the incorrect <span style=\"\">code</span> and submit the correct <span style=\"\">code</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(\"We will learn debugging by removing all the errors from this python file.\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "5530",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question2",
+                "slug": "if-else_json__debugging-part1/debugging-question2_json",
+                "sequence_num": 202,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "year = 2016<br>name = \"NavGurukul\"<br>print(name + ', ' +   + \"mein start hua tha!\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "5531",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question3",
+                "slug": "if-else_json__debugging-part1/debugging-question3_json",
+                "sequence_num": 203,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 3"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "price_milk = input(\"1L milk ka price daalo?\")<br>print(\"10L milk \" + price_milk*10 + \" rupees ka aata hai.\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "5532",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question4",
+                "slug": "if-else_json__debugging-part1/debugging-question4_json",
+                "sequence_num": 204,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 4"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number = input(\"please enter a decimal number\")<br>print(\"your number divided by 2 is equal to = \" + number/2)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "5535",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question5",
+                "slug": "if-else_json__debugging-part1/debugging-question5_json",
+                "sequence_num": 205,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 5"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "#Tumhare paas 5 mangoes hai<br>mangoes = 5<br># Kisi ne humhe 5 aur mangoes de diye<br>manGoes = mangoes + 5<br># Ab tumne unn mangoes ko 5 logo mei baant diya<br>print(mangoes / 5)<br># Par isse toh 1 mango hi mila. Par milne 2 chahiye the. Code ko sahi karo jisse ki sabko sahi mangoes mile."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "5533",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question6",
+                "slug": "if-else_json__debugging-part1/debugging-question6_json",
+                "sequence_num": 206,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question6.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 6"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "# Aapke paas ek variable mein raw_input se gaadi ki speed ka ek integer hai<br>speed = int(input(\"Gaadi ki speed daalo > \"))<br><br># Ab aapne speed check kar ke kuch print karna hai:<br># Agar 60 se kam hai toh print karna: \"Speed kam hai\"<br># Agar 30 se kam hai toh print karna: \"Speed bahot kam hai\"<br># Agar 100 se zyada hai toh print karo: \"Bahot zyada hai\"<br>if speed < 60:<br>&emsp;print(\"Speed kam hai\")<br>elif speed < 30:<br>&emsp;print(\"Speed bahot kam hai\")<br>elif speed > 100:<br>&emsp;print(\"Speed bahot fast hai\")<br><br># Isme ek baar speed 20 daal ke dekho aur dekho ki \"Speed bahot kam\" hai ki<br># output aati hai ya nahi. Agar nahi aati toh isko theek karo aur yeh socho<br># ki kya problemn hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "5534",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "debugging-question7",
+                "slug": "if-else_json__debugging-part1/debugging-question7_json",
+                "sequence_num": 207,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/debugging-question7.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 7"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "# input ka use kar ke user se din aur abhi ka samay (lunch, dinner) input<br># leke uss samay ka menu print karvana hai. Abhi hum sirf monday aur tuesday ke<br># liye likh rahe hain<br># Monday aur Tuesday dono time daal roti banegi, bas Tuesday raat ko Pav Bhaji banegi<br># Neeche waale program mein jab tuesday daalte ho toh pav bhaji print nahi hota.<br># Isko sahi karo.<br>day = input(\"Aaj ka din kya hai? (monday/tuesday) > \")<br>time = input(\"Kaunse samay ka khana banana hai? (lunch/dinner) > \")<br>if day == \"monday\" or day == \"tuesday\":<br>&emsp;print(\"Daal-Roti banegi aaj\")<br>elif day == \"tuesday\" and time == \"dinner\":<br>&emsp;print(\"Pav-Bhaji banegi aaj toh :)\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Save</span> the correct <span style=\"\">code</span> in a new <span style=\"\">file</span> and submit it."
+                    }
+                ]
+            },
+            {
+                "id": "7731",
+                "parent_exercise_id": "5527",
+                "course_id": "195",
+                "name": "Assessment",
+                "slug": "if-else_json__debugging-part1/Assessment_json",
+                "sequence_num": 208,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/if-else_json/debugging-part1/Assessment.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Assessment"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please fill this quiz with proper details to understand how much of this course did you understand."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSffXyghJwy3FgCE5bIP6ZGTAhGW1F5LyxH2h8tDqSSew6JW1w/viewform?usp=sf_link\">click Here</a>"
+                    }
+                ]
+            }
+        ]
+    }
+}

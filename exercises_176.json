@@ -1,0 +1,1282 @@
+{
+    "course": {
+        "id": "176",
+        "name": "JS Functions",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "We will discuss about the operations can be done on functions in javascript.",
+        "type": "js",
+        "course_type": null,
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": "6370",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Functions",
+                "slug": "js-functions__Functions_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Functions.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "You probably already know what a function is. Here is what a function looks like in JS.\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function drawCircle(center, radius) { \n // Code to be executed\n}",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "We define functions so we can use them again and again. \n\n\n\nFor example, in the function above, we define the function drawCircle once, and then everytime we need to make a circle, we just call that function.\n\n\n \nBefore we use a function, we need to define it. The most common way to define a function in JavaScript is by using the function `key`word, followed by a unique function name, a list of parameters (that might be empty), and a `statement` block surrounded by curly braces.\n\n\n\nFunction is a block of `code` you can call as many times as you want. A function is a group of `statements` that perform specific works and can be kept and maintained separately from the main program. Here are some advantages of using functions:\n\n\n\n- **Functions decrease the repetition of `code`** \u2014  Function allows us to get commonly used blocks of `code` into a single place. Now you can perform the same event by calling this function wherever you want within your `code` without writing the same block of `code` again and again.\n\n\n- **Functions makes the `code` much easier to handle** \u2014 Because a function created once can be used multiple times, so any changes made inside a function automatically goes at all the places without touching the all `files`.\n\n\n- **Functions makes it easier to eliminate the `errors`** \u2014 if any `error` occurs you know exactly what function caused the `error` and where to find it. Therefore, fixing `errors` becomes much easier in your `code`.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6367",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Defining and calling a function",
+                "slug": "js-functions__Defining-and-calling-a-function_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Defining-and-calling-a-function.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "The declaration of a function starts with the function `key`word, followed by the name of the function you want to create, followed by parentheses i.e. (). \n\n\n\nFunction naming can follow all rules as `variables`.\n\n\n\nThe parentheses may include parameter names separated by commas:\n(parameter1, parameter2, ...)\n\n\n\nFinally write your function's `code` between curly brackets {}. Here's the basic `syntax` for declaring a function:\n\n\n\n\n"
+                    },
+                    {
+                        "type": "image",
+                        "value": {
+                            "url": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/js-functions/images/function_flow.png",
+                            "text": "Function-flow"
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Example:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// Defining function\n\nfunction sayHello(name) {\n return \"Hello \" + name\n}\n \nconsole.log(sayHello(\"Pragna\"))\n \n// Output :\n// Hello pragna",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "- #### How to Call a function\n\n\n\nLet\u2019s look at our simple function example again\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction sayHello(name) {\n return \"Hello \" + name\n}\n// Calling function\nconsole.log(sayHello(\"Pragna\"))\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Once a function is defined it can be called (invoked) from anywhere in the document, by typing its name followed by a set of parentheses, like sayHello() in the example above this is how we call a function.\n\n\n \nExplanation:\n\nThe above `code` is the example of function. The js function `key`word helps us to define a function. The parameter name is like a `variable` which will take the argument we passed to the function as a value. Return is a `key`word which stores the value of a function and gives the value whenever we call the function like console.log(sayHello(\"Pragna\")).\n\n\n\nThis `code` `output` will be Hello Pragna because we are returning Hello with name and name is having Pragna as a value.\n\n\n\nExercises:\n\n1. Write a function sayBye() which takes 1 argument like user\u2019s name and returns \n\u201cBye user\u2019s name\u201d ?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "//please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function sayBye(userName){\n   return \"Bye\"+\" \"+userName\n}\n \nconsole.log(sayBye(\"Kumar\"))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "2. What is the `output` of the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": " function getFullName(firstName,lastName){\n console.log(firstName+\" \"+lastName)\n}\n \ngetFullName(\"kumar\",\"nayak\");",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "kumar nayak",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "3. What is the `error` in this `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function getFullName(firstName,lastName){\n console.log(firstName+\" \"+lastName)\n}\n \nGetFullName(\"kumar\",\"nayak\");\n ",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "ReferenceError: GetFullName is not defined\n\n\nBecause Javascript is case sensitive and here x and X both are different and you defined function name as getFullName and you are calling it with \nGetFullName and they both are different.. I hope you got it now.",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6369",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Function parameters",
+                "slug": "js-functions__Function-parameters_md",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Function-parameters.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Parameters will work as `variables` in a function which will store arguments as values. \n\n\n\nParameters are set on the first line of the function inside the set of parentheses, like this:\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction functionName(parameter1, parameter2, parameter3) {\n // Code to be executed\n}\n\nfunctionName(argument1, argument2, argument3);\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": " \nYou can specify parameters when you define your function to accept `input` values when your `code` is running. The parameters work like placeholder `variables` within a function. They're going to replaced at run time by the values (known as argument) provided to the function at the time of function calling. See  in the above example we are given 3 arguments when we are calling the function and accessing by the parameters like parameter1, parameter2, parameter3.\n\n\n\nExample:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// Defining function\nfunction displaySum(num1, num2) {\n var total = num1 + num2;\n console.log(total);\n}\n \n// Calling function\n\ndisplaySum(6, 20); // 0utputs: 26\ndisplaySum(-5, 17); // 0utputs: 12",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Example:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\n// Defining function\n\nfunction showFullname(firstName, lastName) {\n console.log(firstName + \" \" + lastName);\n}\n \n// Calling function\nshowFullname(\"Kumar\", \"Nayak\"); // 0utputs: Kumar Nayak\nshowFullname(\"Shwetha\"); // 0utputs: Shwetha undefined\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Explanation:\n\nIn function parameters we given two named as firstName, lastName but when we calling a function we need to pass arguments there we passed only one that is Shwetha and if we are not passing an argument the parameter which is responsible for getting the value, it won't get anything and it has undefined in it, so it prints  **Shwetha undefined** as `output`.\n\n\n\n\nNote:\n\nYou can declare as many parameters as you want. However for each parameter you write, a corresponding argument needs to be passed to the function when it is called, if not passed its value becomes undefined. \n\n\n\n\nExercises:\n\n1. Write a function name it as displayMultiply() and pass 3 parameters and in runtime take the arguments with the names num1, num2, num3 and multiply them and return the result?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function displayMultiply(num1, num2, num3) {\n   return num1*num2*num3\n  }\n  \nconsole.log(displayMultiply(2, 3, 4));",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "2. What is the `output` of the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function getResult(num1,num2,num3,num4){\n console.log(num1-num2+num3-num4)\n}\n \ngetResult(2,3,4,5);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "-2",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "3. What is the `error` in this `code`?\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function getResult(num1,num2,num3){\n console.log(num1-num2+num3)\n}\n \ngetResult(2,3,4,5);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "No error. Even though an extra parameter (5) is passed, the function getResult simply does not use it.    ",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "4. Write a program that will take two parameters and print its sum?\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function SumOfNumbers(num1,num2){\n   return num1+num2;\n}\nSumOfNumbers(1,2);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "5. What is the `output` of the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function displayMultiply(a,b){\n   console.log(a*b);\n}\ndisplayMultiply(2,3);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "6",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "6. What is the `error` in the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "    function displaySubtraction(a,b){\n   console.log(ab);\n}\ndisplySubraction(2,3);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "ReferenceError: display Subtraction is not defined\n\nThe function name is not matched with the calling name so it is given Reference Error.",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6368",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Returning values from a function",
+                "slug": "js-functions__Returning-Values-from-a-Function_md",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Returning-Values-from-a-Function.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Example:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// Defining function\nfunction getSum(num1, num2) {\n var total = num1 + num2;\n return total;\n}\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Explanation:\n\nHere in the above example, we just defined a function and we returned total.\n\n\n\nExample:\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\n// Defining function\nfunction getSum(num1, num2) {\n var total = num1 + num2;\n return total;\n}\n\n// Displaying returned value\nvar result1 = getSum(6, 20);\nconsole.log(result1) // 0utputs: 26\nvar result2 = getSum(-5, 17);\nconsole.log(result2) // 0utputs: 12",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": " \nTo get the result for the above function, we need to console with the function name like we returned total so it will go and `save` in the function script and we need to call our function within the console and the value we returned here is a number.\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\n// Defining function\nfunction getSum(num1, num2) {\n var total = num1 + num2;\n return total;\n console.log(\"it won't prints this because return works like break\");\n}\n\n// Displaying returned value\nvar result1 = getSum(6, 20);\nconsole.log(result1) // 0utputs: 26\nvar result2 = getSum(-5, 17);\nconsole.log(result2) // 0utputs: 12",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": " \nA function can return a value back to the script that called the function as a result using the return `statement`. The value may be of any type, including arrays and objects. Whenever a function sees return the function will stop there only , it won\u2019t `execute` other `statements`.\n\n\n\n\nExercises:\n\n1. Write a short program for getting the total average of Marks that you got in maths and science, take them as 2 `variables` and return the average of both 2 `variables`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function averageOfSubjects(maths,science){\n   return ((maths+science)/2);\n}\nconsole.log(averageOfSubjects(25,30));",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "2. What is the `output` of the following program?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function insertingElement(arr){\n   var a=5;\n   arr.push(a);\n   return arr;\n   console.log(arr);\n \n}\nconsole.log(insertingElement([1,2,3,4]));\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "[ 1, 2, 3, 4, 5 ]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Note:\n\nNotice that the line console.log(arr) in the above example will not print anything as the function stops executing after the return `statement`.\n\n\n\n3.  What is the `error` in the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction multiplyString(string,num){\n   string*num;\n}\n \nconsole.log(multiplyString(\"kumar\",2));",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "Undefined\n\nWe returned nothing that\u2019s why when we consoled it also it was given undefined.",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6374",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Understanding the Variable Scope in functions",
+                "slug": "js-functions__Understanding-the-Variable-Scope-in-functions_md",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Understanding-the-Variable-Scope-in-functions.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`variables` declared within a function have local scope that means they cannot be viewed or used from outside of that function, as shown in the example below:\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// Defining function\n\nfunction greetWorld() {\n var greet = \"Hello World!\";\n console.log(greet);\n}\ngreetWorld(); // Outputs: Hello World!\nconsole.log(greet); // Uncaught ReferenceError: greet is not defined",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "See in the above example, if you see greet is declared inside a function and we tried to print it outside. So, it gave a Reference `error`. Here we will get to know that greet has local scope (inside the function block). \n\n\n \nHowever, any `variables` declared in a program at outside of a function have global scope(defined outside the function block) i.e. it will be available to the whole `file`, whether that `variable` we are going to use in inside a function or outside. \n\n\n\nHere's an **example**:\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nvar greet = \"Hello World!\";\n// Defining function\nfunction greetWorld() {\n  console.log(greet);\n}\ngreetWorld();  // Outputs: Hello World!\nconsole.log(greet); // Outputs: Hello World!\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Explanation:\n\n`variable` greet is defined outside of our function, it will have the global that means we can use it inside a function or anywhere in the whole `code`. \n\n\n\ninside the function we asked to console greet, it printed Hello World!.\n\n\n\nOutside of the function somewhere in the `code` we asked to print greet again, it again printed Hello World!.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6371",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Different types to write a function",
+                "slug": "js-functions__Different-types-to-write-a-function_md",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Different-types-to-write-a-function.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "- ### Name Function\n\n\n\nEarlier in this tutorial, you learned that functions are declared with the following `syntax`:\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "function addNumbers(parameter1, parameter2) {\n // code to be executed\n}\n\naddNumbers(argument1 , argument2);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "We can call a function with a name, like addNumbers above, any time we need it by referencing its name and passing some arguments to it. This function has a name.\n\n\n\nNote:\n\nNamed functions are useful if we need to call a function many times to pass different values to it or run it several times.\n\n\n\n\n- ### Function Expressions ( Anonymous function )\n\n\n\n\n`Syntax` for Function Declaration\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\n// Function Declaration\n\nfunction getSum(num1, num2) {\n var total = num1 + num2;\n return total;\n}\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Here we have just declared the function getSum. We haven\u2019t called it yet. Declared functions are not `execute`d immediately. They are \"`save`d for later use\", and will be `execute`d later, when they are invoked (called upon).\n\n\n\n`Syntax` for Function Expression\n\n \n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\n// Function Expression\n\nvar getSum = function(num1, num2) {\n var total = num1 + num2;\n return total;\n};\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Notice how in the function declaration above we will declare function by writing a function and do the tasks, but in function expressions we will assign to it a `variable` and perform tasks.\n\n\n\nNote:\n\nThe `syntax` that we've used before to create functions is called function declaration. There is another `syntax` for creating a function that is called a function expression. A function expression can be stored in a `variable`:\n\n\n\nExample:\n\nFunctions stored in `variables` do not need function names. They are always invoked (called) using the `variable` name.\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nvar getSum = function(num1, num2) {\n var total = num1 + num2;\n return total;\n};\n \nconsole.log(getSum(5, 10)); // 0utputs: 15\n \nvar sum = getSum(7, 25);\nconsole.log(sum); // 0utputs: 32\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Note:\n\nThe function above is actually an anonymous function (a function without a name).\n\n\n\nExercises:\n\nDefine an Anonymous function and call it by taking two arguments to whether they are equal or not?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "var isEqual = function(str1,str2){\n   console.log(str1===str2)\n}\nisEqual(\"kumar\",\"nayak\");\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "- ### Self-Invoking Functions ( Immediately invoked function expression)\n\n\n\nYou have to add parentheses around the function to indicate that it is a function expression:\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\n(function myName () {\n var x = \"Hello!! Nayak\";  // I will invoke myself\n console.log(x);\n})();\n \n// Output :\n// Hello!! Nayak\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": " \nExplanation:\n\nAs we see in the example, we are not giving names and not storing the function in any `variable`. We are declaring it after that we are accessing it using parentheses. So, `output` is showing **Hello!! Nayak**\n\n\n\nA self-invoking expression is invoked (started) automatically, without being called.\n\n\n\nFunction expressions will `execute` automatically if the expression is followed by ().\n\n\n\nYou cannot self-invoke a function declaration.\n\n\n\nExercises:\n\n1.Define an Self invoking function and call it by taking two arguments to whether they are  equal or not?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here..",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "(function(str1,str2){\n   console.log(str1===str2)\n})(\"kumar\",\"kumar\");",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6372",
+                "parent_exercise_id": null,
+                "course_id": "176",
+                "name": "Functions can be used as values",
+                "slug": "js-functions__Functions-Can-Be-Used-as-Values_md",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Functions-Can-Be-Used-as-Values.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction myFunction(a, b) {\n return a * b;\n}\n\nvar x = myFunction(4, 3);\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Here i given a function to a varibale named x, so the value that is returning by myFunction it will store in x.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "6373",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-1",
+                "slug": "js-functions__Exercises/Question-1_md",
+                "sequence_num": 700,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function sayBye() which takes 1 argument like user\u2019s name and returns \n\"Bye user\u2019s name\" ?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function sayBye(userName){\n   return \"Bye\"+\" \"+userName\n}\n \nconsole.log(sayBye(\"Kumar\"))\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6375",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-2",
+                "slug": "js-functions__Exercises/Question-2_md",
+                "sequence_num": 701,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function displayMultiply() and pass 3 parameters and in runtime take the arguments with the names num1, num2, num3 and multiply them and return the result?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "\nfunction displayMultiply(num1, num2, num3) {\n   return num1*num2*num3\n  }\n  \nconsole.log(displayMultiply(2, 3, 4));\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6376",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-3",
+                "slug": "js-functions__Exercises/Question-3_md",
+                "sequence_num": 702,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "What is the `output` of the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": " function getFullName(firstName,lastName){\n console.log(firstName+\" \"+lastName)\n}\n \ngetFullName(\"kumar\",\"nayak\");",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "kumar nayak",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6379",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-4",
+                "slug": "js-functions__Exercises/Question-4_md",
+                "sequence_num": 703,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Define an Anonymous function and call it by taking two arguments to whether they are equal or not?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "\nvar isEqual = function(str1,str2){\n   console.log(str1===str2)\n}\nisEqual(\"kumar\",\"nayak\");\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6377",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-5",
+                "slug": "js-functions__Exercises/Question-5_md",
+                "sequence_num": 704,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-5.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "What is the `error` in this `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction getFullName(firstName,lastName){\n console.log(firstName+\" \"+lastName)\n}\n \nGetFullName(\"kumar\",\"nayak\");\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "GetFullName is not defined,\nit will give error because the function we defined is different that what we called",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6378",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-6",
+                "slug": "js-functions__Exercises/Question-6_md",
+                "sequence_num": 705,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-6.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "What is the `output` of the following `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction getResult(num1,num2,num3,num4){\n console.log(num1-num2+num3-num4)\n}\ngetResult(2,3,4,5);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "-2",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6380",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-7",
+                "slug": "js-functions__Exercises/Question-7_md",
+                "sequence_num": 706,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-7.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "What is the `error` in this `code`?\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "\nfunction getResult(num1,num2,num3){\n console.log(num1-num2+num3)\n}\n \ngetResult(2,3,4,5);",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "No error. Even though an extra parameter (5) is passed, the function getResult simply does not use it.    ",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6382",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-8",
+                "slug": "js-functions__Exercises/Question-8_md",
+                "sequence_num": 707,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-8.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "1.Define an Self invoking function and call it by taking two arguments to  checkwhether they are  equal or not?\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "\n(function(str1,str2){\n   console.log(str1===str2)\n})(\"kumar\",\"kumar\");\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6384",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-9",
+                "slug": "js-functions__Exercises/Question-9_md",
+                "sequence_num": 708,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-9.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named function_print_lines which will take two `strings` as `inputs` and it will print according to the text given below\n\n\n\nIf we are giving \"Mera naam Nayak hai.\" and \"Main NavGurukul ka Academic Associate hun.\" then it has to print like \n\n\n\n\nMera naam Nayak hai\n\n\n\nMain NavGurukul ka Academic Associate hun.\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "\nfunction function_print_lines(str1,str2){\n   console.log(str1);\n   console.log(str2);\n}\nfunction_print_lines(\"Mera naam Nayak hai.\", \"Main NavGurukul ka Academic Associate hun.\")",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6385",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-10",
+                "slug": "js-functions__Exercises/Question-10_md",
+                "sequence_num": 709,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-10.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "You need to write a function named students where it will take marks of students in a list and tell how many students have more than 20 marks. For checking if the number is greater than 20 or not you will write one more function named isGreaterThen20 and compare and give the result.\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function isGreaterThan20(num){\n   if(num>20){\n       return true\n   }\n}\n\nfunction students(list_of_marks){\n   count=0\n   for(var i of list_of_marks){\n       var result= isGreaterThan20(i)\n       if (result === true){\n           count++\n       }\n   }\n   console.log(count);\n}\nstudents([21,25,19,25,33,54])",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6381",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-11",
+                "slug": "js-functions__Exercises/Question-11_md",
+                "sequence_num": 710,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-11.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named add_numbers which takes two arguments and prints their sum, arguments names should be num1 and num2?\n\n\n\n`Input` :\n\n\n\nnum1 = 56\n\n\n\nnum2 = 12\n\n\n\nadd_numbers(num1,num2)\n\n\n\n`Output` :- 68\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function add_numbers(num1,num2){\n   console.log(num1+num2);\n}\nadd_numbers(56,12);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6383",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-12",
+                "slug": "js-functions__Exercises/Question-12_md",
+                "sequence_num": 711,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-12.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named add_numbers_list which takes two lists as arguments and adds the same position numbers and prints the sum of them.\n\n\n\nYou can use the add_numbers function to add two numbers.\n\n\n\nIf we have  [50, 60, 10] and [10, 20, 13] and prints `output` like this.\n\n\n\n60\n\n\n\n---------------\n\n80\n\n\n\n---------------\n\n23\n\n\n\n---------------\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function add_numbers(num1,num2){\n   console.log(num1+num2);\n   console.log(\"------------\");\n}\n \nfunction add_numbers_list(list1,list2){\n   for(var i=0;i<3;i++){\n       add_numbers(list1[i],list2[i]);\n   }\n}\n \nadd_numbers_list([50, 60, 10],[10, 20, 13])",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6386",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-13",
+                "slug": "js-functions__Exercises/Question-13_md",
+                "sequence_num": 712,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-13.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named check_numbers which will take two numbers and check if both are even prints \u201cBoth are even\u201d else prints \u201cBoth are not even\u201d.\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function check_numbers(num1,num2){\n   if(num1%2 ===0 && num2%2===0){\n       console.log(\"Both are Even\");\n   }\n   else{\n       console.log(\"Both are not Even\");\n   }\n}",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6387",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-14",
+                "slug": "js-functions__Exercises/Question-14_md",
+                "sequence_num": 713,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-14.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named check_numbers_list which takes two lists of `integers` and checks the numbers of the same index numbers whether they both are even or not. For checking both even or not you can use the function written in the previous question.\n\n\n \n \nIf you give these lists [2, 6, 18, 10, 3, 75] and [6, 19, 24, 12, 3, 87] then the `output` should come like this.\n\n\n \ndono even hain\n\n\n\n---------------\n\ndono even nahi hai\n\n\n\n---------------\n\ndono even hain\n\n\n\n---------------\n\ndono even hain\n\n\n\n---------------\n\ndono even nahi hain\n\n\n\n---------------\n\ndono even nahi hain\n\n\n\n---------------\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution:",
+                        "value": {
+                            "code": "function check_numbers(num1,num2){\n   if(num1%2 ===0 && num2%2===0){\n       console.log(\"Both are Even\");\n       console.log(\"-------------\");\n   }\n   else{\n       console.log(\"Both are not Even\");\n       console.log(\"-------------\");\n   }\n}\n \nfunction check_numbers_list(list1,list2){\n   for(var i=0;i<6;i++){\n       check_numbers(list1[i],list2[i]);\n   }\n}\n \ncheck_numbers_list( [2, 6, 18, 10, 3, 75],[6, 19, 24, 12, 3, 87]);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6389",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-15",
+                "slug": "js-functions__Exercises/Question-15_md",
+                "sequence_num": 714,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-15.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named eligible_for_vote which takes age as a parameter and prints if he/she is eligible to vote or not. ( Consider minimum age of voting to be 18. )\n\n\n\nExample:\n\n\n\nIf a user given age as less than 18 prints  \u201cnot eligible \u201c or else if a user enters 18 or more than 18 prints \u201cyou are eligible\u201d.\n\n\n\n`Input`:\n\n\n\n18\n\n\n\n16\n\n\n\n`Output` :\n\n\n\n\u201cyou are eligible\u201d\n\n\n\n\u201cnot eligible\u201d\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// please write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution:",
+                        "value": {
+                            "code": "function eligible_for_vote(age){\n   if(age>=18){\n       console.log(\"you are eligible\");\n   }\n   else{\n       console.log(\"not eligible\");\n   }\n}\neligible_for_vote(18);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6388",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-16",
+                "slug": "js-functions__Exercises/Question-16_md",
+                "sequence_num": 715,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-16.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named perfect() which takes 1 parameter and checks that given parameter is a perfect number or not. Perfect number means we will count the factors of a given number including 1 but you need to exclude the own number as its factor.\n\n\n\nIf it is a perfect number prints num is a perfect number hai or else prints num is not a perfect number hain.\n\n\n\nExample:\n\n\n\n6 ek perfect number hai 6=1+2+3.\n\n\n\n`Output`:\n\n\n\n6 is a perfect number hain.\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function perfect(num){\n   sum=0\n   for(var i=1;i<num;i++){\n       if(num%i === 0){\n           sum+=i\n       }\n   }\n   if(sum === num){\n       console.log(num,\" is a perfect number\");\n   }\n   else{\n       console.log(num,\" is not a perfect number\");\n   }\n}\nperfect(6);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6390",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-17",
+                "slug": "js-functions__Exercises/Question-17_md",
+                "sequence_num": 716,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-17.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named average which takes 3 numbers and prints the sum of 3 numbers and the average of 3 numbers.\n\n\n\n`Input`:-\n\n\n\nEnter first number : 3\n\n\n\nEnter second number : 4\n\n\n\nEnter third number: 5\n\n\n\n`Output` :\n\n\n\nSum of three numbers :-12\n\n\n\nAverage of three numbers :-4\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function average(num1,num2,num3){\n   console.log(\"sum of three numbers -\",num1+num2+num3);\n   console.log(\"Average of three numbers -\",(num1+num2+num3)/3);\n}\n \nconst input = require('readline-sync');\nlet number1 = input.questionInt('Enter the number1 :- ');\nlet number2 = input.questionInt('Enter the number2 :- ');\nlet number3 = input.questionInt('Enter the number3 :- ');\naverage(number1,number2,number3);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6391",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-18",
+                "slug": "js-functions__Exercises/Question-18_md",
+                "sequence_num": 717,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-18.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named showNumbers() which takes 1 argument named limit and program starts from o to limit and checks the numbers in between 0 to limit and prints whether the number is Even or odd like the below.\n\n\n\nFor example :\n\n\n\n`Input`:-\n\n\n\n3\n\n\n\n`Output` :\n\n\n\n0 EVEN\n\n\n\n1 ODD\n\n\n\n2 EVEN\n\n\n\n3 ODD\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function showNumbers(limit){\n   for(i=0;i<=limit;i++){\n       if(i%2 ===0){\n           console.log(i,\" - Even\");\n       }\n       else{\n           console.log(i,\" - Odd\");\n       }\n   }\n}\nshowNumbers(3);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6392",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-19",
+                "slug": "js-functions__Exercises/Question-19_md",
+                "sequence_num": 718,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-19.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named multiplesOfNumbers which takes an argument as limit, and runs a `loop` from o to that limit and prints the multiples of 3 and 5. Like the below.\n\n\n\n`Input`:\n\n\n\n10\n\n\n\n3 and 5  multiples => 3, 5, 6, 9, 10\n\n\n\n`Output` :\n\n\n\n33\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function multiplesOfNumbers(limit){\n   var sum=0\n   for(i=0;i<=limit;i++){\n       if(i%3 ===0){\n           sum+=i;\n       }\n       if(i%5 ==0){\n           sum+=i;\n       }\n   }\n   console.log(sum);\n}\nmultiplesOfNumbers(10);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6395",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-20",
+                "slug": "js-functions__Exercises/Question-20_md",
+                "sequence_num": 719,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-20.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function named license_checker that checks drivers speed, this function needs to take a parameter named speed.\n\n\n\n- If speed is less than 70 then prints \u201cok\u201d.\n\n- If speed is more than 70 then function gives 1 point for each 5 km (this won\u2019t count 70).\n\n\n\nExample: for speed 80 the points should be \u201cpoints:2\u201d .\n\n\n\n- If the driver got more than 12 points, the function has to give  \u201cLicense suspended\u201d .\n\n\n\n`Input`:-\n\n\n\n85\n\n\n\n135\n\n\n\n`Output` :-\n\n\n\n3\n\n\n\n\u201cLicense suspended\u201d\n\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function license_checker(speed){\n   if(speed < 70){\n       console.log(\"ok\");\n   }\n   if(speed > 70){\n       points=0\n       for(var i=70;i<speed;i+=5){\n           points+=1\n       }\n       if(points>12){\n           console.log(\"License suspended\");\n       }\n       else{\n           console.log(points);\n       }\n   }\n}\n \nlicense_checker(135);",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6393",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-21",
+                "slug": "js-functions__Exercises/Question-21_md",
+                "sequence_num": 720,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-21.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function that takes 2 `strings` as parameters and prints whose length is bigger, if both lengths are equal print two `strings`.\n\n\n\nHint :Use len() builtin function.\n\n`Input`:\n\n\n\nis_equal_lenth(\u201chello\u201d,\u201dwelcome\u201d)\n\n\n\nis_equal_lenth(\u201csonu\u201d,\u201dmonu\u201d)\n\n\n\n`Output` :\n\n\n\nwelcome\n\n\n \nsonu\n\n\n\nMonu\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "\nfunction is_equal_lenth(str1,str2){\n   if(str1.length === str2.length){\n       console.log(str1);\n       console.log(str2);\n   }\n   else if(str1.length > str2.length){\n       console.log(str1);\n   }\n   else{\n       console.log(str2);\n   }\n}\n \nis_equal_lenth(\"hello\",\"welcome\");\n",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6394",
+                "parent_exercise_id": "6373",
+                "course_id": "176",
+                "name": "Question-22",
+                "slug": "js-functions__Exercises/Question-22_md",
+                "sequence_num": 721,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/js-functions/Exercises/Question-22.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Write a function squares_of_numbers which takes a number as a parameter, and runs a `loop` from 1 to the given number, and makes the number and square of a number as `key`, value pair. See the example below.\n\n\n\n\n`Input` : 20\n\n\n\n`Output` :\n\n\n\n{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225, 16: 256, 17: 289, 18: 324, 19: 361, 20: 400}\n\n\n\n"
+                    },
+                    {
+                        "type": "javascript",
+                        "value": {
+                            "code": "// write code here",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "solution",
+                        "value": {
+                            "code": "function squares_of_numbers(limit){\n   var output={}\n   for(var i=1;i<=limit;i++){\n       output[i]=i*i\n   }\n   console.log(output);\n}\nsquares_of_numbers(20)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "**For the next course [clickHere](https://www.merakilearn.org/course/147/exercise/3549)**\n"
+                    }
+                ]
+            }
+        ]
+    }
+}

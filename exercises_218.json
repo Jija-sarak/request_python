@@ -1,0 +1,1459 @@
+{
+    "course": {
+        "id": "218",
+        "name": "Volunteering with Meraki",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "This is a Self Onboarding Doc for Volunteers willing to Facilitate Python Programming and Spoken English to Students.",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "7616",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "background",
+                "slug": "instructions-to-python-facilitators_json__background_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/background.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "blockquote",
+                        "value": "It is good to see you here. The very fact that you have reached here signals that there are many steps that you have already taken to support the cause of taking technical education for the girls from the rural area. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<br>"
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "Perhaps, the next few steps are going to be the hardest ones. They would need us to proactively find our place in the middle of the unstructured structure that is there right now. But I promise, once you have settled in, it would be so much easier."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<br>"
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "<b>Abhishek</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Background"
+                    },
+                    {
+                        "component": "text",
+                        "value": "At NavGurukul, we run a one year residential course for young women between the age group of 16-25 years, from underserved communities, to learn Software Programming languages such as <span style=\"\">Python</span>, Javascript, HTML/CSS, and support them till they get placed as Software Developers. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "We're 4 and a half years old, and at present have 4 residential campuses (Dharamshala, Bangalore, Sarjapur-Bangalore and Pune) which have a capacity of 600+ students. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Since the second half of 2020, we've begun scaling up our organisation in an effort to reach more students and help transform their lives by providing them an opportunity to learn software programming and assist them with skills that can make them employable."
+                    },
+                    {
+                        "component": "text",
+                        "value": "We partner with NGOs and Government bodies who work with a large student pool, to help reach the students with this opportunity. Interested students, give an entrance assessment which tests them on basic mathematics and logical thinking. Once, that is cleared, there are a few rounds of interviews that are conducted to check the ability, interest and need of the student to enrol in the program. "
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "<i>We recently partnered with an organisation in Maharashtra who mobilised over 4200 students for the entrance assessment, but after all the rounds, only 100 could convert into NavGurukul students.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This is where Meraki comes in\u2026"
+                    }
+                ]
+            },
+            {
+                "id": "7619",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "about-meraki",
+                "slug": "instructions-to-python-facilitators_json__about-meraki_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/about-meraki.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "We at Meraki are targeting the remainder students, who <i>had the opportunity but lacked the aptitude</i> to get through the entrance assessment. There are multiple students like them, who may have had multiple opportunities, but lacked the right aptitude to make use of the provided opportunity. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Through Meraki we wish to make programming and digital skills accessible to learners from different communities through a smartphone, and support their learning journey through our live classes. We are currently working with 500+ learners and aim to reach over 100k users by the end of the year! "
+                    },
+                    {
+                        "component": "text",
+                        "value": "We're providing the following programs on Meraki:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Basics of Python</i> (Meraki is equipped with compiler on the phone, such that students do not have to use a desktop or laptop. All learning and practice can be facilitated on a touch screen mobile phone)",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Touch Typing</i> (With the support of OTG keyboards, provided by Meraki to 5000 identified deserving students)",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Spoken English</i> (Teaching students with English Speaking)",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "<i>You can volunteer with us to help teach students in any of the above programs through Meraki!</i>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Checkout the <span style=\"\">application</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Meraki can be downloaded from "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://play.google.com/store/apps/details?id=org.merakilearn\">Meraki - Learn Python, English in Hindi, English - Apps on Google Play</a>"
+                    }
+                ]
+            },
+            {
+                "id": "7613",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "getting-started",
+                "slug": "instructions-to-python-facilitators_json__getting-started_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/getting-started.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Hello Change-Makers,"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We welcome you aboard to teach <b>Basics of <span style=\"\">Python</span> Programming, Spoken English and Touch Typing</b> to over <b>100k young women</b> between the age group of 15-25, from various parts of the country. Your contribution is highly valuable in creating a drastic impact in the learning journey of these young women and enabling them to get an <b>aspirational job</b>, have <b>a voice</b>, and be equipped to <b>bring at least 10 families out of poverty</b> in a financially sustainable model."
+                    },
+                    {
+                        "component": "text",
+                        "value": "We're glad you have decided to teach young children remotely and contribute in bringing a difference in their lives. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "To ensure you have a smooth onboarding and enable you to self start this process, sharing a few simple steps you can follow."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Step 1 - Signing into Meraki"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We have a student facing Android Application and a website that caters to volunteers, partners, clients, etc. Please download the <a href=\"https://play.google.com/store/apps/details?id=org.merakilearn&hl=en_IN&gl=US\">application</a> and sign in. Spend some time and explore the application. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>(Our students use an android phone to access Meraki, hence we request you to go over the <span style=\"\">application</span> and understand the user interface. This can help you connect with students and solve their questions easily.)</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can see the following videos for further assistance"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://youtu.be/Lha-WlS2Hkg\">Signing into Meraki and Home Screen</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://youtu.be/UN3us4vDHhc\">Course, Mentor, Playground</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "You'll be using the <a href=\"https://www.merakilearn.org,\" title=\"Meraki\">website</a> more often than the android <span style=\"\">application</span>, to schedule your classes, etc. We ask you to use the Android <span style=\"\">Application</span> to understand the interface from the student's perspective."
+                    },
+                    {
+                        "component": "text",
+                        "value": "For the next steps, Sign into <a href=\"https://www.merakilearn.org,\" title=\"Meraki\">Merakilearn.org</a> using your Web Browser. <i>(Prefer Google Chrome)</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Learn to <a href=\"https://www.merakilearn.org/course/218/exercise/7614\">Create a Class</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you want to teach Python to students, then check <a href=\"https://www.merakilearn.org/course/218/exercise/7615\"><b>this</b></a> out.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you want to teach Spoken English to students, then check <a href=\"https://www.merakilearn.org/course/218/exercise/7618\"><b>this</b></a> out.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "<i>You may follow the respective links and fret not if you get stuck! You can write to us at volunteer@navgurukul.org in case of queries. We are here to help!</i>"
+                    }
+                ]
+            },
+            {
+                "id": "7614",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "create-class",
+                "slug": "instructions-to-python-facilitators_json__create-class_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/create-class.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Now that you've decided to teach students, lets see how you can get there and get started! "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Step 2 - Creating a Class"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/class\">Class Scheduler</a>, on this page, you'll find all the classes created by other facilitators. You can recheck the date and time before creating your class, to ensure it doesn't clash with someone else's, and that your Classes are varied. Eg: Facilitator <b>A</b> creates <i>Class 1 - Introduction to Python</i> on Thursday, at 4pm. Then you can create your <i>Class 1 - Introduction to Python</i> on Saturday or Sunday, to space out similar sessions. "
+                    },
+                    {
+                        "component": "image",
+                        "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/instructions-to-python-facilitators_json/images/how_to_create_a_class.png",
+                        "alt": "create-class_key4"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "What's the difference between a Workshop and a Cohort Class?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In a Cohort system, you will be able to "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create recursive classes at one go. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Students enrolled in one Cohort class, would get notified for future classes as well. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Fix the class days and timings before hand, ensuring regular enrollment of students. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Help students continue a cohort system with one facilitator. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Flexibility in conducting the sessions at your pace. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Nomenclature</b> - <i>[NGO Partner Name]</i> - Python Programming with <i>[Your Name]</i> - Batch <i>[Number 1,2,3,4]</i>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "In a Workshop systen, you will be able to "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create one class at a time, making you schedule 23 individual classes over the course of the program",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Students enrolled in one Workshop class, would only get notified for that class. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Gives you flexibility in your class days and timings, but can cause irregularity in students enrollments",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "There is a chance a student may end up attending classes conducted by more than one facilitator throughout their program",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Each Class has a defined set of topics to be covered.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Nomenclature</b> - Class <i>[Number 1,2,3,etc]</i> - <i>[Name of Class as mentioned in Curriculum Table]</i>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Once you have completed creating a class. You shall get an email and/or a calendar invite. You may use that to join the Google Meet you've created for your class. You can use this <a href=\"https://chrome.google.com/webstore/detail/auto-admit-for-google-mee/epemkdedgaoeeobdjmkmhhhbjemckmgb/related?hl=en,\" title=\"Auto Admit Extension\">Extension</a> to Auto Admit students to the Meet you've scheduled."
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "It would be ideal for you to conduct a minimum of 2 classes per week, and schedule your sessions for atleast 3 weeks from the first class. This helps the student know when to expect your classes. You can always go back and edit the class, if you have to change the time or date of the class. "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Check out the following steps only if you're a Spoken English Facilitator"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>NOTE</b> : This will be a recusrive Session, meaning 1 volunteer will be teaching 5 students, and same students will be taught for the rest of the weeks as well to bring a cohort culture. Currently the slots available are <i>Weekdays/Weekends 7-9pm</i>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "The class conduct has to be done in following manner : "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create first class over Meraki. Limit student entry to 5-7 only. Gather student email-ids, send them calendar invites for the second class. <i>Do not create second class over Meraki</i>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Repeat the calendar invite for the following classes.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "This is a temporary solution till the <i>\"Recursive Class\"</i> - feature gets updated on Meraki.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7612",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "code-of-conduct-V",
+                "slug": "instructions-to-python-facilitators_json__code-of-conduct-V_json",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/code-of-conduct-V.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"\">code</span> is a tool for understanding and upholding culturally accep<span style=\"\">tab</span>le, safe, and respectful standards across the online classroom structure. The <span style=\"\">code</span> of conduct ensures volunteers begin with a common understanding of volunteer standards. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "This has to be maintained while conducting the online sessions over Meraki <span style=\"\">application</span> and Google-Meet links, offline/online."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Following are some <span style=\"\">key</span> points to be kept in mind by volunteers while conducting sessions:"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<b>Video Call Enablement</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Videos are not mandatory, using video during the class is a personal choice. Please decide based on the situation/class.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you choose to use video during the call, please ensure that you are maintaining an appropriate standard of dress and personal hygiene",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<b>Voice and Chat interaction</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please do not write any text in the chat-box which is not relevant to the class",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Adopt correct words, usage of foul language is prohibited",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Keeping confidential matters confidential",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not engage in any abusive/bullying activity that may cause distress to another person (such as verbal abuse, physical abuse, assault, bullying, or discrimination or harassment on the grounds of gender, civil status, family status, sexual orientation, religion, age, disability, race or membership of the Traveler community)",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<b>Mode of Communication and Information with Students</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not ask/share personal contact details",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not send/accept requests over any other social media platform eg Instagram, Facebook,  Snapchat, etc., is not recommended to ensure security and privacy.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Instruct students on how you will communicate with them, and how they should communicate with you for example - the students can raise their hands to ask a question or you can ask a student to respond to a query or question, behaviour, or whether they should mute their microphones (possible to enforce by using the mute all button) and turn on or off their webcam at the start of each session.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not Seek or accept any gifts, rewards, benefits, or hospitality in the course of their role",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<b>Online</b> <b>Classroom Etiquettes</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Not be affected by alcohol, drugs, or medication which will affect their abilities to carry out their duties and responsibilities while volunteering",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Treating all the students with fairness and dignity",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "When sharing your screen, close all sensitive documents or tabs. Check your browser bookmarks and other open applications and furthermore, be aware that you are on camera",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Meeting time and task commitments and providing sufficient notice when they will not be available so that alternative arrangements can be made",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Raising and reporting concerns about possible wrong-doing witnessed by the volunteer in the course of the volunteer\u2019s role",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ensure that content shared with students is appropriate and accessible to all, and is course-related.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Clarify when the live session has ended, and wait for all students to log off/leave thesession.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<b>Privacy, Compliance, Data</b> <b>Confidentiality, and Breach of Conduct</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not commit on behalf of the organization unless it is approved in writing or asked. Restrain from providing a false or misleading statement, declaration, document, record, or claim in respect of NavGurukul/Meraki",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Students' camera\u2019s should be off, unless it is of added value to your classes to switch them on. Students may always choose to switch them on voluntarily.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Inform students in advance of live sessions if they will be recorded and the only record sessions if this is of added value to your classes. Students may then choose to turn off their webcam if they do not wish to be part of the recording",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not share any information which is not related to the course content",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not Provide a false or misleading statement, declaration, document, record, or claim in respect of NavGurukul/Meraki",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b><i>Where a volunteer is found to be in breach of the standards outlined in this <span style=\"\">Code</span> of Conduct or any of Meraki\u2019s other policies and procedures, in the interest of students, this may result in the volunteer\u2019s position being terminated</i></b>"
+                    }
+                ]
+            },
+            {
+                "id": "7615",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "python-class-structure",
+                "slug": "instructions-to-python-facilitators_json__python-class-structure_json",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/python-class-structure.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Step 3 - Curriculum"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Browse through the Curriculum to teach <b>Basics of <span style=\"\">Python</span> Programming</b> "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/191/exercise/6532\">Introduction to Python</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/204/exercise/5974\">Variables</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/196/exercise/5570\">Data Types</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/194/exercise/5493\">Operators</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/195/exercise/5526\">If-Else</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/193/exercise/6525\">Loops</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/192/exercise/6537\">Lists</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.merakilearn.org/course/197/exercise/5912\">Dictionary</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <b><i>8 courses in Python</i></b> are divided into <a href=\"https://www.merakilearn.org/course/218/exercise/7620\"><b><i>23 Workshop Classes</i></b></a>. We expect you to follow this Class division, to ensure that the sequence of learning is maintained, and a child has an opportunity to come back and attend only those specific classes she had doubts in, or had missed it for whatever reasons."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Step 4 - Classes with Students"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Use the first five minutes to understand their learning journey on Meraki, and encourage them to self learn using Live Classes only as an extra help.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Use the next ten minutes to recapitulate and revise previous topics, and solve their previous queries.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can use the second half of the class to share problems for the students to solve. It could be in the form of MCQs, True or False, Dry Run, or even Questions.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can assign some homework or prework a student must do before the next class, such as the next topic they can read/ study and come for in the next class.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "Keep checking in with the students if they've understood or no in between to ensure its a dialogue and not a monologue. You can try to make it as innovative and interactive as you wish to! "
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can get in touch with the students through <a href=\"https://www.merakilearn.org/mentor\">Chat</a>. Please email sindhu@navgurukul.org if you want to be added to more student groups on the Mentor Tab."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Further Support"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Don't fret in case, this is still confusing. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>We are here to help</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": ". You can write back to us on the Volunteering email you received from our end, or write to "
+                    },
+                    {
+                        "component": "text",
+                        "value": "volunteer@navgurukul.org"
+                    },
+                    {
+                        "component": "text",
+                        "value": ". "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Thank you! "
+                    },
+                    {
+                        "component": "text",
+                        "value": "We're glad to have you on this journey of impacting over <b>One Lakh learners</b>."
+                    }
+                ]
+            },
+            {
+                "id": "7620",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "python-curriculum-structure",
+                "slug": "instructions-to-python-facilitators_json__python-curriculum-structure_json",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/python-curriculum-structure.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "The <b><i>8 courses in <span style=\"\">Python</span></i></b> are divided into <b><i>23 Workshop Classes</i></b>. We expect you to follow this Class division, to ensure that the sequence of learning is maintained, and a child has an opportunity to come back and attend only those specific classes she had doubts in, or had missed it for whatever reasons. "
+                    },
+                    {
+                        "component": "blockquote",
+                        "value": "Please use this nomenclature of Class Title to ensure uniformity in the learning pace of the students. "
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "Class Title",
+                                "items": [
+                                    "Class 1 - Introduction to Python",
+                                    "Class 2 - Introduction to Python and Definitions",
+                                    "Class 3 - Variables",
+                                    "Class 4 - Data Types",
+                                    "Class 5 - Data Types",
+                                    "Class 6 - Operators",
+                                    "Class 7 - Operators",
+                                    "Class 8 - Operators and Revision",
+                                    "Class 9 - If Else",
+                                    "Class 10 - If Else",
+                                    "Class 11 - If Else",
+                                    "Class 12 - If Else",
+                                    "Class 13 - Loops",
+                                    "Class 14 - Loops",
+                                    "Class 15 - Loops",
+                                    "Class 16 - Loops",
+                                    "Class 17 - List",
+                                    "Class 18 - List",
+                                    "Class 19 - List",
+                                    "Class 20 - List",
+                                    "Class 21 - Dictionary",
+                                    "Class 22 - Dictionary",
+                                    "Class 23 - Dictionary"
+                                ]
+                            },
+                            {
+                                "header": "Class Description",
+                                "items": [
+                                    "What do Computers do? What is Programming? Why should you become a Programmar? What is the use of Programming? Basic Definitions",
+                                    "Continue with the Basic Definitions, Why should you learn Python? What are the features of Python? How to start with Python? How to write a comment? What is Indentation? What are the Applications of Python?",
+                                    "What is a Variable? What are the various naming rules? How can we assign values to variables? Practice Questions and Quizzes",
+                                    "What are Data type? What are Predefined Data types in Python? What are the various Numeric Data types - Integer, Float, Complex? Practice Questions",
+                                    "In depth explanation of String Data type, Boolean Data type, Data Type Conversion. Practice Questions and Quizzes",
+                                    "What are Operators? What are the different types of Operators in Python? In depth explanation of Arithmetic Operators, with examples. Operator Precedence. Practice Questions and Quizzes",
+                                    "What are Assignment Operators, Comparison Operators and Logical Operators? Share lots of examples, Practice Questions and Quizzes",
+                                    "An introduction to Bitwise, Membership and Identity Operators. Revision and Practice Questions on Operators, Data Types and Variables",
+                                    "Why do we use conditions? What is a condition? How to use If-Else? What are flowcharts and how should we prepare them? How should we write an If-Else code?",
+                                    "Introduction and examples of If-Elif. If-Else with \"and\" and \"or\". Dry run code for revision. Practice Questions and Quizzes",
+                                    "Nested If-Else. Practice Questions and Quizzes",
+                                    "Revision and Practice Questions on If-Else Condition",
+                                    "What are Loops? What are the Advantages of using Loops? What is Counter? Examples of Counters. Different types of loops in Python - While loop. Practice Questions and Quizzes",
+                                    "Loop control statements such as continue, break, pass. Nested while loops. Share live examples and Practice Questions.",
+                                    "Basics of For Loops. Revise Membership operator. For Loop using Sequence (String) and using Range(). Practice Questions and Quizzes",
+                                    "Else in for loop. Using control statements in for. Nested for loop. Practice Questions and Quizzes.",
+                                    "What is List? Characteristics of list. Defining list - list of strings - list of integer - list of float - mixed list. List indexing and slicing. Practice Questions and Quizzes.",
+                                    "List Operations. Length. Membership. Iteration through index. Concatenation. Work with loop. Practice Questions and Quizzes.",
+                                    "Python built-in methods with exampes - append(), clear(), count(), Index(), insert(), pop(), remove(), reverse() , sort(), min(), max(). Practice Questions and Quizzes.",
+                                    "Nested List. More examples on list. Practice Questions and Quizzes.",
+                                    "Introduction to dictionary. Accessing Elements from a Dictionary. Adding Elements to a Dictionary. Upading a Dictionary. Practice Questions and Quizzes.",
+                                    "Removing element from a Dictionary. Iterating Dictionary. Iterate through all keys and values. More Exmaples on Dictionary.",
+                                    "Built-in functions in Dictionary - get (), update(), clear(), copy(), delete(). Built in methods in Dictionary. Practice Questions and Quizzes."
+                                ]
+                            },
+                            {
+                                "header": "Expected Outcomes",
+                                "items": [
+                                    "This introductory module should help you introduce yourself and create a connection with the students. It should cover <b>WHY</b> the student must learn Programming and how it would benefit them. Use the initial classes to create curiosity in the students. You can show them what one can achieve using programming, ask them if they would want to create something like that in the future, and let them know the stepping stones to get there.",
+                                    "This module shall continue with the definitions of the previous class. Share an understanding of why we use Python to start learning programming. This module should aim to create intrigue and interest in the students to learn Python.",
+                                    "Spend an entire class on making the student understand the concept of Variables, as it is the first step to learning coding. You can share live examples, show them multiple variable names and make them choose the correct one based on the rules they've learnt. You can also ask them to share their screen, and write on the Python compiler called Playground, on the Meraki Android Application.",
+                                    "This module should introduce the different types of Data Types used in Python, and students should be clear with concepts related to Numeric Data Types.",
+                                    "A student should be familiar with Data types and should be able to answer questions related to data types and conversions.",
+                                    "Share live examples to make them understand the concept of operators. Make them experiment with Operator  Precedence as this concept must be very clear and ensure there is no confusion.",
+                                    "Brush up topics from Basic Definitions, and cross question them. They should be able to run simple codes on Playground.",
+                                    "The basics of the child should be clear. Despite the complexity, Bitwise, Membership and Identity operators can be introduced, which would come in handy for future topics. Post this class we shall go on to functionalities like If-Else, Loops, etc.",
+                                    "Before starting with If-Else, the students should be familiar with algorithms and how to make flow charts, and know about every box of a flow chart, eg: Start box, Condition box, etc. They should be able to implement their condition with code. You can ask them to share their screen and code on Playground.",
+                                    "The students should be able to explain and write their own code and experiment with the conditions. Enable discussions and cross questioning between the students in the class, to make them confident on their code. You can follow it up with a dry run to confirm the flow of the code.",
+                                    "The students should know multiple if else and understand the flow of if else and nested if else. You can give them more practice questions on Flowcharts and If-Else.",
+                                    "You can make this an interactive session by posing multiple questions to the students and asking each child to solve it. You can also have them choose the correct code through MCQs, or True or False questions. A child should have a clear understandig of this module, to move forward.",
+                                    "Share real life examples of Loops, and the types and their syntax. The flow of Loops, Increment and Decriment and how that can be done, should be clear.",
+                                    "The student should know when and why to use continue, break and pass and its difference. The flow and syntax should be clear. Make sure of patterns in Nested While Loops and focus on concepts as well as logic.",
+                                    "The student should know how Range works and from where it starts executing and where it stops, the syntax and flow of FOR loop. Should know whether String has indexing and how to iterate over string using FOR loop.",
+                                    "The students should know how to implement conditions using if else in loop, how to make use of operators like \"in\" in conditional statements. Have a clear understanding of flow and syntax of nested for loop and can experiment where and how can we use else out of loop. Share more practice on logical questions using for loop making concepts and logic clear.",
+                                    "What are the advantages of using list and what types of data can be stored in a list. Concept of indexing must be clear (positive indexing as well as negative indexing). The student should focus on slicing in which start , stop and step are there and experiment with slicing and what parameters are acceptable and how it works by default.",
+                                    "The student should know how to find length of list, how to iterate over a list using loop through indexing, how to add two lists together and how to make use membership operator.",
+                                    "The student should know how to add elements to list by using which method, how to remove elements, how to update elements. Should be aware of the difference between pop(), remove(), its syntax and why they are used. What and how many parameters to be passed in thses methods. Nested list indexing (+ve and -ve). By the end of this class, students should be able to find minimum and maximum with in built function and without.",
+                                    "Recapitulate through all the topics covered in list and revise to make concepts clear. Practice more.",
+                                    "What is dictionary. The structure of dictionary. Why do we use it. What are keys and values. How to access them. How to add and update items in dict. How to iterate over a dict.",
+                                    "Dict.keys() method to iterate over keys of dict. Dict.values() method to iterate over values of dict. Dict.items() method to iterate over keys and values. How loop can be used in iterating dict.",
+                                    "By the end of this class, the student should be clear on all the concepts taught till date. You can choose to conduct revision classes too."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Further Support"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Don't fret in case, this is still confusing. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>We are here to help</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": ". You can write back to us on the Volunteering email you received from our end, or write to "
+                    },
+                    {
+                        "component": "text",
+                        "value": "volunteer@navgurukul.org"
+                    },
+                    {
+                        "component": "text",
+                        "value": ". "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Thank you! "
+                    },
+                    {
+                        "component": "text",
+                        "value": "We're glad to have you on this journey of impacting over <b>One Lakh learners</b>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Happy Volunteering!</b>"
+                    }
+                ]
+            },
+            {
+                "id": "7617",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "how-to-take-a-class",
+                "slug": "instructions-to-python-facilitators_json__how-to-take-a-class_json",
+                "sequence_num": 700,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/how-to-take-a-class.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Dear Facilitator, "
+                    },
+                    {
+                        "component": "text",
+                        "value": "We're sure you're wondering how your first class would be, thinking hard on how you must interact with students, etc. Don't worry. We're sharing a few simple points that you can keep in mind, that shall help you in your classes. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Give a very warm welcome to the students into your class and assure them you'll support them in their journey of learning Python/ English or Typing <i>(whichever program you're here to teach for)</i> The students are here for a three month introductory course to Python, supported with English and Touch Typing if they're interested. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Introduce yourself. Tell them what you do, and share any of your beginner experiences with them in the respective field, to encourage and motivate them. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Make your initial classes very inspiring. Create a sense of curiosity in them. You could share videos with them, daily real life examples of its application. Show them what they can achieve once they learn any of the three programs. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Teach them how to <a href=\"https://youtu.be/Lha-WlS2Hkg\">enrol to a class</a> on the application. You can screenshare the application. Do this for a few classes till they understand and get accustomed to Meraki. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can also state the program structure. 23 Classes for Python and 15 Classes for English. Tell them how they'll have to attend Class 1, then Class 2 and then Class 3 in an order so that they don't miss out on anything. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If they are stuck anywhere, they can attend any doubt class and get it solved. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can show them the curriculum for <a href=\"https://www.merakilearn.org/course/218/exercise/7620\">Python</a> and <a href=\"https://www.merakilearn.org/course/218/exercise/7618\">English</a> as well.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You must encourage them to self study through <a href=\"https://youtu.be/UN3us4vDHhc\">Meraki</a> and use the live classes as support in their learning journey. Encourage them to read more, and run their codes on <a href=\"https://youtu.be/UN3us4vDHhc\">Playground</a> on Meraki, to practice. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "We therefore request you to have a good understanding of the application before starting your classes. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do write to us at "
+                    },
+                    {
+                        "component": "text",
+                        "value": "volunteer@navgurukul.org"
+                    },
+                    {
+                        "component": "text",
+                        "value": "if you have any further questions of queries. We're here to help you! "
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Happy Volunteering!</b>"
+                    }
+                ]
+            },
+            {
+                "id": "7618",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "spoken-english-curriculum-structure",
+                "slug": "instructions-to-python-facilitators_json__spoken-english-curriculum-structure_json",
+                "sequence_num": 800,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/spoken-english-curriculum-structure.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Step 3 - Curriculum"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Browse through the Curriculum to teach Basics of Spoken English"
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "Class Name",
+                                "items": [
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6488\">Introduction</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6489\">Food</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6491\">Family</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6490\">Other Activities</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6492\">Area</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6494\">Travel/Transport</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6493\">Movies</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6495\">Other Parts of India</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6496\">Festivals you celebrate</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6497\">Seasons/Subject Predicates</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6498\">Tenses</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6599\">Hobbies/ Similies-Metaphors</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6500\">Concept of Giving</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6501\">Teachers/ Story Comprehension</a>",
+                                    "<a href=\"https://www.merakilearn.org/course/215/exercise/6502\">Goals/ Reflections</a>"
+                                ]
+                            },
+                            {
+                                "header": "Number of Classes",
+                                "items": [
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1"
+                                ]
+                            },
+                            {
+                                "header": "Week",
+                                "items": [
+                                    "1",
+                                    "2",
+                                    "3",
+                                    "4",
+                                    "5",
+                                    "6",
+                                    "7",
+                                    "8",
+                                    "9",
+                                    "10",
+                                    "11",
+                                    "12",
+                                    "13",
+                                    "14",
+                                    "15"
+                                ]
+                            },
+                            {
+                                "header": "Duration of Class",
+                                "items": [
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours",
+                                    "1.5 hours"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is divided into 15 Workshop Classes. We expect you to follow this Class division, to ensure that the sequence of learning is maintained, and a child has an opportunity to come back and attend only those specific classes she had doubts in, or had missed it for whatever reasons."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Step 4 - Classes with Students"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Use the first five minutes to understand their learning journey on Meraki, and encourage them to self learn using Live Classes only as an extra help.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Use the next ten minutes to recapitulate and revise previous topics, and solve their previous queries.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can use the second half of the class to share problems for the students to solve. It could be in the form of MCQs, True or False, Sentence Formation, or even Questions.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can assign some homework or prework a student must do before the next class, such as the next topic they can read/ study and come for in the next class.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Keep checking in with the students if they've understood or no in between to ensure its a dialogue and not a monologue. You can try to make it as innovative and interactive as you wish to!",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Content Guidelines"
+                    },
+                    {
+                        "component": "text",
+                        "value": "For every question you ask the kid please make sure you share the answer about yourself as well. Speaking in English and listening to people talk in English collectively helps improve children\u2019s skills"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Dear coordinator, YOU ARE THE REASON WHY THE SPOKEN ENGLISH PROGRAM IS GROWING AT SUCH A FAST PACE. THANKS A TONNN FOR HELPING US OUT. NO PRESSURE. BUT YOU ARE THE DRIVING FACTOR FOR THE SUCCESS OF THE GROUP</b> :)"
+                    }
+                ]
+            },
+            {
+                "id": "6544",
+                "parent_exercise_id": "6544",
+                "course_id": "218",
+                "name": "SpokenEnglish-Phases",
+                "slug": "instructions-to-python-facilitators_json__Spoken-English-Phases/SpokenEnglish-Phases_json",
+                "sequence_num": 900,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/Spoken-English-Phases/SpokenEnglish-Phases.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "<b>SPOKEN ENGLISH</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If you're a fluent English speaker, we invite you to help us teach Spoken English to students willing to learn and help them speak more confidently. Sign up with NavGurukul/Meraki, an initiative to help rural, semi urban Indian students, housewives and salaried people who have studied in non english medium schools to speak English confidently."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Volunteers opting for Spoken-English Volunteering opportunity, will be spending time over the online classes with the children coming from local schools, rural and marginalised communities. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "The classes will take 1 hour per week over the course of 15 week period."
+                    },
+                    {
+                        "component": "text",
+                        "value": "These classes will take place online over Meraki application, where students use the android application, where as the volunteers have to access via <a href=\"https://www.merakilearn.org\">www.merakilearn.org</a> through the calendar invites."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Preparatory Volunteer Notes</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Application - know the whereabouts of Meraki android application",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Online Class - learn how to create class on <a href=\"https://www.merakilearn.org/classes\">Meraki</a>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Curriculum"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Walkthrough the 15 week course material",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Feedback for any additions/omissions in the curriculum",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Provide any supplement material <i>run-through the Volunteer Manager in advance</i>",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do not use malicious, external resources unless verified by the volunteer Manager",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Walkthrough of the external material to be done 2 days before the class is being conducted",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Reach out POC (Contact Details) - issues/challenges",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Provide Feedback - Class/Curriculum (Weekly)",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Monthly Volunteer Engagement - <b><i>4 engagements through 15 weeks</i></b> (30 Minutes)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Celebrating success of the ongoing classes",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Understanding the challenges",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Brainstorming solutions",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Volunteers can reach out to Volunteer Managers at any moment if required",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b><i>FLOW OF SPOKEN ENGLISH:</i></b> <br><b>PHASE-1: Building Comfort & Rapport</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "First 5 weeks, make the students comfor<span style=\"\">tab</span>le and familiarise (orientation class for assessing their levels, for introducing them to learning outcomes and approach). First 2-3 classes could be about team building related exercises, introductions, without any language correction.. just allow everyone to get comfor<span style=\"\">tab</span>le in using whatever level of English they know without hesitation."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>PHASE -2:</b> <b>Usage of Elements of English</b><br>Second 5 weeks, Grammar and language building. Each class will introduce one basic grammar topic and use exercises like fill in the blanks etc to test understanding. Can give one or two homework exercises. Take support from <span style=\"\">youtube</span> videos, visual and interactive modes. Simple basic grammar topics and concepts to ensure students don't rote learn sentences. Here the learning outcome is to enable them to form sentences and convey their thoughts. <b>(<i>Please ensure to maintain <span style=\"\">code</span> of conduct while sharing external media <span style=\"\">files</span> and links)</b></i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>PHASE-3:</b> <b>Building Fluency</b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Last 5 weeks, This phase focusses on fluency, diction, pronunciation, pauses, comfort and confidence. Here the classes will have more and more of interaction and communication from the students. The idea is to get them to coherently form ideas and express in the language. Towards the end focus could be on discussion general interview topics or questions.<br><b><i>Last class - Week 15 -Celebration of course completion, Certificate announcement (download), appreciation for completion, learning outcomes and feedback</i></b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b><i><span style=\"\">Key</span> Notes to be remembered while conducting these phases:</i></b>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The intent is to build their comfort, Spoken English and finally their fluency to be atleast interview ready.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Adding more vocabulary as and when required based on the pickup of students.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "There might be a variation amongst the students with the level of their understanding and pickup, which is where volunteers need to amalgamate and process together.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Volunteers could routinely check with students if they are able to follow the content.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7621",
+                "parent_exercise_id": null,
+                "course_id": "218",
+                "name": "Volunteer-tracker",
+                "slug": "instructions-to-python-facilitators_json__Volunteer-tracker_json",
+                "sequence_num": 1000,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/instructions-to-python-facilitators_json/Volunteer-tracker.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<ol><br><li><span style=\"\">Python</span> Volunteers</li><br></ol>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please fill in the following sheet after every class: <a href=\"https://docs.google.com/spreadsheets/d/1A8M0DIBB-yhlJ7_JvLSgBKppq5498hxwDyyc9GNs2F4/edit?usp=sharing\">Python Programming - Class Log</a>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "2.Spoken-English Volunteers"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please fill in the following sheet: <a href=\"https://docs.google.com/spreadsheets/d/1jZYeO6412o1tFhmGVRjWETmotBMXZjK15CAiyy2Z0_c/edit#gid=0\">Spoken English - Class Log</a>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please contact for any queries here: "
+                    },
+                    {
+                        "component": "text",
+                        "value": "volunteer@navgurukul.org"
+                    }
+                ]
+            }
+        ]
+    }
+}

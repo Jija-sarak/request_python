@@ -1,0 +1,1261 @@
+{
+    "course": {
+        "id": "257",
+        "name": "More Exercise Questions",
+        "logo": "https",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "We will solve more questions related to Python.",
+        "type": "python",
+        "course_type": "json",
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "7326",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "intro",
+                "slug": "MoreExercise_json__exercises/intro_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Humne abhi tak <span style=\"\">python</span> ke kaafi saare buniyadi siddhant seekh liye hain. Ab hum agli kuch exercises kar ke inn siddhanton ko aur gehrai mein samjhenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Abhi tak saari exercises mein aapko chote chote steps mein bataya hua tha. Lekin Exercise 3, 4, 5,6 mein humne aapko sirf kuch problems di hain. Unko solve karne ki tarkeebein aur steps aapko sochne hain. Ekdum asli duniya ke programmers ki tarah ;-) Yeh thoda mushkil lag sakta hai. Lekin don\u2019t worry, aapko bahot kuch seekhne ko milega :D"
+                    }
+                ]
+            },
+            {
+                "id": "7333",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question1",
+                "slug": "MoreExercise_json__exercises/question1_json",
+                "sequence_num": 1,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "1 se 1000 tak saare numbers print karne ka <span style=\"\">loop</span> likho. Lekin "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Agar number 3 se divisible hai toh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"nav\"</span> print karvao.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Agar number 7 se divisible hai toh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"gurukul\"</span> print karvao.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Agar number 21 se divisible hai toh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"navgurukul\"</span> print karvao.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7334",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question2",
+                "slug": "MoreExercise_json__exercises/question2_json",
+                "sequence_num": 2,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Iss program mein hum students ki ginti aur ek student ke kharche se hisaab se pure NavGurukul ka ek mahine ka kharcha nikalenge"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> ka use kar ke do values ka <span style=\"\">input</span> lo:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Number of students",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ek student ka kharcha",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss ke hisaab se total kharcha nikalein. Agar total kharcha 50000 (50 hazar) ya usse kam hai toh print karein <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"Hum budget ke andar hain\"</span> nahi toh print karo ki hum budget ke bahar hain."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Note: Inn exercises mein aapko <span style=\"\">variables</span> ke naam apne aap soch kar likhne hain</i>"
+                    }
+                ]
+            },
+            {
+                "id": "7335",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question3",
+                "slug": "MoreExercise_json__exercises/question3_json",
+                "sequence_num": 3,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Jaise hum list ki length nikalne ki len ka use karte aa rahe hain, waise hi hum <span style=\"\">strings</span> ki length nikalne ke liye len ka use kar sakte hain."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "string_name = \"Shakrudin\"<br>print (len(string_name))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yahan print command 9 print karegi kyunki <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"Shakrudin\"</span> mein 9 letters ya charecters hai."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "string_name = \"Rishabh Verma\"<br>print (len(string_name))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yahan 13 print hoga kyunki \"Rishabh\" ke 7 letter aur \"Verma\" ke 5 letter ki ilava beech ka space bhi ek character hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aur jaise hum <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">in</span> ka use kar ke yeh dekh sakte hain ki koi item list mein hai ya nahi. Waise hi hum in <span style=\"\">string</span> ke saath bhi use kar sakte hain. Jaise:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "string_name = \"navgurukul\"<br>if \"n\" in string_name:<br>    print (\"n hai\")<br>else:<br>    print (\"n nahi hai\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Wahan hum yeh dekh rahe hain ki <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string_name</span> <span style=\"\">variable</span> mein <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">n</span> hai ya nahi. Basically <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">in</span> ka use kar ke hume ek boolean milta hai."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print (\"n\" in string_name:)<br>print (type(\"n\" in string_name))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yahan pehli command <span style=\"\">True</span> print karegi. Kyunki <span style=\"\">True</span> or <span style=\"\">False</span> boolean hote hain, hum inko if <span style=\"\">statement</span> mein use kar sakte hain. agar hum iska data type dekhenge toh woh bhi \"bool\" dikhayega Aapko agli kuch exercises mein iski zaroorat padegi ;-)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hum online account banate wakt bahot jagah password set karte hain. Jaise aapne slack aur gmail ka account banate hue bhi apne passwords set kare honge. Humare accounts ke passwords secret hote hain jo kisi ko pata nahi lagna chaiye. Yeh jitne complex honge kisi aur ke liye guess karna utna mushkil ho jayega. Jaise<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">'rahulverma'</span> ko guess karna aasan hai, lekin <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">'rahul$%verma12!'</span> ko guess karna mushkil hai. Iss vajah se aap jab bhi online account banaoge toh ek acha sakht password set karna important hota hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hum iss program mein ek password checker banayenge jo yeh sunchit karega ki humara password strong hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Pehle user se ek password ka string input lijiye.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Fir check kariye ki user ka password sakht hai ya nahi. Ek sakht password ko yeh sab rule follow karne chaiye:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Kam se kam uski length 6 honi chaiye",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jada se jada length 16 se jyada na ho",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Kam se kam ek dollar ka sign ($) hona chaiye",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Kam se kam password mein 2 ya 8 hona chaiye",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Password mein capital A ya capital Z hona chaiye",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Agar password yeh rules follow kar raha hai toh \"Strong Password\" print karo, nahi toh \"Weak Password\" type karo",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7336",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question4",
+                "slug": "MoreExercise_json__exercises/question4_json",
+                "sequence_num": 4,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> ka use kar ke 3 alag <span style=\"\">variables</span> mein 3 <span style=\"\">integers</span> ka <span style=\"\">input</span> lein. <span style=\"\">Input</span> lene ke baad inn 3 mein se sabse bade number ko print karo"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Note: Isme aap <span style=\"\">loops</span> ka use nahi kar sakte.</i>"
+                    }
+                ]
+            },
+            {
+                "id": "7337",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question5",
+                "slug": "MoreExercise_json__exercises/question5_json",
+                "sequence_num": 5,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Ek number ka factorial 1 se leke uss number tak ke saare numbers ko ek saath multiply karke nikalta hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jaise 3 ka factorial 6 hai. Kyunki <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1 * 2 * 3</span> ko calculate karke 6 aata hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "4 ka factorial 24 hai. Kyunki <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1 * 2 * 3 * 4</span> ko calculate karke 24 aata hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aise hi 7 ka factorial 5040 hai. Kyunki <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1 * 2 * 3 * 4 * 5 * 6 * 7</span> ko calculate karke 5040 aata hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab aap ek program likhoge jo ki user se ek <span style=\"\">integer</span> <span style=\"\">input</span> lega aur fir uska factorial print karega. Agar user <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">3</span> dalega to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">6</span> print karega, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">7</span> dalega toh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">5040</span> print karega aur aise hi dusre numbers ke lie."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Note: Abhi ke liye yeh soch lo ki user sirf positive <span style=\"\">integers</span> hi dalega. Negative <span style=\"\">integers</span> kabhi nahi dalega.</i>"
+                    }
+                ]
+            },
+            {
+                "id": "7338",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question6",
+                "slug": "MoreExercise_json__exercises/question6_json",
+                "sequence_num": 6,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question6.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Socho aapko paas ek list hai jisme kuch values baar baar aa rahi hain. Ek aisa <span style=\"\">code</span> likho jisse aap ek nayi list banayein jisme iss list ki items ek ek baar hi aaye. Jaise:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "string_list = [\"Rishabh\", \"Rishabh\", \"Abhishek\", \"Rishabh\", \"Divyashish\", \"Divyashish\"]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aapke <span style=\"\">code</span> ko iss <span style=\"\">string</span>_list se ek nayi list banani chaiye jo yeh hogi:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "new_list = [\"Rishabh\", \"Abhishek\", \"Divyashish\"]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yeh list dekhiye isme saare naam ek ek baar aa rahe hain. Farak nahi padta ki pichli list mein kitne baar aa rahe the. Samajhne ke liye ek aur example padho"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "string_list = [\"Delhi\", \"Delhi\", \"Mumbai\", \"Mumbai\", \"Delhi\", \"Chennai\", 'Chennai']"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Isse aapke <span style=\"\">code</span> ko yeh nayi list banani hogi:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "new_list = [\"Delhi\", \"Mumbai\", \"Chennai\"]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss nayi list mein sirf saare shehron ka naam sirf ek baar aa raha hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yeh rahi aapki pehli items repeat hone waali list:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "string_list = [\"Empathy\", \"Empathy\", \"Kindness\", \"Kindness\", \"Compassion\", \"Humble\", \"Humble\"]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss upar di gayi list ka use kar <span style=\"\">code</span> likho."
+                    }
+                ]
+            },
+            {
+                "id": "7339",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question7",
+                "slug": "MoreExercise_json__exercises/question7_json",
+                "sequence_num": 7,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question7.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Socho aapke paas 2 lists hain. Aapne aisa <span style=\"\">code</span> likhna hain jisse ek nayi list banne jisme inn dono lists ke woh item hone chaiye ho dono list mein aa rahe hain. Socho aapki do list yeh hain:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "list1 = [1, 342, 75, 23, 98]<br>list2 = [75, 23, 98, 12, 78, 10, 1]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Inn dono list se aapki nayi list yeh banni chaiye:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "new_list = [1, 23, 75, 98]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss nayi list mein sirf <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">75</span> aur <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">98</span> isliye hain kyunki aur koi bhi items dono lists mein nahi aa rahi. Dusri saari items ya toh pehli list mein aa rahi hai ya dusri mein."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Note: Aapka yeh <span style=\"\">code</span> kitne bhi items ki list pe kaam karna chaiye. Aur dono lists ki length alag bhi ho sakti hai.</i>"
+                    }
+                ]
+            },
+            {
+                "id": "7340",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question8",
+                "slug": "MoreExercise_json__exercises/question8_json",
+                "sequence_num": 8,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question8.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Socho aapke paas do lists hain. Ab aapko nayi list banani hai jisme dono lists ke elements hone chaiye. Lekin yeh dhyan mein rakhna hai ki dono lists ke saare elements sirf ek-ek baar hi hone chaiye. Agar humare paas yeh do lists hain:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "list1 = [1, 5, 10, 12, 16, 20]<br>list2 = [1, 2, 10, 13, 16]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Toh humari nayi list yeh hogi:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "new_list = [1, 2, 5, 10, 12, 13, 16, 20]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yahan dekho ki dono lists ke items ek ek baar aa rahe hain."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jaise dono lists mein 1 aa raha tha, lekin nayi list mein ek hi baar aa raha hai.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aise hi 10 aur 16 bhi dono list mein aa raha tha, lekin nayi list mein ek hi baar hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aur 5, 2, 12, 13 aur 20 mein se kuch pehli list mein the aur kuch dusri mein, lekin",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Sabhi numbers nayi list mein ek hi baar aayenge."
+                    }
+                ]
+            },
+            {
+                "id": "7341",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question9",
+                "slug": "MoreExercise_json__exercises/question9_json",
+                "sequence_num": 9,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question9.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Harshad numbers aise number hote hain jo apni digits ke sum se dhang se divide hote hain. Dhang se divide hone ka matlab ki remainder 0 aata hai. Jaise 42 ek Harshad number hai kyunki 4 + 2 = 6 aur 42 ko 6 se vidie kar ke remainder aata hai"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aise hi 18, 21 aur 24 bhi harshad number hai kyunki 1 + 8 = 9 aur 18 ko 9 se divide kar ke remainder 0 hai. Aise hi 1, 2, 3, 4, 5, 6, 7, 8, 9 saare harshad number hain kyunki inki digits ka sum khud yeh number hain aur yeh apne aap se divide ho jate hain."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ek number ke digits nikalne ka <span style=\"\">code</span> yeh hai:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x = 42<br>x_digits = list(str(x))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yahan humne list function mein x ko <span style=\"\">string</span> mein type cast kar ke de diya. Toh ab yeh har 42 ke alag alag number se list bana dega. <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x_digits</span> mein [\"4\", \"2\"] list hogi. Iss list mein saare digits <span style=\"\">string</span> ki form mein hogi, aap unko firse <span style=\"\">integer</span> mein convert kar sakte ho"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ek function likho <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">is_harshad_number</span> jo ek number parameter ki tarah le aur fir agar woh number harshad number hai toh ek <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">boolean</span> (<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span> agar harshad number hai, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span> agar nahi hai toh) return kare."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Fir iss function ka use kar ke 1 se 1000 ke beech mein saare harshad number print karo."
+                    }
+                ]
+            },
+            {
+                "id": "7342",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question10",
+                "slug": "MoreExercise_json__exercises/question10_json",
+                "sequence_num": 10,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question10.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> mein hum ek <span style=\"\">loop</span> ke andar <span style=\"\">loop</span> bhi chala sakte hain Sochiye humare paas ek list hai jisme aur list hain jinme <span style=\"\">integers</span> hain. Kuch aise:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "big_list = [[1,2,3], [5,8,9], [4,3,77,521,31,311]]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss list se agar humne saare numbers ko ek ek kar ke print karna hai toh hum kuch aisa <span style=\"\">code</span> likh sakte hain:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "big_list = [[1,2,3], [5,8,9], [4,3,77,521,31,311]]<br>counter1 = 0<br>while counter1 < len(big_list):<br>    small_list_length = len(big_list[counter1])<br>    counter2 = 0<br>    while counter2 < small_list_length:<br>        print (big_list[counter1][counter2])<br>        counter2 = counter2 + 1<br>    counter1 = counter1 + 1<br>    print ('-----')"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iski <span style=\"\">output</span> kuch aisi aayegi:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "1<br>2<br>3<br>-----<br>5<br>8<br>9<br>-----<br>4<br>3<br>77<br>521<br>31<br>311"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yahan pehle woh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">for small_list in big_list</span> wala loop chala ke uski pehli iteration mein pahunchta hai.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Fir jab small_list ki value mein pehli list, [1,2,3] aati hai uspe pura dusra loop chalta hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dusra loop poora chalne ke baad print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">-----</span> line chalti hai aur fir yeh code pehle loop mein jaata hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Fir <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">small_list</span> ki value mein <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">[5,8,9]</span> jaata hai aur fir pura andar waala loop chalta hai.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss <span style=\"\">code</span> ko <span style=\"\">python</span> visualizer ("
+                    },
+                    {
+                        "component": "text",
+                        "value": "www.pythontutor.com"
+                    },
+                    {
+                        "component": "text",
+                        "value": ") mein chala ke ache se samjho"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Socho aapke paas ek school ki class mein har student ke har subject ke marks hain. Jaise"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "marks = [[45, 21, 42, 63], [12, 42, 42, 53], [42, 90, 78, 13], [94, 89, 78, 76], [87, 55, 98, 99]]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yeh ek list mein andar aur lists hain. Andar waali list mein har bache ke saare subjects mein marks hain. Ek <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">max_marks</span> naam ka function banao jo ki ek aisi list le aur har students ke maximum marks print kare."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jaise agar main aapke <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">max_marks</span> function ko upar waali list ke saath call karunga ,"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "max_marks(marks)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Toh uski <span style=\"\">output</span> yeh honi chaiye:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "63<br>53<br>90<br>94<br>99"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dekhiye ki har line har student ke maximum marks print hue hain."
+                    }
+                ]
+            },
+            {
+                "id": "7343",
+                "parent_exercise_id": "7326",
+                "course_id": "257",
+                "name": "question11",
+                "slug": "MoreExercise_json__exercises/question11_json",
+                "sequence_num": 11,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/exercises/question11.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Google jaise bade search engine ek web page pe saare text ko samajhte hain. Fir aap kuch bhi search karo, toh google sahi webpages dikha deta hai. Inn sab kaam ke liye google ko ek page se saare words nikalne padte hain. Hume pehle ek poore paragraph mein se words nikalne hain. Iske liye pehle <span style=\"\">strings</span> mein se hume words nikalne padenge. Socho aapke paas ek <span style=\"\">string</span> hai."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "sentence = \"NavGurukul is an alternative to higher education reducing the barriers of current formal education system\""
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aapne ek <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">break_into_words</span> naam ka function likhna hai, jo ek parameter lega jisme ek <span style=\"\">string</span> hoga. Isko jab hum ek words ka <span style=\"\">string</span> denge. Jaise break<i>into</i>words(sentence) doge toh usko ek words ki list return karni hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jaise aapke <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">break_into_words(sentence)</span> ki <span style=\"\">output</span> yeh honi chaiye:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "['NavGurukul', 'is', 'an', 'alternative', 'to', 'higher', 'education', 'reducing', 'the', 'barriers', 'of', 'current', 'formal', 'education', 'system']"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hint: <span style=\"\">Python</span> mein <span style=\"\">strings</span> bhi list ki tarah hote hain. Jaise:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "words = \"navgurukul is great\"<br>counter = 0<br>while counter < len(words)<br>    print (words[counter])"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss <span style=\"\">loop</span> mein har iteration mein i ki value ek ek character se update hogi. Ek baar iss <span style=\"\">code</span> ko <span style=\"\">python</span> visualizer mein run kar ke dhang se samajh lo."
+                    }
+                ]
+            },
+            {
+                "id": "7327",
+                "parent_exercise_id": "7327",
+                "course_id": "257",
+                "name": "debugging-intro",
+                "slug": "MoreExercise_json__debugging-part3/debugging-intro_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part3/debugging-intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "Debugging"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab iss part mein hum alag alag already likhe hue <span style=\"\">code</span> ko debug kar ke sahi karenge :)"
+                    }
+                ]
+            },
+            {
+                "id": "7329",
+                "parent_exercise_id": "7327",
+                "course_id": "257",
+                "name": "debugging-question1",
+                "slug": "MoreExercise_json__debugging-part3/debugging-question1_json",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part3/debugging-question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Iss program ko run karo aur dekho ki num<i>list aur num</i>list<i>sub</i>20 ki value same aa rahi. Iss <span style=\"\">code</span> ko ais chane karo jisse hume num_list ki intial value bhi mil jaye."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "def numbers_less_than_twenty(list):<br>  counter = 0<br>  while counter < len(list):<br>    item = list[counter]<br>    if item > 20:<br>      list.remove(item)<br>    else:<br>      counter += 1<br>  return list<br><br>num_list = [12, 312, 42, 123, 5, 12, 53, 75, 123, 62, 9]<br><br>num_list_sub_20 = numbers_less_than_twenty(num_list)<br><br>print (\"Initial list\", num_list)<br>print (\"List that doesn't contain numbers greate than 20\", num_list_sub_20)"
+                    }
+                ]
+            },
+            {
+                "id": "7330",
+                "parent_exercise_id": "7327",
+                "course_id": "257",
+                "name": "debugging-question2",
+                "slug": "MoreExercise_json__debugging-part3/debugging-question2_json",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part3/debugging-question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Yeh rock paper scissors game ka program hai. Iss game ko aap computer ke against kheloge. Iss game ke 3 rules hai"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Rock Paper se haar jata hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Paper Scissors se haar jaata hai",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aur, Scissors Rock se.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Appko pehle rock,paper ya scissors mei se chose karna hoga. Aur uske baad computer randomly inme se ek option chose karega. Firr, upar diye gaye rules ke hisab se result aayega. Jaise:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Agar aapne \"Rock\" chose kiya aur computer ne \"Scissors\"",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "To aap jeet jaoge kyunki \"Rock\" \"Scissors\" ko hara deta hai. ( Rule 3 )",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aap iss game ke rules iss"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "d1ZduiNyvcM"
+                    },
+                    {
+                        "component": "text",
+                        "value": "se seekh sakte hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Topics covered:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "semantic/syntactic problems in if/else",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "semantic error in while conditions",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "errors in variable naming",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "from random import randint<br><br>def win():<br>    print ('You win!')<br><br>def lose():<br>    print ('You lose!')<br><br>while False:<br>    player_choice = input('What do you pick? (rock, paper, scissors)')<br>    player_choice.strip()<br>    random_move = randint(0, 2)<br>    moves = ['rock', 'paper', 'scissors']<br>    computer_choice = option[random_move]<br><br>    if player_choice = computer_choice:<br>        print ('Draw!')<br>    elif  == 'rock' and coMp == 'scissors':<br>        win()<br>    elif  == 'paper' and comp == 'scissors':<br>        lose()<br>    elif playe == 'scissors' and comp == 'paper':<br>        win()<br>    elif player == 'scissors' and Comp == 'rock':<br>        lose()<br>    elif payer == 'paper' and computer == 'rock':<br>        win()<br>    elif player ==  and comp == :<br>        lose()<br>    aGain = input('Do you want to play again? (y or n)').strip()<br>    if again == 'n':<br>        break"
+                    }
+                ]
+            },
+            {
+                "id": "7331",
+                "parent_exercise_id": "7327",
+                "course_id": "257",
+                "name": "debugging-question3",
+                "slug": "MoreExercise_json__debugging-part3/debugging-question3_json",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part3/debugging-question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Apne simple se message ko aise change karna jisse koi dusra insaan usse samajh na paye usse encryption bolte hai. Encryption karne ke bhot sare ways hote hai. Hum cipher wheel use karenge. Cipher wheel mei hum her character ko kissi number se aage shift kar dete hai. Jaise:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hum iss cihper wheel mein her character ki value ko 2 se increase kar denge. Aisa karne ke liye hum chars aur shifted_chars array ka use karenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Example:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "plain_message = \"navgurukul\"<br>iska encrypted text aisa hoga => pcxiwtwmwn"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "chars =         ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']<br>shifted_chars = ['c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b']"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "chars[13] = 'n'<br>shifted_chars[13] = 'p'<br>isliye navgurukul ka n ==> p mein change ho gaya.<br>chars[0] = 'a'<br>shifted_chars[0] = 'c'<br>isliye navgurukul ka a ==> c mein change ho gaya.    <br>decryption theek iska ulta hota hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Topics covered"
+                    },
+                    {
+                        "component": "text",
+                        "value": "function returning the wrong value",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "argument passed to the function but never used.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "for loop itterates over wrong string",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "semantic/syntactic problems in if/else",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Neeche yeh program diya hua hai, isko sahi kar ke ek nayi <span style=\"\">file</span> mein submit karo."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "# Cipher wheel with a function for finding an element in a list<br><br># find_in_list function defined here but not called<br>def find_in_list(query, mainlist):<br># this function is used to find the position of the \"query\" in the \"mainlist\". If \"query\" is in the list then it returns its position, otherwise it returns None<br>    mainlist_len = len(query)<br>    range_for_loop = range(mainlist_len)<br>    index = None<br>    for i in range_for_loop:<br>        element = mainlist[i]<br>        if element = query:<br>            index = i<br>    return i<br># this should return the position of the \"query\" in the \"mainlist\"<br><br><br>chars =         ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']<br>shifted_chars = ['c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b']<br><br># encrypt_message function defined here but not called<br>def encrypt_message(plain_msg):<br># this fucnction takes \"plain_msg\" as an argument and print/return the encrypted message. The \"plain_msg\" is tranfered into \"encrypted_msg\" using \"shifted_chars\" list. Example, if plain_msg = \"ng\" then n => p, g => i  and hence encrypted_msg = \"pi\"<br>    encrypted_msg = \"\"<br>    for character in encrypted_msg:<br>      # for character in msg<br>        if character in chars:<br>            char_index = find_in_list(character, chars)<br>            new_char = shifted_chars[char_index]<br>            encrypted_msg = encrypted_msg + new_char<br>        else:<br>            encrypted_msg = encrypted_msg + character<br><br># decrypt_message function defined here but not called<br>def decrypt_message(encrypted_msg):<br># this fucnction takes \"encrypted_msg\" as an argument and print/return the encrypted message. The \"encrypted_msg\" is tranfered into \"decrypted_msg\" using \"shifted_chars\" list. Example, if encrypted_msg = \"pi\" then p => n, i => g  and hence decrypted_msg = \"ng\"<br>    decrypted_msg = \"\"<br>    for character in decrypted_msg:<br>        if character in shifted_chars<br>            char_index = find_in_list(character, shifted_chars)<br>            new_char = chars[char_index]<br>            decrypted_msg = decrypted_msg + new_char<br>        else:<br>            decrypted_msg = decrypted_msg + character<br><br><br># methods should return or print the new messages.<br>############################################### Code starts from here ##################################################<br>flag = True<br>while flag == True<br>choice = input(\"What do you want to do? 1. Encrypt a message 2. Decrypt a message  Enter e or d respectively!\")<br>if choice = 'e':<br>    plain_message = input(\"Enter message to encrypt??\")<br>    encrypt_message(plain_message)<br>else choice = 'd':<br>    encrypted_msg = input(\"Enter message to decrypt?\")<br>    decrypt_message(encrypted_msg)<br>else<br>    play_again = input(\"Do you want to try agian or Do you want to exit? (Y/N)\")<br>    if play_again == 'Y'<br>        continue<br>    elif play_again == 'N':<br>        break"
+                    }
+                ]
+            },
+            {
+                "id": "7332",
+                "parent_exercise_id": "7327",
+                "course_id": "257",
+                "name": "debugging-question4",
+                "slug": "MoreExercise_json__debugging-part3/debugging-question4_json",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part3/debugging-question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Iss game mein aap ek alien se fight karoge. Game mei alien ka stamina 10 se shuru hoga. Aapko uska stamina khatam karna hai yaani ki 0 karna hai. Aisa karne ke liye aap alien ke against in 4 options mei se koi option use kar sakte ho."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hit",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Attack",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Fight",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Run",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Hit aur attack karne se alien ka stamina 0-9 ke beech kisse random number se kam hoga. Har bar stamina kam karne par <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">report()</span> se report aayegi jo alien ke stamina ke hisab se uski condition bateygi."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "from random import randint # allows you to generate a random number<br><br># variables for the alien<br>alive = True<br>stamina = 10<br><br># this function runs each time you attack the alien<br>def report(stamin):<br># syntactic error in if else statements<br>    if s > 8:<br>        print (\"The alien is strong! It resists your pathetic attack!\")<br>    else: s > 5<br>        print (\"With a loud grunt, the alien stands firm.\")<br>    else s > 3:<br>        print (\"Your attack seems to be having an effect! The alien stumbles!\")<br>    else s > 0:<br>        print (\"The alien is certain to fall soon! It staggers and reels!\")<br>    else:<br>        print (\"That's it! The alien is finished!\")<br><br># main function - accepts your input for fight with the alien<br>def fight(stam): # stamina<br>    while stam < 0:<br>      # won't enter this loop ever. The function will always return False.<br>        response = input(\"> Enter a move 1.Hit 2.attack 3.fight 4.run\")<br>        # chose a response from ( hit, attack, fight and run)<br>        # fight scene<br>        if \"hit\" in response or \"attack\" in response:<br>            less = randint(0, stam)<br>            stam -= less # subtract random int from stamina<br>            report(stam) # see function above<br>        elif \"fight\" in response:<br>            print (\"Fight how? You have no weapons, silly space traveler!\")<br>        elif \"run\" in response:<br>            print (\"Sadly, there is nowhere to run.\"),<br>            print (\"The spaceship is not very big.\")<br>        else:<br>            print (\"The alien zaps you with its powerful ray gun!\")<br>            return True<br>    return False<br><br>print (\"A threatening alien wants to fight you!\\n)<br># quotes at the end.<br><br># call the function - what it returns will be the value of alive<br>alive = fight(stamina)<br><br>if alive: # means if alive == True<br>    print (\"\\nThe alien lives on, and you, sadly, do not.\\n\")<br>else:<br>    print (\"\\nThe alien has been vanquished. Good work!\\n\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss program ko sahi kar ke <span style=\"\">file</span> submit karo."
+                    }
+                ]
+            },
+            {
+                "id": "7328",
+                "parent_exercise_id": "7328",
+                "course_id": "257",
+                "name": "debugging-intro",
+                "slug": "MoreExercise_json__debugging-part4/debugging-intro_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part4/debugging-intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "Debugging"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab iss part mein hum alag alag already likhe hue <span style=\"\">code</span> ko debug kar ke sahi karenge :)"
+                    }
+                ]
+            },
+            {
+                "id": "7344",
+                "parent_exercise_id": "7328",
+                "course_id": "257",
+                "name": "debugging-question1",
+                "slug": "MoreExercise_json__debugging-part4/debugging-question1_json",
+                "sequence_num": 201,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part4/debugging-question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Encrypt function ek message <span style=\"\">input</span> leta hai aur firr uss message ko encrypt karta hai. Encrypt karne ke liye yeh har character ko 3 character aage wale character se change kar deta hai. Aisa karne ke liye yeh har character ki ascii value ko 3 se increase kar deta hai. Jaise:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">v</span> ki ASCII value <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">118</span> hai, agar hum isse <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">3</span> se increase kar de <span style=\"\">tab</span> yeh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">121</span> ho jayegi. Jo ki 'y' ki ascii value hai. ASCII value nikalne ke liye hum ord() ka use karte hai. Aur ascii value ko <span style=\"\">string</span> mei convert karne ke liye chr function ka use karte hai. Jaise:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "ascii_value = ord(v) # 118<br>string_value = chr(ascii_value) # v"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Decrypt function encrypt function ka ultaa hai. Yeh value ko 3 se incresae karne ki jagah 3 se kam kar deta hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Topics covered"
+                    },
+                    {
+                        "component": "text",
+                        "value": "semantic/syntactic problems in if/else",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "problems in while loop",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "def encrypt():<br>  message = input(\"Enter the message you want to encrypt\")<br>  ascii_message = [ord(char)+3 for char in message]<br>  encrypt_message = [ chr(char) for char in ascii_message]  <br>  print (''.join(encrypt_message))<br><br><br>def decrypt():<br>  message = input(\"Enter the message you want to decrypt\")<br>  ascii_message = [ord(char) for char in message]<br>  decrypt_message = [ chr(char) for char in ascii_message]  <br>  print (''.join(decrypt_message))<br><br>flag = True<br>while flag == False<br>choice = input(\"What do you want to do? \\n1. Encrypt a message 2. Decrypt a message \\nEnter E or D respectively!\")<br>if choice = 'e':<br>encrypt()<br>els choice = 'd':<br>  decrypt()    <br>else<br>    play_again = input(\"Do you want to try agian or Do you want to exit? (Y/N)\")<br>    if play_again == 'Y'<br>        continue<br>    elif play_again == 'N':<br>        break"
+                    }
+                ]
+            },
+            {
+                "id": "7345",
+                "parent_exercise_id": "7328",
+                "course_id": "257",
+                "name": "debugging-question2",
+                "slug": "MoreExercise_json__debugging-part4/debugging-question2_json",
+                "sequence_num": 202,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part4/debugging-question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "In this exercise, you\u2019ll learn a few new methods and functions that come with <span style=\"\">Python</span>. You\u2019ll also learn about augmented assignment <span style=\"\">operators</span> and <span style=\"\">string</span> interpolation. These things don\u2019t let you do anything you couldn't do before, but they are nice shortcuts to make coding easier."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Bagels is a deduction game you can play with a friend. Your friend thinks up a random 3-digit number with no repeating digits, and you try to guess what the number is. After each guess, your friend gives you three types of clues:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Bagels</b> \u2013 None of the three digits you guessed is in the secret number.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Pico</b> \u2013 One of the digits is in the secret number, but your guess has the digit in the wrong place.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>Fermi</b> \u2013 Your guess has a correct digit in the correct place.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can get multiple clues after each guess. If the secret number is 456 and your guess is 546 the clues would be \u201cfermi pico pico\u201d. The 6 provides \u201cfermi\u201d and the 5 and 4 provide \u201cpico pico\u201d."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Topics covered"
+                    },
+                    {
+                        "component": "text",
+                        "value": "function returning the wrong value",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "typeconversion problems",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "import random<br>def getSecretNum(numDigits):<br># Returns a string that is numDigits long, made up of unique random digits.<br>  numbers = list(range(10))<br>  random.shuffle(numbers)<br>  secretNum = ''<br>  for i in range(numDigits):<br>    secretNum += (numbers[i])<br>  print (secretNum)<br><br>def getClues(guess, secretNum):<br># Returns a string with the pico, fermi, None clues to the user.<br>  if guess == secretNum:<br>    return 'You got it!'<br>  clue = []<br>  for i in range(len(guess)):<br>    if guess[i] == secretNum[i]:<br>      clue.append('Fermi')<br>    elif guess[i] in secretNum:<br>      clue.append('Pico')<br>    if len(clue) == 0:<br>      return 'None'<br>  return ' '.join(clue)<br><br>def isOnlyDigits(num):<br># Returns True if num is a string made up only of digits. Otherwise returns False.<br>  if num = '':<br>    return False<br><br>  for i in num:<br>    if i not in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:<br>      return False<br><br>def playAgain():<br># This function returns True if the player wants to play again, otherwise it returns False.<br>  play = input(\"Do you want to play again? Yes or No?\") <br>  return play.lower.startswith('y')<br><br>NUMDIGITS = 3<br>MAXGUESS = 10<br><br>print('I am thinking of a %s-digit number. Try to guess what it is.' % (NUMDIGITS))<br>print('Here are some clues:')<br>print('When I say:    That means:')<br>print('  Pico         One digit is correct but in the wrong position.')<br>print('  Fermi        One digit is correct and in the right position.')<br>print('  None       No digit is correct.')<br><br>while True:<br>  secretNum = getSecretNum(NUMDIGITS)<br>  print('I have thought up a number. You have %s guesses to get it.' % (MAXGUESS))<br>  numGuesses = 1<br>  while numGuesses <= MAXGUESS:<br>    while len(guess) != NUMDIGITS or not isOnlyDigits(guess):<br>      print 'Guess' + (numGuesses)<br>      guess = input(\"Guess Again\")<br><br>    clue = getClues(guess, secretNum)<br>    print(clue)<br>    numGuesses += 1<br>    if guess == secretNum:<br>      break<br>    if numGuesses < MAXGUESS:<br>      print ('You ran out of guesses. The answer was ' + secretNum)<br>  if not playAgain:<br>    break<br>"
+                    }
+                ]
+            },
+            {
+                "id": "7346",
+                "parent_exercise_id": "7328",
+                "course_id": "257",
+                "name": "debugging-question3",
+                "slug": "MoreExercise_json__debugging-part4/debugging-question3_json",
+                "sequence_num": 203,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise_json/debugging-part4/debugging-question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Iss program ko attempt karne ke liye pehle ek <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">users.json</span> naam ki <span style=\"\">file</span> mein neeche diye hue text ko <span style=\"\">save</span> karein."
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "{<br>    \"users\": [{<br>            \"firstName\": \"vidur\",<br>            \"lastName\": \"singla\",<br>            \"details\": {<br>                \"age\": 21,<br>                \"mobileNo\": 1234567890,<br>                \"City\": \"Delhi\"<br>            }<br>        },<br>        {<br>            \"firstName\": \"rishabh\",<br>            \"lastName\": \"verma\",<br>            \"details\": {<br>                \"age\": 22,<br>                \"mobileNo\": 12345678320,<br>                \"City\": \"Chandigarh\"<br>            }<br>        },<br>        {<br>            \"firstName\": \"abhishek\",<br>            \"lastName\": \"gupta\",<br>            \"details\": {<br>                \"age\": 25,<br>                \"mobileNo\": 12332567890,<br>                \"City\": \"Gurgaon\"<br>            }<br>        }<br>    ]<br>}"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Uske baad aapne jiss directory mein <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">users.json</span> <span style=\"\">save</span> kiya hai, usse directory mein yeh <span style=\"\">python</span> ka <span style=\"\">code</span> <span style=\"\">save</span> kariye ek dusri <span style=\"\">file</span> mein."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "import json<br>with open('user.json') as data_file:    <br>    data = json.load(data_file)<br><br>users = data['users']<br><br>for user in data:<br>  counter = 0<br>  print (\"users full name is \" + user['firstName'] + ' ' + user['lastName'])<br>  while counter < len(user['details']):<br>    print (\"users mobile number is \" + user['details'][counter]['mobileNo'])<br>    print (\"users age  is \" + user['details'][counter]['age'])<br>    print (\"users city is \" + user['details'][counter]['city'])"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">users.json</span> <span style=\"\">file</span> mein users ka data padha hai. Yeh program <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">users.json</span> <span style=\"\">file</span> ko read kar kar usmein se users ka data print karega. Iss <span style=\"\">file</span> ko debug kar kar run karo."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Topics covered:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Key error",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "loop iterates over the wrong list.",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

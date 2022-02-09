@@ -1,0 +1,474 @@
+{
+    "course": {
+        "id": "270",
+        "name": "Samvaad - Intermediate",
+        "logo": "https",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "English Conversation Cards",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "7495",
+                "parent_exercise_id": null,
+                "course_id": "270",
+                "name": "how-to-use",
+                "slug": "samvaad-intermediate_json__how-to-use_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/how-to-use.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Is course me kuch aise topics hain jinhe discuss karke aap English conversation ki practice kar sakte hain. Jab aap is course ko start karenge, toh aap apne conversation partner ke sath in topics par lagbhag 30 minutes tak baat karein. Ye aapki English ki fluency improve karne me helpful rahega. Agar inme se koi topic ke baare mein aapke paas enough information nahi hai, toh pehle hi thoda extra time lekar thoda padh lein aur fir conversation karein."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dhyan rakhein, English mein professional conversation karne ke liye ye zaruri hai ki aap fluent ho aur apni day-to-day topics par baat karne mein comfor<span style=\"\">tab</span>le hon. In cheezon ke baare me baat karna shayad apko interesting na lage, par yahan fluency build karna important hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Enjoy!"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Some important tips to help you learn better:<br>Maintain a diary with all the new words that you learn<br>Revise your vocabulary diary everyday<br>Share your vocabulary lists with your friends and revise together<br>Listen to <span style=\"\">YouTube</span> videos where they are having conversation about these topics"
+                    }
+                ]
+            },
+            {
+                "id": "7487",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "motivation",
+                "slug": "samvaad-intermediate_json__cards/motivation_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/motivation.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Motivation"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What motivates you to work hard?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What do you do when you feel demotivated?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What can be a good way to motivate others?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Resources to study about motivation:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://youtu.be/9hdSLiHaJz8\">https://youtu.be/9hdSLiHaJz8</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://youtu.be/WfWgThjXpXo\">https://youtu.be/WfWgThjXpXo</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7489",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "alcoholism",
+                "slug": "samvaad-intermediate_json__cards/alcoholism_json",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/alcoholism.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Alcoholism"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Are you aware of alcoholism problem in India?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What is alcoholism?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "How can people fight with alcoholism?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Resources to study alcoholism:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://youtu.be/e5DxD6Tuxxw\">https://youtu.be/e5DxD6Tuxxw</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7488",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "peer-pressure",
+                "slug": "samvaad-intermediate_json__cards/peer-pressure_json",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/peer-pressure.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Peer Pressure"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Is peer pressure harmful or beneficial to individuals?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What are some ways in which in which peer pressure can be beneficial?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What are some ways in which peer pressure can be harmful?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "How can one resist peer pressure?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "When have you been a victim of peer pressure?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Do people face peer pressure in NavGurukul? How can it be improved?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Resources to study about peer pressure"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://www.verywellmind.com/what-is-peer-pressure-22246\">What is peer pressure?</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://kidshelpline.com.au/teens/issues/peer-pressure-and-fitting\">Peer pressure and fitting in</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"http://www.safeteens.org/relationships/peer-pressure/\">Peer Pressure</a>",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Vocabulary"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1- Addictive Behaviors - \u0935\u094d\u092f\u0938\u0928\u0915\u093e\u0930\u0940 \u092c\u0930\u0924\u093e\u0935<br> 2- Unpredic<span style=\"\">tab</span>le -  \u091c\u093f\u0938\u0915\u0947 \u0938\u094d\u0935\u092d\u093e\u0935 \u0906\u0926\u093f \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092a\u0942\u0930\u094d\u0935\u093e\u0928\u0941\u092e\u093e\u0928 \u0928 \u0932\u0917\u093e\u092f\u093e \u091c\u093e \u0938\u0915\u0947<br> 3- Adolescent - \u0924\u0947\u0930\u0939 \u0938\u0947 \u0909\u0928\u094d\u0928\u0940\u0938 \u0935\u0930\u094d\u0937 \u0915\u0940 \u0906\u092f\u0941 \u0915\u093e<br> 4- Vulnerable -  \u0918\u093e\u0935 \u0932\u0917\u093e\u0928\u0947 \u092f\u094b\u0917\u094d\u092f<br> 5- Gambling - \u091c\u0941\u0906 \u0916\u0947\u0932\u0928\u093e<br> 6- Addiction - \u092c\u0941\u0930\u0940 \u0906\u0926\u0924<br> 7- Problematic -  \u0905\u0928\u093f\u0936\u094d\u091a\u093f\u0924<br> 8- Encouraging - \u092a\u094d\u0930\u094b\u0924\u094d\u0938\u093e\u0939\u0915<br> 9- Apologize - \u0915\u094d\u0937\u092e\u093e \u092e\u093e\u0902\u0917\u0928\u093e<br> 10- Experimentation - \u092a\u094d\u0930\u092f\u094b\u0917"
+                    }
+                ]
+            },
+            {
+                "id": "7490",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "navgurukul",
+                "slug": "samvaad-intermediate_json__cards/navgurukul_json",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/navgurukul.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What should be the most important values for a self-learning community like NavGurukul?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Which of these values do you imbibe?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What kind of culture and values can be harmful for the growth and learning environment at NavGurukul?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7491",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "selfdriving",
+                "slug": "samvaad-intermediate_json__cards/selfdriving_json",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/selfdriving.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What would be the advantages of self-driving cars?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What would be the disadvantages of self-driving cars?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Would you like to ride in a self-driving car?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7492",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "technology",
+                "slug": "samvaad-intermediate_json__cards/technology_json",
+                "sequence_num": 105,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/technology.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "In the last 100 years, has the growth in technology been helpful for human beings?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Has it been helpful for the environment?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Which resources are at the brink of exhaustion?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "What harmful effects has it been causing?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "7493",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "apocalypse",
+                "slug": "samvaad-intermediate_json__cards/apocalypse_json",
+                "sequence_num": 106,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/apocalypse.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "If you find out that the world was going to end after two days, how would you spend your last two days? Why?"
+                    }
+                ]
+            },
+            {
+                "id": "7494",
+                "parent_exercise_id": "7487",
+                "course_id": "270",
+                "name": "wishes",
+                "slug": "samvaad-intermediate_json__cards/wishes_json",
+                "sequence_num": 107,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/samvaad-intermediate_json/cards/wishes.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "If you could become omnipotent for one day, what would you do?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "If you could change one thing about the world, which of the following would you choose?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Poverty",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Greed",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Health Issues",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Violence",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "If given a chance to meet one famous person, whom would you choose?",
+                        "decoration": {
+                            "type": "number",
+                            "value": null
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

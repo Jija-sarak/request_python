@@ -1,0 +1,1564 @@
+{
+    "course": {
+        "id": "194",
+        "name": "Operators",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "In this topic, we will learn about Operators.",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": "5493",
+                "parent_exercise_id": "5493",
+                "course_id": "194",
+                "name": "intro",
+                "slug": "Operators_json__Operators/intro_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Operators/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What are <span style=\"\">Operators</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operators</span> to perform some operation (calculation or change in the value of) between <span style=\"\">variables</span>. Just like '+' in maths is an addition <span style=\"\">operator</span>, similarly there are <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operators</span> in <span style=\"\">Python</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=6<br>b=5<br>print(a+b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">11</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the above example, we have added the values of the <span style=\"\">variables</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">b</span> with the help of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">+</span> that is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">addition operator</span>.<br>Here, a and b are the operands while <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">+</span> is the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operator</span>, so the <span style=\"\">variables</span> that are used with an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operator</span> are called <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operands</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5491",
+                "parent_exercise_id": "5491",
+                "course_id": "194",
+                "name": "intro",
+                "slug": "Operators_json__Types/intro_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Types/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "TYPE OF <span style=\"\">OPERATORS</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Arithmetic  Operator</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Assignment Operators</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Comparison Operators</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Logical Operators</span>",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Identity Operators</span>(will learn later)",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Membership Operators</span>(will learn later)",
+                        "decoration": {
+                            "type": "number",
+                            "value": 6
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Bitwise Operators</span>(will learn later)",
+                        "decoration": {
+                            "type": "number",
+                            "value": 7
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5496",
+                "parent_exercise_id": "5491",
+                "course_id": "194",
+                "name": "Arithmetic",
+                "slug": "Operators_json__Types/Arithmetic_json",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Types/Arithmetic.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "ARITHMETIC <span style=\"\">OPERATORS</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">arithmetic operators</span> just like we do in mathematics, to perform common calculations with numeric values (numbers)."
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "`OPERATORS",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">+</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">-</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">*</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">/</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">%</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">**</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">//</span>"
+                                ]
+                            },
+                            {
+                                "header": "NAME",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Addition</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Subtraction</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Multiply</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Division</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Modulus</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Exponents</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Floor Division</span>"
+                                ]
+                            },
+                            {
+                                "header": "EXAMPLE",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 + 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 - 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 * 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 / 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 % 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 ** 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 // 5</span>"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Addition(+) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">addition operator (+)</span> is used to add or calculate the sum of values. "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=25<br>y=10<br>print(x+y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "35"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Subtraction(-):-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">subtraction operator (-)</span> is used to subtract or calculate the difference in values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var1=5<br>var2=3<br>print(var1-var2)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "2"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Multiply(*) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">multiplication operator (*)</span> is used to multiply or calculate the product of values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=2<br>b=3<br>print(a*b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "6"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Division(/):-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">division operator (/)</span> is used to divide or calculate the quotient of division of values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=5<br>y=2<br>print(x/y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "2.5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Modulus(%) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">modulus operator (%)</span> is used to find the remainder of division of one value by another. It gives you only the remainder and not the quotient of division."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=5<br>num1=2<br>print(num%num1)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Exponents(**) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">exponent/exponentiation operator (**)</span> is used to raise one number to the power of the value of the second number such that 2 raised to the power of 3 which is 8 will be written as <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2**3</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=2<br>y=5<br>print(x**y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "32"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Floor Division(//) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">floor division operator (//)</span> is used to calculate the largest <span style=\"\">integer</span> quotient of a division. This means that it will only give you the quotient of division until the number can be divided. It follows the rule:-<br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Dividend = Quotient x Divisor + Remainder</span>. So, in floor division the answer for <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">3//2 is 1</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">5//8 is 0</span>. It does not go into decimal and only gives you the highest quotient. You can think of it like division when you first learned it, you did not know how to divide with decimals so you only calculated the answer until the number could be divided."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=15<br>b=2<br>print(a//b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "7"
+                    }
+                ]
+            },
+            {
+                "id": "5495",
+                "parent_exercise_id": "5491",
+                "course_id": "194",
+                "name": "Assignment",
+                "slug": "Operators_json__Types/Assignment_json",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Types/Assignment.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">ASSIGNMENT OPERATORS</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Assignment operators</span> are used to assign values to <span style=\"\">variables</span>. They ultimately give the value on the right of the <span style=\"\">operator</span> to the <span style=\"\">variable</span> on the left."
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "`OPERATOR",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">+=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">-=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">*=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">/=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">//=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">%=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">**=</span>"
+                                ]
+                            },
+                            {
+                                "header": "NAME",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Assignment</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Add And</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Subtract And</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Multiply And</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Division And</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Floor Division And</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Modulus And</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Exponent And</span>"
+                                ]
+                            },
+                            {
+                                "header": "EXAMPLE",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x=5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x+=5 or x=x+5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x-=5 or x=x-5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x*=5 or x=x*5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x/=5 or x=x/5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x//=5 or x=x//5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x%=5 or x=x%5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x**=5 or x=x**5</span>"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Assignment Operator(=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">asignment operator(=)</span> assigns values to the left hand operand from the right side operand. (This <span style=\"\">operator</span> gives the value of the operand on the right to the operand on the left).<br>(Operands are values that any <span style=\"\">operator</span> works/operates on)."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=5<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Add AND Operator(+=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Add AND Operator (+=)</span> adds the value of right operand to the value of left hand operand and then gives the sum (result of addition) to the left operand. Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a+=b is the same as a=a+b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=5<br>y=10<br>x+=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "15"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Subtract AND Operator(-=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Subtract AND Operator (-=)</span> subtracts the value of the right operand from the left side operand and gives the result to the left operand. Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a-=b is the same as a=a-b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=10<br>y=5<br>x-=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Multiply AND Operator(*=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Multiply AND Operator (*=)</span> multiplies the left hand operand with the right hand operand and returns the value as <span style=\"\">output</span>, that is gives the result to the left hand operand. Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a*=b is the same as a=a*b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=5<br>y=10<br>x*=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "50"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Division AND Operator(/=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Divide AND Operator (/=)</span> divides the left hand operand with the right hand operand value and gives the result, that is gives the value to the left hand side operand.Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a/=b is the same as a=a/b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=50<br>y=10<br>x/=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Modulus AND Operator(%=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Modulus AND Operator (%=)</span> divides the value of left hand operand with the right hand one and the reminder of this division becomes the new value of the left hand side operand, that is it is given to the left hand side <span style=\"\">operator</span>. Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a%=b is the same as a=a%b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=25<br>y=10<br>x/=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "5"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Exponent AND Operator(**=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Exponent Operator</span> gives us the exponentiated value of the left hand operand when raised to the power of the value found on the right hand side. This value is then given to the left hand side operand. Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a**=b is the same as a=a**b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=5<br>y=2<br>x**=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "25"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Floor Division AND(//=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Floor division AND(//=)</span> divides the value found in the left hand side with the value of the right hand side operand. The <span style=\"\">integer</span> value becomes the left hand operand value. This means that the <span style=\"\">integer</span> part of the quotient of division is given to the left hand side operand and it it contains the decimal part, it is ignored. Here, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a//=b is the same as a=a//b</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=5<br>y=2<br>x//=y<br>print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "id": "5497",
+                "parent_exercise_id": "5491",
+                "course_id": "194",
+                "name": "Comparison",
+                "slug": "Operators_json__Types/Comparison_json",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Types/Comparison.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "COMPARISON <span style=\"\">OPERATORS</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">comparison operators</span> to compare two values. Their answer or result is always of the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Boolean Data Type</span>."
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "`OPERATORS",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">==</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">!=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&gt;</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&gt;=</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;=</span>"
+                                ]
+                            },
+                            {
+                                "header": "NAME",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Equal</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Not Equal</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Greater than</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Less than</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Greater than or  equal to</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Less than or equal to</span>"
+                                ]
+                            },
+                            {
+                                "header": "EXAMPLE",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">10 == 10</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">10 != 13</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 &gt; 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 &lt; 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 &gt;= 5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">2 &lt;= 5</span>"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Equal(==):-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To check whether two values are equal, the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">==</span> <span style=\"\">operator</span> is used. (Since we know <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">=</span> is used for assignment so for equality it is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">==</span>)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=5<br>b=5<br>print(a==b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=6<br>b=9<br>print(a==b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Not Equal (!=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">!=</span> <span style=\"\">operator</span> is used to check if two values are unequal or not equal ."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=10<br>y=13<br>print(x!=y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This means that x=10 and y=13 are not equal."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=32<br>b=32<br>print(a!=b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the above example, both the values are equal, meaning the answer to the question \"Are the 2 values unequal?\" is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Greater than (&gt;) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is the same as in mathematics, it checks whether the value on the left is greater than the value on the right. If yes, then the <span style=\"\">output</span> is <span style=\"\">true</span> otherwise <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example  :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=6<br>b=4<br>print(a>b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This means a=6 is greater than b=4 and so the <span style=\"\">output</span> is seen to be <span style=\"\">true</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example  :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=7<br>y=9<br>print(x>y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example we are saying that the value of x is greater than y, which is wrong hence the <span style=\"\">output</span> is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Less than (&lt;) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is the same as in mathematics, it checks whether the value on the left is less than the value on the right. If yes then the <span style=\"\">output</span> is <span style=\"\">true</span> otherwise it is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=6<br>y=9<br>print(x<y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, x is smaller than y so the <span style=\"\">output</span> is <span style=\"\">true</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=13<br>b=10<br>print(a<b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, a is greater than b so the <span style=\"\">output</span> is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Greater than or  equal to (&gt;=):-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is the same as in mathematics, it checks whether the value on the left is greater than or equal to the value on the right. If yes then the <span style=\"\">output</span> is <span style=\"\">true</span> otherwise it is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example  :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=23<br>b=15<br>print(a>=b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here, a is greater than b so the <span style=\"\">output</span> is <span style=\"\">true</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example  :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=12<br>b=35<br>print(a>=b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here since a is not greater than b and a is also not equal to b, the <span style=\"\">output</span> is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Less than or equal to (&lt;=) :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "It is the same as in mathematics, it checks whether the value on the left is lesser than or equal to the value on the right. If yes then the <span style=\"\">output</span> is <span style=\"\">true</span> otherwise it is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=6<br>y=9<br>print(x<=y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the example above, x=6 is smaller than y=9 and thus, the <span style=\"\">output</span> is <span style=\"\">true</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x=8<br>y=6<br>print(x<=y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here, x is neither less than y, nor equal to y, hence the <span style=\"\">output</span> is <span style=\"\">false</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5498",
+                "parent_exercise_id": "5491",
+                "course_id": "194",
+                "name": "Logical",
+                "slug": "Operators_json__Types/Logical_json",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Types/Logical.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "LOGICAL <span style=\"\">OPERATOR</span> (and, or, not) :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Logical operators</span> are used to combine conditional <span style=\"\">statements</span>. They are used in any programming language to make decision based on multiple conditions in <span style=\"\">python</span>, we use logical <span style=\"\">operators</span> to determine whether a condition is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span> or <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span> by taking operand values as base. Let's consider different logical <span style=\"\">operators</span> that are used in <span style=\"\">python</span> programming."
+                    },
+                    {
+                        "component": "text",
+                        "value": "(Logical <span style=\"\">operators</span> help us to take decisions and make sure the required conditions are met to proceed.)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">and :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operator</span> is used to check that both the conditions it operates on must be <span style=\"\">true</span>. If <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">both the conditions are true</span>, it will <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">return true</span>, otherwise (even if 1 condition is <span style=\"\">false</span> or both conditions are <span style=\"\">false</span>), the <span style=\"\">output</span> will be <span style=\"\">False</span>. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Example : I want apples and oranges to make a fruit salad. Here, only one of them will not complete my salad, I want both."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = True <br>b = False <br>print(a and b and a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number = int(input(\"enter the number\"))<br>print(number and 1)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here, the number and 1 are both <span style=\"\">true</span> so the answer is 1."
+                    },
+                    {
+                        "component": "text",
+                        "value": "If the <span style=\"\">input</span> is 0 then the <span style=\"\">output</span> will be 0 because one condition is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">or :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operator</span> is used to check that <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">one of the conditions it operates on must be true</span>. If <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">both the conditions are False</span>, it will return <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>, otherwise (if 1 condition is <span style=\"\">false</span> or both conditions are <span style=\"\">true</span>), the <span style=\"\">output</span> will be <span style=\"\">true</span>. "
+                    },
+                    {
+                        "component": "text",
+                        "value": "Example: I want apples or oranges to make a fruit salad. Here, only one of them will be enough to complete my salad."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 4 > 5<br>a = 899 < 887<br>print(a or a or 7 < 8)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x = \"apple\"<br>y = \"mango\"<br>print(x or y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "apple"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">and</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">or</span> operators will give an output of the value at the moment their answer is determined. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "For Example, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1 and 2</span> gives the output as 2 because when checking if both conditions are correct, the output or answer of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">and</span> can be determined when it has checked the second condition.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Similarly, for <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">0 and 2</span> the output is 0 as at the time of checking the first condition, the answer of the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">and</span> operator is determined to be false since the first condition is false.**",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "For <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">or</span>, similar to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">and</span>,  <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1 or 2</span> will produce an output of 1 as even if the first condition is true, the output to the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">or</span> is determined there. ",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">0 or \"\"</span> will give <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">(empty String)</span> as the output is not 0 because the output is determined at the second condition.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">not :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This <span style=\"\">operator</span> is used to get the opposite of the condition. So it gives the opposite <span style=\"\">output</span> of whatever is the <span style=\"\">output</span> of the condition. "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 19<br>b = 34<br>c = 56<br>print(not c > b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "c is actually greater than b so the condition c &gt; b is true but adding <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">not</span> in front of it gives the opposite output, that is, false.#### Example :-",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var1 =True<br>print(not var1)<br>a =True<br>b= False<br>print( a and b or a or not b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    }
+                ]
+            },
+            {
+                "id": "5492",
+                "parent_exercise_id": "5492",
+                "course_id": "194",
+                "name": "intro",
+                "slug": "Operators_json__Debug/intro_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Debug/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Debug Code</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Let us <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> a few examples."
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = \"Megha\"<br>print(a)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"navgurukul\"<br>b= 2016<br>print(a+\",\" + b + \"me shuru hua tha\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"navgurukul\"<br>b=13<br>print(a+b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"12\"<br>b=13.1<br>print(a+b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "E."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = boolean(\"\")<br>b = boolean(\" \")<br>print(a+b)"
+                    }
+                ]
+            },
+            {
+                "id": "5494",
+                "parent_exercise_id": "5494",
+                "course_id": "194",
+                "name": "intro",
+                "slug": "Operators_json__Output/intro_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Output/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"\">Code</span> <span style=\"\">Output</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now, we will do some questions related to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operators</span> which will give us a better understanding of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">operators</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5499",
+                "parent_exercise_id": "5494",
+                "course_id": "194",
+                "name": "Question1",
+                "slug": "Operators_json__Output/Question1_json",
+                "sequence_num": 301,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Output/Question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Tell the type of the data and <span style=\"\">operators</span> used :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=5<br>a = a * \"5\"<br>print(type(a))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var1 = \"nav\"<br>var2 = \"gurukul\"<br>print(type(var1+var2))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num1=\"7\"<br>num2=\"number\"<br>print(type(num1+num2))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=6.8<br>num1=5<br>print(type(num+num1))"
+                    }
+                ]
+            },
+            {
+                "id": "5500",
+                "parent_exercise_id": "5494",
+                "course_id": "194",
+                "name": "Question2",
+                "slug": "Operators_json__Output/Question2_json",
+                "sequence_num": 302,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Output/Question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(bool(False))<br>print(bool(None))<br>print(bool(0))<br>print(bool(\"\"))<br>print(bool(1))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x = 20<br>y = 5<br>result = x + True + y - False<br>print(result)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "str3='''Hello'''  \"\"\" \"\"\"+ \"\"\"World\"\"\"<br>print(str3)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=6.8<br>print(num)<br>num=12<br>print(num)<br>print(num + num)<br>num = num + 10<br>print(num)"
+                    }
+                ]
+            },
+            {
+                "id": "7727",
+                "parent_exercise_id": "5494",
+                "course_id": "194",
+                "name": "Assessment",
+                "slug": "Operators_json__Output/Assessment_json",
+                "sequence_num": 303,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/Operators_json/Output/Assessment.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Assessment"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please fill this quiz with proper details to understand how much of this course did you understand."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfopbA8Z-gZH-fbERZADcRwRCGiBSlmCZqIrxvA2U7hx1jdnA/viewform\">click Here</a>"
+                    }
+                ]
+            }
+        ]
+    }
+}

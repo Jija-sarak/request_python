@@ -1,0 +1,523 @@
+{
+    "course": {
+        "id": "220",
+        "name": "Requests - Using APIs in Python",
+        "logo": "https",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "Python mei API kaise use karte hai, iss course se seekhein",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "6551",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "introduction",
+                "slug": "requests_json__introduction_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/introduction.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 1,
+                        "value": "Introduction"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Inn Videos bahut dhyaan se dekhein, aur aapas mei discuss karein. Aap subtitles <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">on</span> kar sakte hai, inn videos ko acche se samajhne ke liye."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is a Server?"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "Nu-18s6EeM8"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is an API?"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "s7wmiS2mSXY"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Understanding REST API"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "7YcW25PHnAA"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To learn more about rest Api go through this @<a href=\"https://guide.freecodecamp.org/rest-api/\">link</a>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is JSON?"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "7mj-p1Os6QA"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To learn more about Json go through this @<a href=\"https://guide.freecodecamp.org/javascript/standard-objects/json/json-syntax/\">link</a>"
+                    }
+                ]
+            },
+            {
+                "id": "6550",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "calling-an-api",
+                "slug": "requests_json__calling-an-api_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/calling-an-api.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Calling an API"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">API</span> humne abhi samjha kya hote hai. Ab hum ek <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">API</span> ko <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">call</span> kar kar kuch data mangwayenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"http://saral.navgurukul.org/api/courses\">http://saral.navgurukul.org/api/courses</a> iss link ko open karo. SARAL ke server par yeh data hai, jo hum iss course mei use karenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Abhi ke liye, humei ek bahut simple sa <span style=\"\">code</span> likhna hai. "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Assignment"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab aapko"
+                    },
+                    {
+                        "component": "text",
+                        "value": "- `requests` module use kar kar,<br>- [yeh](http://saral.navgurukul.org/api/courses) `API Endpoint` ya `URL` call kar kar<br>- yeh data `courses.json` file mei store karna hai."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Kuch Important Baatein"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">call</span> hum <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">functions</span> ke liye bhi use karte hai. functions ko hum karte hai, kuch <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">arguments</span> dete hai, aur kuch vapas lete hai (jo function <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">return</span> karta hai)",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">API</span> ko bhi aap aise function ki tarah soch sakte hai, jo server ne aapko diya hai, use karne ke liye. Aap usse <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">call</span> karoge, kuch <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">arguments</span> doge, aur woh aapko kuch <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">json</span> ya kisi aur <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">format</span> mei <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">data</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">return</span> kar dega",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">json</span> sabse commonly used data format hai, jismei server <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">data</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">return</span> karta hai. Pehle <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">xml</span> kaafi popular format tha, data exchange ka",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6549",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "understanding-json",
+                "slug": "requests_json__understanding-json_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/understanding-json.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "JSON"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Sabse pehle hum JSON objects ke saath <span style=\"\">code</span> karna seekhenge. Aapne <b>introduction</b> mei yeh padha hoga ki JSON objects kya hote hai. Ab yeh video dekho, aur iss example ko likh kar run karne ki koshish karo."
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "Kf0q4Tf5M3c"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "JSON aur Dictionary mei kya difference hai?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dictionary aapka ek data structure hai jo memory (jaise RAM) mei store hota hai.<br>JSON ek <span style=\"\">file</span> based <b>exchange</b> format jisse ki alag alag programs ek doosre se baat kar sakte hai ya information exchange kar sakte hai. Jaise:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ek program json mei kuch information output kar sakta hai, jo doosra program padh sakta hai",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Server apna data <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">json</span> mei available kara sakta hai, jisko koi bhi client use kar kar apna programs aur behetar kar sakte hai",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "6552",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "using-json",
+                "slug": "requests_json__using-json_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/using-json.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Using JSON"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jo <span style=\"\">code</span> humne likha tha, requests library kar kar, courses download karne ke liye, uss <span style=\"\">code</span> mei yeh changes karo."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Abhi tak woh <span style=\"\">code</span> kya karta hai?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">requests</span> module use kar kar, courses ka <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">API Endpoint</span> ya <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">URL</span> call kar kar, data <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">courses.json</span> <span style=\"\">file</span> mei store karta hai."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Ab aapko kya karna hai?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "- `courses.json` file padh kar<br>- aapko iss object ko ek json argument mei load karna hai<br>- uss json object ko parse kar kar<br>- aapko saare courses ki list print karni hai, jaise<br><br><br>- 1. Introduction to Javascript<br>- 2. Getting Started<br>- 3. Implementing PickleDB - DB - Part I<br>- ...<br>- ...<br>- n. Web Scraping 101"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yeh karne se pehle aap apne <span style=\"\">code</span> mei ek chota sa change karo, ki"
+                    },
+                    {
+                        "component": "text",
+                        "value": "check karo ki agar (if) `courses.json` pehle se exist karti hai,<br>toh aap dobara API call mat karo. isse aap debugging fast kar<br>paoge. API call sirf tab karo, jab `courses.json` file exist nahi<br>karti"
+                    },
+                    {
+                        "component": "text",
+                        "value": "isse aap fast debugging kar paoge, nahi toh baar baar<br>aapko API call khatam hone ka wait karna padega."
+                    }
+                ]
+            },
+            {
+                "id": "6555",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "thodi-si-programming",
+                "slug": "requests_json__thodi-si-programming_json",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/thodi-si-programming.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Thodi si Programming!"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "What we have done so far"
+                    },
+                    {
+                        "component": "text",
+                        "value": "requests use kar ke courses download kar liye<br>aur user ko aapne ek list of courses bhi dikha di"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Aage kya karna hai?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "user koi bhi ek course select karega iske liye user,<br>uss course ke saamne likha hua number input karega<br><br>agar aap dhyaan se dekhenge toh, yeh number<br>course ki jo list aapko json se milegi<br>uss list ke `index` ki tarah hoga, jaise aapne<br>KBC game mei shayad kiya hoga<br><br>ussi json ko use kar kar, ab aap, uss course ke<br>corresponding jo `id` stored hai, `json` mei,<br>woh aap dhoondh sakte hai<br><br>yeh `id` print karo. yehi `id` hum agle part mei use karenge."
+                    }
+                ]
+            },
+            {
+                "id": "6553",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "api-again",
+                "slug": "requests_json__api-again_json",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/api-again.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "It's me - API - again ;)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab aap yeh link - <a href=\"http://saral.navgurukul.org/api/courses/74/exercises\">http://saral.navgurukul.org/api/courses/74/exercises</a>\nopen karein. Iss link mei, iss particular course ki saari\nexercises ki list hai. Aur <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">slug</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">parentExerciseId</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">githubLink</span> jaisi\nkuch aur bhi information hai. Iss information ko bhi hum aage use karenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jo <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">course_id</span> user ne select ki hai, uske corresponding aapko yeh API<br>call karni hai. Phir jab aap yeh API call kar lenge, toh aapko kuch<br>uss tarah ka data milega jaisa uppar wale link se mila tha. Ab aapko<br>yeh exercise print karni hai <span style=\"\">terminal</span> par. Kuch baatein jo important hai:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1 - Agar <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">childExercises</span> hai kisi bhi exercise ki toh, unko bhi print karni<br>hai. Kyuki woh childExercise hai, toh woh thoda sa side mei print karo, spaces<br>dekara. Unki numbering ke liye, socho kaise kar sakte ho."
+                    },
+                    {
+                        "component": "text",
+                        "value": "2 - Jaise aapne pehle <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">id</span> nikali thi, user_choice ke vajah se, aise hi iss baar bhi<br>aapko, exercise ka <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">slug</span> nikal kar rakhna hai. Toh aapki numbering aisa karna, ki<br>jo user <span style=\"\">input</span> karein, usse aap guess kar payo, ki kaunsi <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">exercise</span> user ne select ki<br>hai, aur uska corresponding <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">slug</span> kya hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "3 - Jab bhi <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">parentExerciseId</span> null hoga json mei, toh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">json.loads</span> function usse <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Non&lt;br&gt;ki tarah read karega, and jab</span>childExercises<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">, khaali list hoga, toh [] ki tarah hi&lt;br&gt;python mei</span>json.loads` function aapko return karega."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Debug Mei Help Ke Liye"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Debug mei help karne ke liye, jab bhi aap yeh wala endpoint call karein, toh aap<br>apna result exercises<i><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">id</span>.json mei <span style=\"\">save</span> kar le. Jaise agar aapne course</i>id 74,<br>ke liye endpoint call kiya hai to uska reply - exercises_74.json mei <span style=\"\">save</span> kar le."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Kisi bhi <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">course_id</span> ke liye API call karne se pehle dekhe ki uski corresponding<br>exercises_<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">id</span>.json <span style=\"\">file</span> exist karti hai ya nahi. Agar karti hai, toh ussi <span style=\"\">file</span><br>ko read kar le, nahi toh API call kar kar, uss <span style=\"\">file</span> ko create kar le."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Isse jab aap baar baar, yeh <span style=\"\">code</span> run karoge, toh API requests nahi hongi, aur<br>aap aasaani se debug kar paoge."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Bonus Task"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab aapka <span style=\"\">code</span> <span style=\"\">file</span> mei aapki ki gayi <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">request</span> ka <span style=\"\">output</span> <span style=\"\">save</span> karega.<br>Isse aap agar har baar apna <span style=\"\">code</span> <span style=\"\">execute</span> karoge, toh har baar ek nayi API call nahi <br>hogi."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Isse maan lo - agar aapka internet nahi bhi chal raha hai, toh stored <span style=\"\">files</span> se user ko<br><span style=\"\">output</span> dikhaya jaa sakta hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jaise, agar aap kuch chote-mote changes kar rahe hoge, toh jab aap <span style=\"\">code</span> doobara doobara<br>chala rahe hoge, toh baar baar server par request nahi jayegi, jisse aap ka <span style=\"\">code</span> quickly aapko<br>results de dega, jisse aap ko kuch debug karna asaan ho sakta hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Iss concept ko <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">caching</span> bolte hai, jab hum hamesha server se response maangne ke jagah<br>usko locally <span style=\"\">save</span> kar lete hai, jisse ki baar baar server ko pareshaan na karne padha."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ek <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">ifCache</span> naam ka variable banao, jiski default value <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span> ho. Yaani uss variable ko <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span> value se initialise karo.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jab <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">ifCache</span> `True' ho toh API call karne ke baad, jaise humne file mei uska output store kar liya tha, waise store kar payein. Iska matlab jab ifCache True hai, tab hum caching kar rahe hai, yaani response ko locally save kar rahe hai, jisse ki server ko baar baar pareshaan na karna padein.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Otherwise jab <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">ifCache</span> variable <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span> ho toh hamesha API calls karo, chahe files exist karti ho ya nahi. Iska matlab humne caching disable yaani False kar di hai.",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">ifCache</span> jaise <span style=\"\">variables</span> ko kabhi kabhi <b><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">configuration &lt;span style=\"\"&gt;variables</span></span></b> bhi bolte hai. Inn <span style=\"\">variables</span> ko hum usually alag <span style=\"\">files</span> mei, ya <span style=\"\">file</span> ki beginning mei define karte hai, aur depending on humei <span style=\"\">code</span> kis condition mei chalana hai, hum inn configuration <span style=\"\">variables</span> ki value set kar dete hai. Toh jaise - aap <span style=\"\">code</span> jab debug kar rahe hoge, toh aap"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "ifCaching=True"
+                    },
+                    {
+                        "component": "text",
+                        "value": "set kar sakte ho. Aise hi jab aap ka <span style=\"\">code</span>, kabhi koi live use kar raha hoga, toh aap apne <span style=\"\">code</span> ko "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "ifCaching=False"
+                    },
+                    {
+                        "component": "text",
+                        "value": "set kar kar chala sakte ho. Isse hamara <span style=\"\">code</span> hamesha server se response maang kar hi user ko display karega."
+                    }
+                ]
+            },
+            {
+                "id": "6554",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "slug-aaya-hai",
+                "slug": "requests_json__slug-aaya-hai_json",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/slug-aaya-hai.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Dekho, Dekho - Slug aaya hai!"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Ab aap yeh link -\n<a href=\"http://saral.navgurukul.org/api/courses/75/exercise/getBySlug?slug=requests__using-json\">http://saral.navgurukul.org/api/courses/75/exercise/getBySlug?slug=requests__using-json</a>\nopen karein. Aise link ko use kar kar, aap kisi particular exercise ka content\nnikal sakte hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yeh karne ke liye teen steps honge:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1 - Sabse pehle aap user se <span style=\"\">input</span> loge, ki user kaunsi exercise ka content dekhna chahta hai<br>2 - User se <span style=\"\">input</span> lekar, aap corresponding exercise ka <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">slug</span> nikaloge<br>3 - Yeh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">slug</span> aur purana <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">course_id</span> use kar kar, aap uppar wale jaisa URL call karoge"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Slug Nikalne ke liye hints"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Pehle toh aap yeh samjhiye, slug nikalna normal programming hai,<br>iska requests se kuch khaas lena dena nahi hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jaise hi user <span style=\"\">input</span> karega, toh aap ko dekhna padega, ki woh parent<br>exercise hai, child exercise."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Phir aap yeh process repeat karna:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "- Aap kuch select karna, aur manually list mei se uski `slug` dhoondhna.<br>- Yeh aap 5 se 10 baar karo.<br>- Yeh karte karte observe karo, ki aap slug kaise nikal rahe ho.<br>- Aap ussi karne ke tareeke ki - ek user story likho.<br>- Uss user story ko code mei badalne ki koshish karo"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aise kar kar shayad aap soch pao, ki kaise user ki selection ke basis par aap usse<br>koi slug recommend kar sakte ho."
+                    }
+                ]
+            },
+            {
+                "id": "6556",
+                "parent_exercise_id": null,
+                "course_id": "220",
+                "name": "whats-next",
+                "slug": "requests_json__whats-next_json",
+                "sequence_num": 700,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/requests_json/whats-next.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What's next?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Yeh bahut basic sa introduction tha API and JSON ka. Par iss mei kaafi<br>saare fundamentals covered the. Aap acche se samjhe kaise <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">server</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">API</span>,<br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">JSON</span> jaisi saari cheezein aapas mei interlinked hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Jab aap login karte hai, toh aap ko server <b><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">authenticate</span></b> karta hai.<br>Phir jab aap koi bhi request karte hai, toh aap batate hai, aap wohi ho<br>jisne thodi der pehle login kiya tha. Yeh sab karne ke liye aap headers<br>ka use karte ho. Unn sab cheezo ka hum <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">API - Part 2</span> mei focus karenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Aise hi humne abhi bahut simple <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">get</span> requests use ki hai, aage hum <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">post</span><br>request use bhi karenge, aur sahi se dono tarah ki requests mei difference<br>bhi pata karenge."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Tab</span> tak aap yeh features integrate kar sakte ho, apne <span style=\"\">code</span> mei, jisse ki<br>woh aur behetar ho jaye:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1 - <b>Up Navigation</b><br>Jaise hi user <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">up</span> likhe, toh aap usko peechli wali menu par le jao. Matlab<br>agar woh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">exercises</span> ki list par hai, toh <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">courses</span> ki list dikha kar, usse<br>waha se proceed karao, etc."
+                    },
+                    {
+                        "component": "text",
+                        "value": "2 - <b>Previous Navigation</b><br>Jaise hi user 'p' likhe, toh usse next exercise ka content dikhao"
+                    },
+                    {
+                        "component": "text",
+                        "value": "3 - <b>Next Navigation</b><br>Jaise hi user 'n' likhe, toh usse next exercise ka content dikhao"
+                    },
+                    {
+                        "component": "text",
+                        "value": "4 - <b>DRY - Don't repeat yourself</b><br>Dekho kaha kaha aap apne <span style=\"\">code</span> ko aap repeat kar rahe ho. Kya aap repetitions<br>avoid kar sakte ho - functions, etc. use kar kar?"
+                    }
+                ]
+            }
+        ]
+    }
+}

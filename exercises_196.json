@@ -1,0 +1,1384 @@
+{
+    "course": {
+        "id": "196",
+        "name": "Data Types",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "In this topic we will learn about Data Types.",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": "5570",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "intro",
+                "slug": "dataTypes_json__DataTypes/intro_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "What is a Data Type ?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "As we read the English book, every word in it is English, means the <i>information is in English</i>. Whatever knowledge we are taking from the book is <i>data</i>, and the language is its <i>type</i>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Data type</span> indicates the type of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">information</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Data type</span> represents a type of value that determines which operation can be performed per data. For example, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">numeric</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">non-numeric</span> or <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Boolean (true/false)</span> data are the most commonly used data types."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Data Type is a very important concept in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Programming</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can store different type of data type in a <span style=\"\">variable</span>. Like <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Numeric</span>, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Characters</span>. Every <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">programming</span> language has data types."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Below are some data types in <span style=\"\">Python</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Numeric type - (<span style=\"\">Integer</span>, <span style=\"\">Float</span>, complex)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Text type - (<span style=\"\">String</span>)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Boolean type - (<span style=\"\">True</span>, <span style=\"\">False</span>)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Sequence type - (List, Tuple, Range)"
+                    }
+                ]
+            },
+            {
+                "id": "5573",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "numeric",
+                "slug": "dataTypes_json__DataTypes/numeric_json",
+                "sequence_num": 1,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/numeric.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Numeric Type</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We store numbers in the numeric type. Like -<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">int, float, complex</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer Data Type(int data type)</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer data type</span> has a simple numeric value which is either positive or negative whose length is unlimited."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 14582<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "14582"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example we have stored <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">integer</span> number <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">14582</span> in <span style=\"\">variable</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">a</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "b = -14326<br>print(b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "-14326"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, we have seen how we have taken a negative value in a <span style=\"\">variable</span> named <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">b</span>, which is an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">integer</span> data type."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float Data Type</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float data type</span> has a decimal value, either negative or positive."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 23.45<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "23.45"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "b = -34.25<br>print(b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "-34.25"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In these examples, we have given both positive and negative values but in decimal."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Complex Data type</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Complex data types</span> have two parts, the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">real part</span> and the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">imaginary part</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = 3+5j<br>print(a)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">3+5j</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">3</span> is a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">real part</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">5j</span> is an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">imaginary part</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5574",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "numbericQ",
+                "slug": "dataTypes_json__DataTypes/numbericQ_json",
+                "sequence_num": 2,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/numbericQ.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a variable with name <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span> and assign any <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> value to it.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> value to the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span> variable. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Assign a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Complex</span> value to the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span> variable. ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 6
+                        }
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take 2 inputs from the user with data type <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span>.   ",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Store the sum of the 2 user inputs in a variable with name <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">SUM</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">SUM</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5575",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "String",
+                "slug": "dataTypes_json__DataTypes/String_json",
+                "sequence_num": 3,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/String.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String Data Type</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A <span style=\"\">Python</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> is a sequence of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">characters or text</span>. It handles text data. Whatever we write inside of single or double quotes is a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> in <span style=\"\">python</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a= \"Hello python\"<br>b=\"Hello world\"<br>print(a)<br>print(b)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Hello python</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Hello world</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this example, we have taken two different <span style=\"\">variables</span> in which the value is written inside <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">double (\" \") quotes or single (' ') quotes.</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"hello\"<br>print(type(a))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">str</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "( means <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>, for checking the data type we use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">type()</span>)."
+                    }
+                ]
+            },
+            {
+                "id": "5576",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "StringQ",
+                "slug": "dataTypes_json__DataTypes/StringQ_json",
+                "sequence_num": 4,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/StringQ.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please read about <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String Concatenation</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have to take two inputs from the user whose data type is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then in variable by name <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">add</span>, store the sum of both the user inputs.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the variable <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">add</span>.## Question 2",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take one <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> type input and one <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> type input from the user.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then in variable by name <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">add</span>, store the sum of both the user inputs.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the variable <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">add</span>.",
+                        "decoration": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5577",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "Boolean",
+                "slug": "dataTypes_json__DataTypes/Boolean_json",
+                "sequence_num": 5,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/Boolean.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Boolean Data Type</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Boolean</span> is a common data type of all <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">programming</span> languages. <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Boolean</span> returns two values."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=(\"\")<br>print(bool(a))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Because empty <span style=\"\">string</span> is <span style=\"\">false</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "b=(\"megha\")<br>print(bool(b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Because any <span style=\"\">string</span> is <span style=\"\">true</span> except empty."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(True)<br>print(type(True))<br>print(False)<br>print(type(False))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;class bool&gt;</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">False</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;class bool&gt;</span>"
+                    }
+                ]
+            },
+            {
+                "id": "5578",
+                "parent_exercise_id": "5570",
+                "course_id": "196",
+                "name": "table",
+                "slug": "dataTypes_json__DataTypes/table_json",
+                "sequence_num": 6,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/DataTypes/table.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Data Types Table</span>"
+                    },
+                    {
+                        "component": "table",
+                        "value": [
+                            {
+                                "header": "Example",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x=\"Hello world\"</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x=20</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x=20.5</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x=1j</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">x=True</span>"
+                                ]
+                            },
+                            {
+                                "header": "Data Type",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Complex</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Boolean(True or False)</span>"
+                                ]
+                            },
+                            {
+                                "header": "`Output",
+                                "items": [
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Hello world (&lt;class \u2018str\u2019&gt;)</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">20 (&lt;class \u2018int\u2019&gt;)</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">20.5 (&lt;class \u2018float\u2019&gt;)</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1j (&lt;class \u2018complex\u2019&gt;)</span>",
+                                    "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">True (&lt;class \u2018bool\u2019&gt;)</span>"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5569",
+                "parent_exercise_id": "5569",
+                "course_id": "196",
+                "name": "type-conversion-intro",
+                "slug": "dataTypes_json__type-conversion/type-conversion-intro_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/type-conversion/type-conversion-intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Note :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Remember to run all the <span style=\"\">code</span> examples and see them. Only by trying them you will be able to learn."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">What is Type Conversion</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the previous sections, we understood that there are different data types in <span style=\"\">Python</span>. Some of the types we have read about are :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer</span>   <br>2.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float</span>   <br>3.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Read the examples carefully."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "# integer<br>age = 27<br>total_apples = 100<br><br># float<br>weight = 10.5<br>area = 120.56<br><br># string<br>day = \"Wednesday\"<br>name = \"Mahatma Gandhi\"<br>a = \"Y\""
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can convert our data from one <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">type</span> to another <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">data type</span> in <span style=\"\">python</span>. This will come in very handy in the future because we will often have data in one type and we will have to convert to another type. In <span style=\"\">Python</span> we can do this with the help of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">type conversions</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float to String</span><br>2.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float to Integer</span><br>3.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer to String</span><br>4.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer to Float</span><br>5.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String to Float</span> <br>6.<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String to Integer</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">String to Integer and String to Float</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now let us see how to convert to <span style=\"\">INTEGER</span>. <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Type cast 12</span> to <span style=\"\">Python</span> <span style=\"\">Integer</span> and store <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = '12'<br>var_b = int(var_a)<br>print (type(var_a))<br>print (type(var_b))<br>print (var_a + var_a)<br>print (var_b + var_b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> does not know how to extract <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">integers</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12houses</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = '12houses'<br>var_b = int(var_a)<br>print (type(var_a))<br>print (type(var_b))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> tries to convert <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING to INTEGER</span>but throws an <span style=\"\">error</span> if it is even a bit confusing. Ex :- <span style=\"\">Python</span> cannot convert <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12.2</span>, and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12houses</span> to <span style=\"\">integer</span> but can do the same for <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> does not know how to extract <span style=\"\">integers</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12</span>"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = '12.2'<br>var_b = int(var_a)<br>print (type(var_a))<br>print (type(var_b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Float to Integer and Float to String</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Converts any <span style=\"\">FLOAT</span> to <span style=\"\">Python</span> <span style=\"\">INTEGER</span> by removing its decimal part."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = 12.2<br>var_b = int(var_a)<br>print (type(var_a))<br>print (type(var_b))<br>print (var_b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will learn to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecast</span> in <span style=\"\">FLOAT</span>. This is similar to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecasting</span> to <span style=\"\">INTEGER</span>. See it yourself."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = '12'<br>var_b = float(var_a)<br>print (type(var_a))<br>print (type(var_b))<br>print (var_a + var_a)<br>print (var_b + var_b)"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = '12.2'<br>var_b = float(var_a)<br>print (type(var_a))<br>print (type(var_b))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> does not know how to extract <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">12houses</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = '12houses'<br>var_b = float(var_a)<br>print (type(var_a))<br>print (type(var_b))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Integer to Float and Integer to String</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Python</span> simply adds the decimal point when we convert <span style=\"\">INTEGER</span> to <span style=\"\">FLOAT</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Examples :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var_a = 12<br>var_b = float(var_a)<br>print (type(var_a))<br>print (type(var_b))<br>print (var_b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Look carefully here that <span style=\"\">Python</span> adds <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.0</span> to the last. Try converting a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT 12.2</span> to an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> in <span style=\"\">Python</span>. Try and understand what is happening."
+                    }
+                ]
+            },
+            {
+                "id": "5579",
+                "parent_exercise_id": "5569",
+                "course_id": "196",
+                "name": "type-conversion-question",
+                "slug": "dataTypes_json__type-conversion/type-conversion-question_json",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/type-conversion/type-conversion-question.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Exercise."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>You can answer each question by <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">uploading</span> a <span style=\"\">file</span>.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Remember <span style=\"\">python</span> <span style=\"\">files</span> have <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.py extension</span></i>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<b>For your sake, we have broken this question into several parts. But you have to submit in a single <span style=\"\">file</span>.</b>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> value in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var12</span>.<br>2.Then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecast</span> the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> and store in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var13</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> value in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var23</span>. <br>2.Then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecast</span> the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> and store in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var24</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store an <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> value in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var34</span>.<br>2.Then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecast</span> the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> and store in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var35</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> value in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var45</span>.<br>2.Then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecast</span> the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">FLOAT</span> value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> and store in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var46</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 5"
+                    },
+                    {
+                        "component": "text",
+                        "value": "1.Store a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> value in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var56</span>.<br>2.Then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">typecast</span> the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> value to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> and store in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var57</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"\">Upload</span> the <span style=\"\">code</span> of all the parts of this question by writing it in a single <span style=\"\">python</span> <span style=\"\">file</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5580",
+                "parent_exercise_id": "5569",
+                "course_id": "196",
+                "name": "user-input-type-conversion",
+                "slug": "dataTypes_json__type-conversion/user-input-type-conversion_json",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/type-conversion/user-input-type-conversion.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Introduction"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this section, we want to take <span style=\"\">input</span> from user using <span style=\"\">python</span>. Then we'll also explore doing <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">type conversions</span> with that <span style=\"\">input</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the future, very often we will have to take some <span style=\"\">input</span> from our users. To take an <span style=\"\">input</span> in <span style=\"\">Python</span>, we use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 1 :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "user_input = input(\"Kuch input daaliye \")<br>print (user_input)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "When it runs, <span style=\"\">python</span> will stop and a cursor will appear. Here you have to put some <span style=\"\">inputs</span>. Press <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Enter</span> after you have made your <span style=\"\">input</span>. Now, when you <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">print user_input</span>, whatever value you had to enter will be in the form of a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">user_input</span> <span style=\"\">variable</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 2 :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Let us understand this in more detail by taking an example of another <span style=\"\">input</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number1 = input(\"Enter a number \")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Look here that we have put a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> inside the brackets of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">raw_input</span>. The value of this <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> is <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"Enter a number\"</span>. Whatever <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> we put inside the inner brackets, that <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> is printed by <span style=\"\">Python</span> before asking for <span style=\"\">input</span>. It gives some hint to the user as to what to <span style=\"\">input</span>. Like in the example above, <span style=\"\">python</span> will print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"Enter a number\"</span> before asking for <span style=\"\">input</span>. And when the user presses <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">enter</span> after typing in a number (<span style=\"\">input</span>), <span style=\"\">variable</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number1</span> will have that value.  "
+                    },
+                    {
+                        "component": "text",
+                        "value": "If we do print <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number1</span> in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">python shell</span>, then whatever value we have entered, will be printed."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Type Conversion of User Inputs</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Whenever we take user <span style=\"\">input</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> to a <span style=\"\">variable</span> it is in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span> type. Meaning, whatever the user puts in, <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">raw_input</span> makes it a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number2 = input(\"Enter a number \")<br>print (type(number2))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here the data type of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number2</span> will be <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>. Whenever we take the value of a <span style=\"\">variable</span> as <span style=\"\">input</span> from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span>, that value is in the form of a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>. If the user has to <span style=\"\">input</span> a number, it will also be in the form of a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Like if here we entered 25 then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number2</span> would contain \"25\". Any value that has <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">quotes</span> in front of it is a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>. To convert it to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span> we have to use <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">int()</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number3 = int(number2)<br>print (type(number3))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "One more <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">type conversion and raw_input</span> example."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Below is a final example to understand all these things better. This example prints two numbers by taking the <span style=\"\">input</span> and multiplying them."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "number_x = input(\"Pehla number daaliye \")<br>number_y = input(\"Dusra number daaliye\")<br>number_x = int(number_x) # user_input se hume number_x string type mein mila<br>number_y = int(number_y) # user_input se hume number_y string type mein mila<br>print (number_x * number_y) # number_x aur number_y ka multiple kar ke result print hoga"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Here it is important to understand that we convert <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number_x</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number_y</span> to <span style=\"\">integer</span> before multiplying because with <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> we get <span style=\"\">input</span> always in the form of a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">string</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Fun Activity :"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>Run this example without converting <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number_x</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number_y</span> to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">int</span> and see what <span style=\"\">error</span> occurs. Google this <span style=\"\">error</span> and try to solve it. Talk to your friends around you, too. For this, you will have to remove the lines with <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number_x = int(number_x)</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">number_y = int(number_y)</span>.</i>"
+                    }
+                ]
+            },
+            {
+                "id": "5581",
+                "parent_exercise_id": "5569",
+                "course_id": "196",
+                "name": "user-input-question1",
+                "slug": "dataTypes_json__type-conversion/user-input-question1_json",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/type-conversion/user-input-question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i><span style=\"\">Save</span> your <span style=\"\">code</span> as a <span style=\"\">python</span> <span style=\"\">file</span> (with <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.py extension</span>) and submit it.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This question is divided into different parts. All the <span style=\"\">code</span> has to be written and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">uploaded</span> in a single <span style=\"\">python</span> <span style=\"\">file</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> <span style=\"\">input</span> from the user using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">raw_input</span> in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var1</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var2</span> take another <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> <span style=\"\">input</span> from the user using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">raw_input</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Join <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var1</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var2</span>, then print the result."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>For Example :- If <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var1</span> contains <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">STRING</span> <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"nav\"</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_2</span> contains <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">\"gurukul\"</span>, then <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">navgurukul</span> should be printed.</i>"
+                    }
+                ]
+            },
+            {
+                "id": "5582",
+                "parent_exercise_id": "5569",
+                "course_id": "196",
+                "name": "user-input-question2",
+                "slug": "dataTypes_json__type-conversion/user-input-question2_json",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/type-conversion/user-input-question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i><span style=\"\">Save</span> your <span style=\"\">code</span> as a <span style=\"\">python</span> <span style=\"\">file</span> (with <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">.py extension</span>) and submit.</i>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "This question is divided into different parts. All the <span style=\"\">code</span> has to be written and <span style=\"\">uploade</span>d in a single <span style=\"\">python</span> <span style=\"\">file</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take a number <span style=\"\">input</span> using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_a</span> and don't forget to convert it to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take a number <span style=\"\">input</span> using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">input</span> in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_b</span> and don't forget to convert it to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">INTEGER</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Part 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Print the sum of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_a</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">var_b</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5567",
+                "parent_exercise_id": "5567",
+                "course_id": "196",
+                "name": "intro",
+                "slug": "dataTypes_json__Debug/intro_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/Debug/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Debug Code</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> the <span style=\"\">code</span> related to data types."
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = \"Megha\"<br>print a"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"navgurukul\"<br>b= 2016<br>print(a+\",\" + b + \"me shuru hua tha\")"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"navgurukul\"<br>b=13<br>print(a+b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=\"12\"<br>b=13.1<br>print(a+b)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "E."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = boolean(\"\")<br>b = boolean(\" \")<br>print(a+b)"
+                    }
+                ]
+            },
+            {
+                "id": "5568",
+                "parent_exercise_id": "5568",
+                "course_id": "196",
+                "name": "intro",
+                "slug": "dataTypes_json__Output/intro_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/Output/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"\">Code</span> <span style=\"\">Output</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will do some questions related to data types, which will help us in better understanding of the topic."
+                    }
+                ]
+            },
+            {
+                "id": "5571",
+                "parent_exercise_id": "5568",
+                "course_id": "196",
+                "name": "Question1",
+                "slug": "dataTypes_json__Output/Question1_json",
+                "sequence_num": 301,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/Output/Question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Check the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">type of data</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a=5<br>a = a * \"5\"<br>print(type(a))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "var1 = \"nav\"<br>var2 = \"gurukul\"<br>print(type(var1+var2))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num1=\"7\"<br>num2=\"number\"<br>print(type(num1+num2))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=6.8<br>num1=5<br>print(type(num+num1))"
+                    }
+                ]
+            },
+            {
+                "id": "5572",
+                "parent_exercise_id": "5568",
+                "course_id": "196",
+                "name": "Question2",
+                "slug": "dataTypes_json__Output/Question2_json",
+                "sequence_num": 302,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/Output/Question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "print(bool(False))<br>print(bool(None))<br>print(bool(0))<br>print(bool(\"\"))<br>print(bool(1))"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B. "
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "x = 20<br>y = 5<br>result = x + True + y - False<br>print(result)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "str3='''Hello'''  \"\"\" \"\"\"+ \"\"\"World\"\"\"<br>print(str3)"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "num=6.8<br>print(num)<br>num=12<br>print(num)<br>print(num + num)<br>num = num + 10<br>print(num)"
+                    }
+                ]
+            },
+            {
+                "id": "7728",
+                "parent_exercise_id": "5568",
+                "course_id": "196",
+                "name": "Assessment",
+                "slug": "dataTypes_json__Output/Assessment_json",
+                "sequence_num": 303,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dataTypes_json/Output/Assessment.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Assessment"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please fill this quiz with proper details to understand how much of this course did you understand."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc6X8ypzWoTbPCWMqnTpis4l_83lZGogPva-BCBKtbPpVj8OQ/viewform?usp=sf_link\">click Here</a>"
+                    }
+                ]
+            }
+        ]
+    }
+}

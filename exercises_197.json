@@ -1,0 +1,1849 @@
+{
+    "course": {
+        "id": "197",
+        "name": "Dictionary (Using Python)",
+        "logo": "https",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "Dictionary ko thoda depth mein samajhte hain.",
+        "type": "html",
+        "course_type": "json",
+        "lang_available": [
+            "en",
+            "hi"
+        ],
+        "exercises": [
+            {
+                "id": "5912",
+                "parent_exercise_id": null,
+                "course_id": "197",
+                "name": "intro_dictionary",
+                "slug": "dictionary_json__intro_dictionary_json",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/intro_dictionary.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Dictionary"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Definition :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To create a dictionary we put in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">key value pairs</span> in a comma separated form inside <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">curly brackets { }</span> and use the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">colon \":\"</span> to assign values to <span style=\"\">keys`</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "city_population = {<br>&emsp;\"NewYorkCity\":8550405,<br>&emsp;\"LosAngeles\":3971883, <br>&emsp;\"Toronto\":2731571, <br>&emsp;\"Chicago\":2720546, <br>&emsp;\"Houston\":2296224, <br>&emsp;\"Montreal\":1704694, <br>&emsp;\"Calgary\":1239220, <br>&emsp;\"Vancouver\":631486, <br>&emsp;\"Boston\":667137<br>}<br><br>print(city_population[\"NewYorkCity\"])<br>print(city_population)<br>print(type(city_population))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "8550405"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{<br>   \"NewYorkCity\":8550405,<br>    \"LosAngeles\":3971883, <br>    \"Toronto\":2731571, <br>    \"Chicago\":2720546, <br>    \"Houston\":2296224, <br>    \"Montreal\":1704694, <br>    \"Calgary\":1239220, <br>    \"Vancouver\":631486, <br>    \"Boston\":667137<br>}"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<type 'dict'>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Keys Case Sensitive</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dictionary <span style=\"\">keys</span> should be <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">case sensitive</span>, means we can write <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">keys</span> with same names but different case. <span style=\"\">Python</span> treats them as different <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">keys</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br> Dict = {<br>&emsp;   'ball' : 'green',<br>&emsp;   'Ball': 'red'<br>&emsp; }<br>print(Dict['ball'])<br>print(Dict['Ball'])<br>print(Dict['bat'])"
+                    },
+                    {
+                        "component": "text",
+                        "value": "green<br>red<br><span style=\"\">KeyE</span>rror: bat"
+                    },
+                    {
+                        "component": "text",
+                        "value": "// <span style=\"\">KeyE</span>rror <span style=\"\">tab</span> aati hai jab <span style=\"\">key</span> dictionay mai nahi hoti hai."
+                    },
+                    {
+                        "component": "text",
+                        "value": "In the dictionary, <i>dict</i> , <i>ball</i> a <span style=\"\">key</span> which has value <i>\"green\"</i>, similarly <i>\"Ball\"</i> is another <span style=\"\">key</span> which has value <i>\"red\"</i>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "dict() function"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You can create a dictionary using the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dict()</span> function."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "student=dict(name= \"Ravina\",age= 20)<br>print(student)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'age': 20, 'name': 'Ravina'}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "DataType of <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Keys</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Values</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A <i>\"dictionary\"</i>  can have values of any data type and can also be same, but <span style=\"\">keys</span> are always to be unique."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>dictionary with <span style=\"\">integer</span> <span style=\"\">keys</span>:-</i>"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "my_dict = {<br>&emsp;1: 'apple', <br>&emsp;2: 'ball'<br>&emsp;}<br>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<i>dictionary with mixed <span style=\"\">keys</span>:-</i>"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "my_dict = {<br>&emsp;'name': 'John',<br>&emsp; 1: [2, 4, 3]<br>&emsp;}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Nested Dictionary</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "Dic= {<br> 1: 'NAVGURUKUL',<br> 2: 'IN',  <br> 3:{<br>&emsp; 'A' : 'WELCOME',<br>&emsp; 'B' : 'To', <br>&emsp; 'C' : 'DHARAMSALA'<br>&emsp; }<br>}<br>print(Dic)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{1: 'NAVGURUKUL', 2: 'IN', 3: {'A': 'WELCOME', 'B': 'To', 'C': 'DHARAMSALA'}}</span>"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "https://www.youtube.com/watch?v=daefaLgNkw0"
+                    },
+                    {
+                        "component": "youtube",
+                        "value": "https://www.youtube.com/watch?v=0g1ogNP5doA"
+                    }
+                ]
+            },
+            {
+                "id": "5913",
+                "parent_exercise_id": null,
+                "course_id": "197",
+                "name": "access_element_dictionary",
+                "slug": "dictionary_json__access_element_dictionary_json",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/access_element_dictionary.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Accessing</span> Elements from a Dictionary:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">access</span> dictionary values with the use of square brackets. Look at the example below to understand."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "person={<br>&emsp;'name':'jack',<br>&emsp;'age':20,<br>&emsp;'gender':'male',<br>&emsp;4:'organisation'}<br><br>result = person['age'] <br>x = person.get(\"gender\")<br>print(person[4])<br>print(x)<br>print(result)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">organisation male 20</span> "
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">get()</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can also make use of the <b>get()</b> function to access dictionary values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "person={<br>&emsp;'name':'jack',<br>&emsp;'age':20,<br>&emsp;'gender':'male',<br>&emsp;4:{<br>&emsp;&emsp;'organisation':'navgurukul','place':'dharamsala'<br>&emsp;&emsp;}<br>&emsp;}<br>print(person['gender'])<br><br>print(person[4])<br><br>result = person[4]['place']<br><br>print(result)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "male <br>{'organisation': 'navgurukul', 'place': 'dharamsala'}<br> dharamsala"
+                    }
+                ]
+            },
+            {
+                "id": "5914",
+                "parent_exercise_id": null,
+                "course_id": "197",
+                "name": "add_element_to_dictionary",
+                "slug": "dictionary_json__add_element_to_dictionary_json",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/add_element_to_dictionary.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Adding Elements to a  Dictionary:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In a <span style=\"\">python</span> dictionary we can add only one <span style=\"\">key</span> value pair at a time. To add to a dictionary we mention the <span style=\"\">key</span> inside <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">square brackets \"[ ]\"</span> and use the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">equal to \"=\" operator</span> to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">assign</span> a value."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dic= {<br>&emsp;'Name': 'RAM', <br>&emsp;'Age': 17,<br>&emsp;}<br>&emsp;<br>dic['ORGANIZATION'] = \"NAV GURUKUL\"<br><br>dic['place'] = 'dharamsala'<br><br>print(dic)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'Name': 'RAM', 'Age': 17,'ORGANIZATION': 'NAVGURUKUL', 'place':'dharamsala}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dic= {<br>   'Name': 'RAM',<br>   'Age': 17,<br>&emsp;}<br>dic['student']={<br>&emsp;   'id':22, <br>&emsp;   'place':'dharamsala'<br>   }<br>print(dic)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'Name': 'RAM', 'Age': 17, 'student': {'id': 22, 'place': 'dharamsala'}}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Key</span> Exists or not"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We use the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">in</span> <span style=\"\">key</span>word to check whether a given <span style=\"\">key</span> exists or not in a dictionary."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "car ={<br>&emsp;\"brand\":  \"ford\",<br>&emsp;\"model\":  \"mustang\",<br>&emsp;\"year\":  1964<br>}<br>if \"model\" in car:<br>&emsp;print(\"Yes, 'model' is one of the keys in the car dictionary.\")<br><br>else:<br>&emsp;print(\"No, 'model' key dictionary mai nahi hai.\")"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Yes, 'model' is one of the keys in the this dict dictionary.</span>"
+                    }
+                ]
+            },
+            {
+                "id": "5915",
+                "parent_exercise_id": null,
+                "course_id": "197",
+                "name": "update_element_dictionary",
+                "slug": "dictionary_json__update_element_dictionary_json",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/update_element_dictionary.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Updating Dictionary</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "To <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">update dictionary</span> ,we can make an entry in it or we can add a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">key-value</span> pair or we can change the value of an existing <span style=\"\">key</span>. As given in the example explained:-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 1:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "person= {'1': 'RAM', '2': 17,}<br>person[3] = 'male'<br>print(person)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'1': 'RAM', '2': 17,'3':'male'}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 2 :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "details={<br>&emsp;'Name': 'RAM',<br>&emsp; 'Age': 17, <br>&emsp; 'student': {<br>&emsp;  'id': 22,<br>&emsp;  'place': 'dharamsala'<br>&emsp;  }<br>&emsp; } <br>details['student']['id']=35<br>print(details);"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'Name': 'RAM', 'Age': 17, 'student': {'id': 35, 'place': 'dharamsala'}}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Copy of Dictionary :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can copy a dictionary in two ways,first method is using <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">copy()</span> and second method by using built-in function <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dict()</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example 1 :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "classes ={<br>&emsp;\"room1\":  \"6th\",<br>&emsp;\"room2\":  \"7th\",<br>&emsp;\"room3\":  \"8th\"<br>&emsp;&emsp;}<br>mydict=classes.copy()<br>print(mydict)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'room2': '7th', 'room3': '8th', 'room1': '6th'}</span>"
+                    }
+                ]
+            },
+            {
+                "id": "5916",
+                "parent_exercise_id": null,
+                "course_id": "197",
+                "name": "remove_element_dictionary",
+                "slug": "dictionary_json__remove_element_dictionary_json",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/remove_element_dictionary.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Removing Elements from a Dictionary:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We can remove dictionary elements by many methods. <br>Like given below."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">pop()</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Using the <b>pop( )</b> method we can remove a specified element from the dictionary."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "CAR_DETAILS={<br>&emsp;\"brand\": \"Ford\",<br>&emsp;\"model\": \"jason\",<br>&emsp;\"year\": 1964<br>}<br>CAR_DETAILS.pop(\"model\")<br>print(CAR_DETAILS)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'brand': 'Ford', 'year': 1964}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">popitem()</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <b>popitem()</b> method removes the last inserted item:"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "person={<br>&emsp;'name':'jack',<br>&emsp;'id':22,<br>&emsp;'place':'dharamsala'<br>}<br>person.popitem()<br>print(person)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'name':'jack','id':22}</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">del</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Using the <b>del</b> <span style=\"\">key</span>word we can remove a specified element from the dictionary."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "person={<br>&emsp;'name':'jack',<br>&emsp;'id':22,<br>&emsp;'place':'dharamsala'<br>}<br><br>del person('place')<br>print(person)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'name':'jack','id':22}</span>"
+                    }
+                ]
+            },
+            {
+                "id": "5917",
+                "parent_exercise_id": null,
+                "course_id": "197",
+                "name": "iterations",
+                "slug": "dictionary_json__iterations_json",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/iterations.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Iterate through all <span style=\"\">keys</span>:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "states_capitals = {<br>  'Gujarat' : 'Gandhinagar',<br>  'Maharashtra' : 'Mumbai',<br>  'Rajasthan' : 'Jaipur',<br>  'Bihar' : 'Patna'<br>  }<br>for state in states_capitals:<br>  print(state)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span>:-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Gujarat Maharashtra Rajasthan Bihar</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Iterate through all values:-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "states_capitals = {<br>&emsp;'Gujarat' : 'Gandhinagar',<br>&emsp;'Maharashtra' : 'Mumbai',<br>&emsp;'Rajasthan' : 'Jaipur',<br>&emsp;'Bihar' : 'Patna'<br>&emsp;}<br>&emsp;<br>for state in states_capitals:<br>&emsp;print(states_capitals[state])"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Gandhinagar&lt;br&gt;        Mumbai&lt;br&gt;        Jaipur&lt;br&gt;        Patna</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "details ={<br>&emsp;\"name\":  \"Bijender\",<br>&emsp;\"age\":  17,<br>&emsp;\"class\":  \"10th\"<br>&emsp;}<br>for x in details.values():<br>&emsp;print(x)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">17&lt;br&gt;Bijender&lt;br&gt;10th&lt;br&gt;</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "How to print <i><span style=\"\">keys</span></i> and <i>values</i> together from a dictionary?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "movie ={<br>&emsp;\"name\":  \"Puli\",<br>&emsp;\"hero\":  \"Vijay\",<br>&emsp;\"rating\":  7.5<br>&emsp;}<br>for x,y in movie.items():<br>&emsp;print(x,y)"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">('rating', 7.5)&lt;br&gt;('hero', 'Vijay')&lt;br&gt;('name', 'Puli')&lt;br&gt;</span>"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 3,
+                        "value": "Dictionary length"
+                    },
+                    {
+                        "component": "text",
+                        "value": "We use <b>Dictionary length</b> to find the number of items/<span style=\"\">key</span> value pairs in a dictionary."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example:-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "meal ={<br>&emsp;\"monday\":  \"Chole chawal\",<br>&emsp;\"sunday\":  \"Fried rice\",<br>&emsp;\"wednesday\":  \"dosa\"<br>&emsp;}<br>print(len(meal))"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">3</span>"
+                    }
+                ]
+            },
+            {
+                "id": "5620",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "intro",
+                "slug": "dictionary_json__Questions/intro_json",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Now we will do some questions related to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>. Which will help us in better understanding of the it."
+                    }
+                ]
+            },
+            {
+                "id": "5635",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question1",
+                "slug": "dictionary_json__Questions/question1_json",
+                "sequence_num": 601,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program such that the below given <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionaries</span> are into a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">single dictionary</span> and add the values having same <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">key</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dic1={1:10, 2:20}<br>dic2={3:30,2:40}<br>dic3={5:50,6:60}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{1: 10, 2: 60, 3: 30,  5: 50, 6: 60}"
+                    }
+                ]
+            },
+            {
+                "id": "5636",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question2",
+                "slug": "dictionary_json__Questions/question2_json",
+                "sequence_num": 602,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write  a program to print 'exists' if entered <span style=\"\">key</span> already exists in the dictionary and print 'not exists' if the entered <span style=\"\">key</span> does not exist."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dict1={\u201cname\u201d:\u201dRaju\u201d, \u201cmarks\u201d:56}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Note :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If <span style=\"\">input</span> is \u201cname\u201d then <span style=\"\">output</span> will be \u201cexist\u201d"
+                    },
+                    {
+                        "component": "text",
+                        "value": "If <span style=\"\">input</span> is \u201cclass\u201d then <span style=\"\">output</span> will be \u201cnot exists\u201d."
+                    }
+                ]
+            },
+            {
+                "id": "5637",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question3",
+                "slug": "dictionary_json__Questions/question3_json",
+                "sequence_num": 603,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Ek program likhiye jo ki dictionaries ki values ka sum print kare."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "my_dict = {<br>&emsp;  'data1':100,<br>&emsp;  'data2': -54,<br>&emsp;  'data3': 247<br>&emsp;  }"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "293"
+                    }
+                ]
+            },
+            {
+                "id": "5638",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question4",
+                "slug": "dictionary_json__Questions/question4_json",
+                "sequence_num": 604,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program remove the first <span style=\"\">key</span> value pair from a nested <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "&emsp;   Dic= {<br>&emsp;&emsp;1: 'NAVGURUKUL',<br>&emsp;&emsp;2: 'IN',  <br>&emsp;&emsp;  3:{&emsp;<br>&emsp;&emsp;&emsp; 'A' : 'WELCOME',<br>&emsp;&emsp;&emsp; 'B' : 'To',<br>&emsp;&emsp;&emsp; 'C' : 'DHARAMSALA'<br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Dic= {<br>    1: 'NAVGURUKUL',<br>    2: 'IN',  <br>      3:<br>      { 'B' : 'To',<br>        'C' : 'DHARAMSALA'<br>       }<br>    }"
+                    }
+                ]
+            },
+            {
+                "id": "5639",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question5",
+                "slug": "dictionary_json__Questions/question5_json",
+                "sequence_num": 605,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 5"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Create a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span> from 2 <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">lists</span>, where the elements of 1st list are the <span style=\"\">keys</span> and the elements of the 2nd list are the corresponding values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "list1=[\u201cone\u201d,\u201dtwo\u201d,\u201dthree\u201d,\u201dfour\u201d,\u201dfive\u201d]<br><br>list2=[1,2,3,4,5,]"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{\u201cone\u201d:1,\u201dtwo\u201d:2,\u201dthree\u201d:3,\u201dfour\u201d:4,\u201dfive\u201d:5}"
+                    }
+                ]
+            },
+            {
+                "id": "5640",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question6",
+                "slug": "dictionary_json__Questions/question6_json",
+                "sequence_num": 606,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question6.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 6"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program to remove <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">duplicate keys</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dic={<br>&emsp;\u201cball\u201d:\u201dred\u201d,<br>&emsp;\u201dbat\u201d:4,<br>&emsp;\u201dwickets\u201d:8,<br>&emsp;\u201dball\u201dgreen,<br>&emsp;\u201dbat\u201d:3<br>&emsp;}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{\u201cball\u201d:\u201dred\u201d,\u201dbat\u201d:4,\u201dwickets\u201d:8}"
+                    }
+                ]
+            },
+            {
+                "id": "5641",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question7",
+                "slug": "dictionary_json__Questions/question7_json",
+                "sequence_num": 607,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question7.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "Take a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">list having dictionary</span> elements as shown below (Sample Data) and then store all the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">unique values</span> into a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">list</span> and print."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "[<br>&emsp; {\"first\":\"1\"}, <br>&emsp; {\"second\": \"2\"}, <br>&emsp; {\"third\": \"1\"}, <br>&emsp; {\"four\": \"5\"}, <br>&emsp; {\"five\":\"5\"}, <br>&emsp; {\"six\":\"9\"},<br>&emsp; {\"seven\":\"7\"}<br>]"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "['2', '7', '9', '5', '1']"
+                    }
+                ]
+            },
+            {
+                "id": "5642",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question8",
+                "slug": "dictionary_json__Questions/question8_json",
+                "sequence_num": 608,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question8.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 8"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Take <span style=\"\">input</span> of name and marks of 10 students and store to a dictionary."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "{<br>&emsp;'sonu':85,<br>&emsp;'Kartik':90,<br>&emsp;'Deepak':96,<br>&emsp;'Aman':76,<br>&emsp;'Somesh':60,<br>&emsp;'Umesh':85,<br>&emsp;'Amarpal':70,<br>&emsp;'Roshan':57,<br>&emsp;'Riyaz':98,<br>&emsp;'Shabid':56<br>}"
+                    }
+                ]
+            },
+            {
+                "id": "5643",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question9",
+                "slug": "dictionary_json__Questions/question9_json",
+                "sequence_num": 609,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question9.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 9"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Store the unique letters and their <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">frequency</span> of the letters from the  word \"MISSISSIPPI\" to a dictionary, were the letters are the <span style=\"\">keys</span> and their <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">frequencies</span> are the values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example:-"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "{'M':1,'I':4,'S':4,'P':2}"
+                    }
+                ]
+            },
+            {
+                "id": "5644",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question10",
+                "slug": "dictionary_json__Questions/question10_json",
+                "sequence_num": 610,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question10.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 10"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Count the total number of items from the values of the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span> which are in the form of a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">list</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dict1 =  {<br>   'Alex': ['subj1', 'subj2', 'subj3'], <br>   'David': ['subj1', 'subj2']}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "other",
+                        "title": "",
+                        "value": "total count:5"
+                    }
+                ]
+            },
+            {
+                "id": "5645",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question11",
+                "slug": "dictionary_json__Questions/question11_json",
+                "sequence_num": 611,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question11.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 11"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program to print the top 3 highest values of a given dictionary."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "my_dict = {<br>&emsp;'a':50, <br>&emsp;'b':58, <br>&emsp;'c':56,<br>&emsp;'d':40, <br>&emsp;'e':100, <br>&emsp;'f':20<br>&emsp;}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "[58,56,100]"
+                    }
+                ]
+            },
+            {
+                "id": "5646",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question12",
+                "slug": "dictionary_json__Questions/question12_json",
+                "sequence_num": 612,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question12.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 12"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program to create a dictionary with all numbers from 1 to 15 as the <span style=\"\">keys</span> and their squares as the corresponding values."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225}"
+                    }
+                ]
+            },
+            {
+                "id": "5647",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question13",
+                "slug": "dictionary_json__Questions/question13_json",
+                "sequence_num": 613,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question13.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 13"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program to print the top 3 highest values of a given <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Example :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "my_dict = {<br>&emsp;'a':50, <br>&emsp;'b':58,<br>&emsp;'c': 56,<br>&emsp;'d':40,<br>&emsp;'e':100, <br>&emsp;'f':20<br>&emsp;}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Output</span> :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "expect result:-['e','b','c']"
+                    }
+                ]
+            },
+            {
+                "id": "5648",
+                "parent_exercise_id": "5620",
+                "course_id": "197",
+                "name": "question14",
+                "slug": "dictionary_json__Questions/question14_json",
+                "sequence_num": 614,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/Questions/question14.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 14"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Write a program to sort a dictionary in ascending or descending according to its values ."
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "<span style=\"\">Input</span> :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>{'bijender':45,'deepak':60,'param':20,';'anjili':30,'roshini':50}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Expected result in Ascending Order:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{'param':20,'anjili':30,'bijender':45,'roshini':50,'deepak':60}"
+                    },
+                    {
+                        "component": "header",
+                        "variant": 4,
+                        "value": "Expected result in Descending Order:"
+                    },
+                    {
+                        "component": "text",
+                        "value": "{'deepak':60,'roshini':50,'bijender':45,'anjili':30,'param':20}"
+                    }
+                ]
+            },
+            {
+                "id": "5623",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "intro",
+                "slug": "dictionary_json__OutputOfCode/intro_json",
+                "sequence_num": 700,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "<span style=\"\">Code</span> <span style=\"\">Output</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will do some questions related to the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>, which will help us in better understanding of it."
+                    }
+                ]
+            },
+            {
+                "id": "5628",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question1",
+                "slug": "dictionary_json__OutputOfCode/question1_json",
+                "sequence_num": 701,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = {(1,2):1,(2,3):2}<br>print(a[1,2])"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Options :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A.     <span style=\"\">Key</span> <span style=\"\">Error</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B.     1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C.     {(2,3):2}"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D.     {(1,2):1}"
+                    }
+                ]
+            },
+            {
+                "id": "5629",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question2",
+                "slug": "dictionary_json__OutputOfCode/question2_json",
+                "sequence_num": 702,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "a = {'a':1,'b':2,'c':3}<br><br>print(a['a','b'])"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Options :-</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "A.     <span style=\"\">Key</span> <span style=\"\">Error</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "B.     [1,2]"
+                    },
+                    {
+                        "component": "text",
+                        "value": "C.     {\u2018a\u2019:1,\u2019b\u2019:2}"
+                    },
+                    {
+                        "component": "text",
+                        "value": "D.     (1,2)"
+                    }
+                ]
+            },
+            {
+                "id": "5630",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question3",
+                "slug": "dictionary_json__OutputOfCode/question3_json",
+                "sequence_num": 703,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "<br>fruit = {}<br><br>def addone(index):<br>&emsp;if index in fruit:<br>&emsp;&emsp;fruit[index] += 1<br>&emsp;else:<br>&emsp;&emsp;fruit[index] = 1<br>&emsp;&emsp;<br>addone('Apple')<br>addone('Banana')<br>addone('apple')<br>addone('Apple')<br><br>print(len(fruit))<br>print(fruit)"
+                    }
+                ]
+            },
+            {
+                "id": "5631",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question4",
+                "slug": "dictionary_json__OutputOfCode/question4_json",
+                "sequence_num": 704,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "Student = {}<br>Age = {}<br>Details = {}<br>Student['name'] = \"bikki\"<br>Age['student_age'] = 14<br>Details['Student'] = Student<br>Details['Age'] = Age<br><br>print(len(Details[\"Student\"])) <br>"
+                    }
+                ]
+            },
+            {
+                "id": "5632",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question5",
+                "slug": "dictionary_json__OutputOfCode/question5_json",
+                "sequence_num": 705,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question5.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 5"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "my_dict = {}<br>my_dict[(1,2,4)] = 8<br>my_dict[(4,2,1)] = 10<br>my_dict[(1,2)] = 12<br><br>sum = 0<br>for k in my_dict:<br>&emsp;sum += my_dict[k]<br><br>print(sum)<br>print(my_dict)"
+                    }
+                ]
+            },
+            {
+                "id": "5633",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question6",
+                "slug": "dictionary_json__OutputOfCode/question6_json",
+                "sequence_num": 706,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question6.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 6"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "box = {}<br>jars = {}<br>crates = {}<br>box['biscuit'] = 1<br>box['cake'] = 3<br>jars['jam'] = 4<br>crates['box'] = box<br>crates['jars'] = jars<br>print(len(crates[box]))"
+                    }
+                ]
+            },
+            {
+                "id": "5634",
+                "parent_exercise_id": "5623",
+                "course_id": "197",
+                "name": "question7",
+                "slug": "dictionary_json__OutputOfCode/question7_json",
+                "sequence_num": 707,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/OutputOfCode/question7.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 7"
+                    },
+                    {
+                        "component": "text",
+                        "value": "What will be the <span style=\"\">output</span> of the following <span style=\"\">code</span> snippet?"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "rec = {<br>\"Name\" : \"Python\", <br>\"Age\":\"20\",<br>\"Addr\" : \"NJ\", <br>\"Country\" :\"USA\"<br>}<br>id1 = id(rec)<br>del rec<br><br>rec = {<br>&emsp;\"Name\" : \"Python\", <br>&emsp;\"Age\":\"20\", <br>&emsp;\"Addr\" : \"NJ\", <br>&emsp;\"Country\" : \"USA\"<br>&emsp;}<br>id2 = id(rec)<br>print(id1 == id2)<br>"
+                    }
+                ]
+            },
+            {
+                "id": "5619",
+                "parent_exercise_id": "5619",
+                "course_id": "197",
+                "name": "intro",
+                "slug": "dictionary_json__DebugCode/intro_json",
+                "sequence_num": 800,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/DebugCode/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Debug  <span style=\"\">Code</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now we will <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> the <span style=\"\">code</span> related to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>."
+                    }
+                ]
+            },
+            {
+                "id": "5624",
+                "parent_exercise_id": "5619",
+                "course_id": "197",
+                "name": "question1",
+                "slug": "dictionary_json__DebugCode/question1_json",
+                "sequence_num": 801,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/DebugCode/question1.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 1"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have been given a dictionary in which you have to print the value of some <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">key</span>. Debug the <span style=\"\">code</span>."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "details={<br>&emsp;\"name\":\"Shanti\",<br>&emsp;\"age\":12,<br>&emsp;\"email\":\"shanti@navgurukul.org\",<br>&emsp;}<br><br>print(details[\"name\"])<br>print(details[\"lastname\"])<br>print(details[age])<br>"
+                    }
+                ]
+            },
+            {
+                "id": "5625",
+                "parent_exercise_id": "5619",
+                "course_id": "197",
+                "name": "question2",
+                "slug": "dictionary_json__DebugCode/question2_json",
+                "sequence_num": 802,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/DebugCode/question2.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 2"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have been given a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span> in which you have to find the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">sum</span> of all the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">keys</span>. You have to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> this <span style=\"\">code</span> and find out how you can get the <span style=\"\">output</span> as 14."
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "dict1={1:2,2:3,3:4,4:5}<br>sum=0<br>for i in dict1.values():&emsp;<br>&emsp;sum=sum+1<br>print(sum)"
+                    }
+                ]
+            },
+            {
+                "id": "5626",
+                "parent_exercise_id": "5619",
+                "course_id": "197",
+                "name": "question3",
+                "slug": "dictionary_json__DebugCode/question3_json",
+                "sequence_num": 803,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/DebugCode/question3.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 3"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Below is a program in which the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">keys</span> are between <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">1 to 15</span> and the values \u200b\u200bare the squares of the <span style=\"\">keys</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "The <span style=\"\">output</span> should be something like this:-<br><span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">&lt;br&gt;{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64,&lt;br&gt;9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225}</span>"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now, you have to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">debug</span> this :-"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "c=dict()<br>for i in range(1,16):<br>&emsp;c=i*i<br>print(c)"
+                    }
+                ]
+            },
+            {
+                "id": "5627",
+                "parent_exercise_id": "5619",
+                "course_id": "197",
+                "name": "question4",
+                "slug": "dictionary_json__DebugCode/question4_json",
+                "sequence_num": 804,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/DebugCode/question4.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Question 4"
+                    },
+                    {
+                        "component": "text",
+                        "value": "You have been given two dictionaries, You need to <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">concatenate</span> them."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Now you have to debug the <span style=\"\">code</span><br>And your <span style=\"\">output</span> should be like this :-"
+                    },
+                    {
+                        "component": "text",
+                        "value": "<span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">{'umesh':21,'bijender':54,'amar':67,'peter':89,'sonu':56,'python':20,\"gaurav\":300,'dev':34,\"karan\":43}</span>"
+                    },
+                    {
+                        "component": "code",
+                        "type": "python",
+                        "title": "",
+                        "value": "s={'umesh':21,'bijender':54,'amar':67,'peter':89,'sonu':56}<br>a={'python':20,\"gaurav\":300,'dev':34,\"karan\":43}<br>c={}<br>for i in (s,a):<br>&emsp;update(i)<br>print(c)"
+                    }
+                ]
+            },
+            {
+                "id": "5622",
+                "parent_exercise_id": "5622",
+                "course_id": "197",
+                "name": "intro",
+                "slug": "dictionary_json__BonusTask/intro_json",
+                "sequence_num": 900,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/BonusTask/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Becoming A Programmer"
+                    },
+                    {
+                        "component": "text",
+                        "value": "In this task, you have to learn six new concepts about the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "Firstly, you have to read the three new concepts of the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span> from <span style=\"\">Python</span>'s website."
+                    },
+                    {
+                        "component": "text",
+                        "value": "https://docs.python.org/3/tutorial/datastructures.html",
+                        "decoration": {
+                            "type": "bullet"
+                        }
+                    },
+                    {
+                        "component": "text",
+                        "value": "Then you have to read three new concepts from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">stackoverflow</span>."
+                    },
+                    {
+                        "component": "text",
+                        "value": "You will share your understanding on a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">Google doc</span> and share it with your mentor and do some questions related to concepts."
+                    },
+                    {
+                        "component": "text",
+                        "value": "You will take a class in which you will explain the new concepts you have learned."
+                    }
+                ]
+            },
+            {
+                "id": "5621",
+                "parent_exercise_id": "5621",
+                "course_id": "197",
+                "name": "intro",
+                "slug": "dictionary_json__InterviewQuestions/intro_json",
+                "sequence_num": 1000,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/InterviewQuestions/intro.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Interview Questions"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q1. Difference between <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dict.items()</span> and <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dict.iteritems()</span> in <span style=\"\">Python</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q2. Write a <span style=\"\">Python</span> program to print the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span> in a <span style=\"\">tab</span>le format?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q3. How to find <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">length of dictionary values</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q4. Find <span style=\"\">keys</span> with duplicate values in the <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q5. Sum <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">list of dictionaries</span> with the same <span style=\"\">key</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q6. Split <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span> <span style=\"\">keys</span> and values into separate lists?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q7. Convert a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">set into a dictionary</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q8. Get <span style=\"\">key</span> with maximum value in <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q9. Sort the list alphabetically in a <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary</span>?"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Q10. Remove spaces from <span style=\"color: #eb9371; background-color: rgba(39, 41, 43, 0.83); box-shadow: 2px 2px 2px rgba(22, 9, 1, 0.6); border-radius: 2px; padding: 2px\">dictionary keys</span>?"
+                    }
+                ]
+            },
+            {
+                "id": "7729",
+                "parent_exercise_id": "5621",
+                "course_id": "197",
+                "name": "Assessment",
+                "slug": "dictionary_json__InterviewQuestions/Assessment_json",
+                "sequence_num": 1001,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary_json/InterviewQuestions/Assessment.json",
+                "solution": null,
+                "content": [
+                    {
+                        "component": "header",
+                        "variant": 2,
+                        "value": "Assessment"
+                    },
+                    {
+                        "component": "text",
+                        "value": "Please fill this quiz with proper details to understand how much of this course did you understand."
+                    },
+                    {
+                        "component": "text",
+                        "value": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLScOMeK2zn-NZpCBgYM2boKoBNCMJua4SHKH94adV2HTY_s1yQ/viewform?usp=sf_link\">click Here</a>"
+                    }
+                ]
+            }
+        ]
+    }
+}
